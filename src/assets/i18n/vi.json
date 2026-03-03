@@ -79,7 +79,7 @@
         "BACKLOG_TASK_FILTER_TYPE": "Nhiệm vụ tồn đọng",
         "COLUMNS": "Cột",
         "TAGS_EXCLUDED": "Thẻ bị loại trừ",
-        "TAGS_REQUIRED": "Required Tags",
+        "TAGS_REQUIRED": "Thẻ bắt buộc",
         "TASK_DONE_STATE": "Trạng thái hoàn thành nhiệm vụ",
         "TASK_DONE_STATE_ALL": "Tất cả",
         "TASK_DONE_STATE_DONE": "Hoàn thành",
@@ -155,7 +155,7 @@
         "SHOW_TASK": "Hiển thị nhiệm vụ",
         "TXT": "<strong>{{title}</strong> bắt đầu lúc <strong>{{start}</strong>!",
         "TXT_MULTIPLE": "<strong>{{title}</strong> bắt đầu lúc <strong>{{start}</strong>!<br> (và {{nrOfOtherBanners}} sự kiện khác sắp đến hạn)",
-        "TXT_PAST": "<strong>{{title}}</strong> started at <strong>{{start}}</strong>!",
+        "TXT_PAST": "<strong>{{title}}</strong> bắt đầu lúc <strong>{{start}}</strong>!",
         "TXT_PAST_MULTIPLE": "<strong>{{title}</strong> đã bắt đầu lúc <strong>{{start}</strong>!<br> (và {{nrOfOtherBanners}} sự kiện khác sắp đến hạn)"
       },
       "EVENT_STRINGS": {
@@ -232,7 +232,7 @@
       "LONG_BREAK_TITLE": "Kỳ nghỉ dài - Chu kỳ {{chu kỳ}}",
       "ON": "TRÊN",
       "OPEN_ISSUE_IN_BROWSER": "Sự cố mở trong trình duyệt web",
-      "PAUSE_BREAK": "Pause break",
+      "PAUSE_BREAK": "Tạm dừng nghỉ giải lao",
       "PAUSE_SESSION": "Tạm dừng phiên",
       "PAUSE_TRACKING": "Tạm dừng theo dõi",
       "PAUSE_TRACKING_FOR_CURRENT_TASK": "Tạm dừng theo dõi cho nhiệm vụ hiện tại",
@@ -365,7 +365,7 @@
       "CROSS_ORIGIN_BROWSER_WARNING": "Sự tích hợp này có thể sẽ không hoạt động trong trình duyệt web của bạn. Vui lòng tải xuống phiên bản Super Productivity dành cho máy tính để bàn hoặc Android!",
       "DEFAULT": {
         "ISSUES_STR": "vấn đề",
-        "ISSUE_STR": "issue"
+        "ISSUE_STR": "vấn đề"
       },
       "DEFAULT_PROJECT_DESCRIPTION": "Dự án được giao cho các nhiệm vụ được tạo từ các vấn đề.",
       "DEFAULT_PROJECT_LABEL": "Dự án Super Productivity mặc định",
@@ -429,7 +429,7 @@
         "LOAD_SUGGESTIONS": "Tải đề xuất",
         "MAP_CUSTOM_FIELDS": "Tải điểm câu chuyện",
         "MAP_CUSTOM_FIELDS_INFO": "Thật không may, một số dữ liệu của Jira được lưu trong các trường tùy chỉnh khác nhau cho mỗi lần cài đặt. Để bao gồm dữ liệu này, bạn cần chọn trường tùy chỉnh thích hợp cho nó. Hiện tại chỉ có trường điểm câu chuyện cần được ánh xạ.",
-        "OPEN": "Status for pausing task",
+        "OPEN": "Trạng thái tạm dừng tác vụ",
         "SELECT_ISSUE_FOR_TRANSITIONS": "Chọn vấn đề để tải các chuyển tiếp có sẵn",
         "STORY_POINTS": "Tên trường điểm câu chuyện",
         "TRANSITION": "Xử lý chuyển tiếp"
@@ -496,8 +496,7 @@
           "P1_4": "Một tùy chọn khác là \"Kiểm tra xem vé hiện tại có được gán cho người dùng hiện tại hay không\". Nếu được bật và bạn đang bắt đầu, việc kiểm tra sẽ được thực hiện để đảm bảo bạn hiện được chỉ định cho vé đó trên Jira. Nếu không, một hộp thoại sẽ xuất hiện trong đó bạn có thể chọn giao vé cho chính mình.",
           "P2_1": "Có một số tùy chọn để xác định thời điểm và cách thức bạn muốn gửi nhật ký công việc. Bật <em>'Mở hộp thoại nhật ký công việc để thêm nhật ký công việc vào Jira khi nhiệm vụ hoàn thành'</em> sẽ mở hộp thoại để thêm nhật ký công việc mỗi khi bạn đánh dấu Nhiệm vụ Jira là đã hoàn thành. Vì vậy, hãy nhớ rằng nhật ký công việc sẽ được thêm vào đầu mọi thứ được theo dõi cho đến nay. Nếu bạn đánh dấu một nhiệm vụ là đã hoàn thành lần thứ hai, bạn có thể không muốn gửi lại toàn bộ thời gian đã làm việc cho nhiệm vụ đó.",
           "P2_2": "<em>'Mở hộp thoại nhật ký công việc khi nhiệm vụ phụ được hoàn thành chứ không phải cho các nhiệm vụ có nhiệm vụ phụ'</em> mở hộp thoại nhật ký công việc mỗi khi bạn đánh dấu một nhiệm vụ phụ của vấn đề Jira là đã hoàn thành. Vì bạn đã theo dõi thời gian của mình thông qua các nhiệm vụ phụ nên sẽ không có hộp thoại nào được mở khi bạn đánh dấu chính nhiệm vụ Jira là đã hoàn thành.",
-          "P2_3": "<em>'Send updates to worklog automatically without dialog'</em> does what it says. Because marking a task as completed several times leads to the whole worked time being tracked twice, this is not recommended.",
-          "P3_1": "Tại đây bạn có thể cấu hình lại các chuyển tiếp mặc định của mình. Jira cho phép cấu hình nhiều chuyển đổi thường hoạt động dưới dạng các cột khác nhau trên bảng linh hoạt Jira của bạn. Chúng tôi không thể đưa ra giả định về vị trí và thời điểm chuyển đổi nhiệm vụ của mình và bạn cần phải đặt nó theo cách thủ công."
+          "P2_3": "<em>'Tự động gửi cập nhật vào nhật ký công việc mà không cần hộp thoại'</em> sẽ thực hiện đúng như tên gọi của nó. Vì việc đánh dấu một nhiệm vụ là đã hoàn thành nhiều lần sẽ dẫn đến việc toàn bộ thời gian làm việc bị theo dõi hai lần, nên điều này không được khuyến nghị."          "P3_1": "Tại đây bạn có thể cấu hình lại các chuyển tiếp mặc định của mình. Jira cho phép cấu hình nhiều chuyển đổi thường hoạt động dưới dạng các cột khác nhau trên bảng linh hoạt Jira của bạn. Chúng tôi không thể đưa ra giả định về vị trí và thời điểm chuyển đổi nhiệm vụ của mình và bạn cần phải đặt nó theo cách thủ công."
         }
       },
       "ISSUE_CONTENT": {
@@ -617,7 +616,7 @@
         "NO_SESSIONS": "Không có phiên tập trung nào cho ngày này",
         "SESSIONS_LIST": "Phiên",
         "TITLE": "Phiên tập trung",
-        "TOTAL_SESSIONS": "Total Sessions",
+        "TOTAL_SESSIONS": "Tổng số phiên",
         "TOTAL_TIME": "Tổng thời gian"
       },
       "REFLECTION": {
@@ -687,10 +686,10 @@
         "TRANSITION": "Xử lý chuyển tiếp"
       },
       "DIALOG_TRACK_TIME": {
-        "ACTIVITY": "Activity",
+        "ACTIVITY": "Hoạt động",
         "CURRENTLY_LOGGED": "Thời gian ghi hiện tại:",
         "INVALID_DATE": "Giá trị đã nhập không phải là ngày tháng!",
-        "POST_TIME": "Thời gian đăng bài",
+        "POST_TIME": "Đăng thời gian",
         "STARTED": "Đã bắt đầu",
         "SUBMIT_TIME_FOR": "Gửi thời gian tới OpenProject cho",
         "TIME_SPENT": "Thời gian đã sử dụng",
@@ -837,7 +836,7 @@
       "DIALOG_TRACK_TIME": {
         "ACTIVITY": "Hoạt động",
         "INVALID_DATE": "Giá trị đã nhập không phải là ngày tháng!",
-        "POST_TIME": "Post Time",
+        "POST_TIME": "Đăng thời gian",
         "STARTED": "Đã bắt đầu",
         "SUBMIT_TIME_FOR": "Gửi thời gian tới Redmine để",
         "TIME_SPENT": "Thời gian đã sử dụng",
@@ -979,8 +978,7 @@
         "LOCAL": "Địa phương",
         "LOCAL_REMOTE": "Địa phương -> Từ xa",
         "NEVER": "Không bao giờ",
-        "OVERWRITE_WARNING": "WARNING: The {{targetName}} data contains approximately {{targetChanges}} changes while the {{sourceName}} data only has {{sourceChanges}} changes. Are you sure you want to overwrite the {{targetName}} data with the {{sourceName}} version? This action cannot be undone.",
-        "REMOTE": "Xa",
+        "OVERWRITE_WARNING": "CẢNH BÁO: Dữ liệu {{targetName}} chứa khoảng {{targetChanges}} thay đổi trong khi dữ liệu {{sourceName}} chỉ có {{sourceChanges}} thay đổi. Bạn có chắc chắn muốn ghi đè dữ liệu {{targetName}} bằng phiên bản {{sourceName}} không? Hành động này không thể hoàn tác."        "REMOTE": "Xa",
         "RESULT": "Kết quả",
         "TEXT": "<p>Cập nhật từ xa. Cả dữ liệu cục bộ và từ xa dường như đều bị sửa đổi.</p>",
         "TIME": "Thời gian",
@@ -1039,7 +1037,7 @@
       },
       "D_SERVER_MIGRATION_CONFIRM": {
         "TITLE": "Máy chủ đã có dữ liệu",
-        "MESSAGE": "This sync server already contains data. Would you like to upload your local data to merge with it? If you skip this, some of your local changes may not sync.",
+        "MESSAGE": "Máy chủ đồng bộ này đã chứa dữ liệu. Bạn có muốn tải lên dữ liệu cục bộ của mình để hợp nhất với nó không? Nếu bạn bỏ qua bước này, một số thay đổi cục bộ của bạn có thể không được đồng bộ.",
         "CONFIRM": "Tải lên dữ liệu cục bộ",
         "SKIP": "Nhảy"
       },
@@ -1108,7 +1106,7 @@
         "SUPER_SYNC": {
           "INFO_TEXT": "SuperSync giữ cho các tác vụ của bạn được đồng bộ hóa trên tất cả các thiết bị của bạn trong thời gian thực. Dữ liệu của bạn được lưu trữ an toàn trên máy chủ đồng bộ. Lưu ý: SuperSync hiện đang ở giai đoạn Beta.",
           "L_SERVER_URL": "URL máy chủ",
-          "SERVER_URL_DESCRIPTION": "Leave as-is for the official server, or enter a custom server URL",
+          "SERVER_URL_DESCRIPTION": "Giữ nguyên cho máy chủ chính thức, hoặc nhập URL máy chủ tùy chỉnh"
           "LOGIN_INSTRUCTIONS": "Nhấp vào nút bên dưới để mở trang đăng nhập máy chủ. Sau khi đăng nhập, sao chép mã thông báo truy cập của bạn và dán vào đây.",
           "BTN_GET_TOKEN": "Mở máy chủ và nhận mã thông báo",
           "L_ACCESS_TOKEN": "Mã thông báo truy cập",
@@ -1158,7 +1156,7 @@
           "ENCRYPTION_SETUP_INTRO": "<strong>Mật khẩu SuperSync mã hóa dữ liệu của bạn trước khi dữ liệu rời khỏi thiết bị của bạn</strong>, khiến việc sử dụng sai hoặc rò rỉ dữ liệu riêng tư của bạn gần như không thể xảy ra.",
           "SETUP_ENCRYPTION_TITLE": "SuperSync: Đặt mật khẩu",
           "SETUP_ENCRYPTION_PASSWORD_WARNING": "Sử dụng cùng một mật khẩu trên tất cả các thiết bị. Mật khẩu bị quên có thể được đặt lại bằng cách ghi đè dữ liệu từ xa.",
-          "SETUP_ENCRYPTION_BTN": "Set Password",
+          "SETUP_ENCRYPTION_BTN": "Đặt mật khẩu",
           "SETUP_DISABLE_SUPERSYNC_BTN": "Tắt SuperSync"
         },
         "IMPORT_ENCRYPTION_WARNING": {
@@ -1212,7 +1210,7 @@
           "DISABLE_ENCRYPTION_NOTE": "Dữ liệu cục bộ của bạn sẽ KHÔNG bị xóa.",
           "DISABLE_ENCRYPTION_SUCCESS": "Đã tắt mã hóa thành công",
           "ENABLE_ENCRYPTION_TITLE": "Bật mã hóa?",
-          "ENABLE_ENCRYPTION_WARNING": "WARNING: This will re-upload your data with encryption. If you forget your encryption password, your data cannot be recovered.",
+          "ENABLE_ENCRYPTION_WARNING": "CẢNH BÁO: Thao tác này sẽ tải lên lại dữ liệu của bạn bằng mã hóa. Nếu bạn quên mật khẩu mã hóa, dữ liệu của bạn không thể phục hồi được.",
           "ENABLE_ENCRYPTION_WHAT_HAPPENS": "Điều gì sẽ xảy ra:",
           "ENABLE_ENCRYPTION_ITEM_1": "Dữ liệu hiện tại của bạn sẽ được tải lên lại bằng mã hóa",
           "ENABLE_ENCRYPTION_ITEM_2": "Tất cả các thiết bị khác sẽ cần mật khẩu mã hóa này",
@@ -1267,7 +1265,7 @@
         "DECRYPTION_FAILED": "Không thể giải mã dữ liệu đã đồng bộ hóa. Vui lòng kiểm tra mật khẩu mã hóa của bạn.",
         "ENCRYPTION_PASSWORD_REQUIRED": "Đã nhận được dữ liệu mã hóa nhưng không có mật khẩu mã hóa nào được định cấu hình. Vui lòng đặt mật khẩu mã hóa của bạn trong cài đặt đồng bộ hóa.",
         "ENCRYPTION_DISABLED_ON_OTHER_DEVICE": "Mã hóa đã bị vô hiệu hóa trên một thiết bị khác. Cài đặt đồng bộ hóa của bạn đã được cập nhật.",
-        "ENCRYPTION_REQUIRED_FOR_SUPERSYNC": "Encryption is required for SuperSync. Please set an encryption password to continue syncing.",
+        "ENCRYPTION_REQUIRED_FOR_SUPERSYNC": "SuperSync yêu cầu mã hóa. Vui lòng đặt mật khẩu mã hóa để tiếp tục đồng bộ hóa.",
         "WEB_CRYPTO_NOT_AVAILABLE": "Mã hóa không có sẵn trên thiết bị này. Trên Android, mã hóa yêu cầu ngữ cảnh bảo mật (HTTPS) không có sẵn. Vui lòng tắt mã hóa trong cài đặt đồng bộ hóa hoặc đồng bộ hóa từ trình duyệt web trên máy tính để bàn.",
         "PERSIST_FAILED": "Không thể lưu các thay đổi. Trạng thái có thể không nhất quán - vui lòng tải lại.",
         "DEFERRED_ACTION_FAILED": "Không thể lưu một số thay đổi được thực hiện trong quá trình đồng bộ hóa. Vui lòng tải lại để khôi phục.",
@@ -1397,7 +1395,7 @@
         "PARENT": "cha mẹ",
         "REMINDER": "Lời nhắc nhở",
         "REPEAT": "Tái diễn",
-        "SCHEDULE_TASK": "Schedule Task",
+        "SCHEDULE_TASK": "Lên lịch nhiệm vụ",
         "SUB_TASKS": "Nhiệm vụ phụ ({{nr}})",
         "TIME": "Khoảng thời gian",
         "TITLE_PLACEHOLDER": "Nhập tiêu đề"
@@ -1453,7 +1451,7 @@
         "SCHEDULE": "Lên lịch nhiệm vụ",
         "TOGGLE_ATTACHMENTS": "Hiển thị/ẩn tệp đính kèm",
         "TOGGLE_DETAIL_PANEL": "Hiển thị/ẩn thông tin bổ sung",
-        "TOGGLE_DONE": "Toggle completion status",
+        "TOGGLE_DONE": "Chuyển sang trạng thái hoàn thành",
         "TOGGLE_SUB_TASK_VISIBILITY": "Chuyển đổi chế độ hiển thị nhiệm vụ con",
         "TOGGLE_TAGS": "Chuyển đổi thẻ",
         "TRACK_TIME": "Bắt đầu theo dõi thời gian",
@@ -1581,7 +1579,7 @@
       },
       "D_CONFIRM_MOVE_TO_PROJECT": {
         "MSG": "Có {{tasksNr}} phiên bản được tạo cho tác vụ định kỳ này. Bạn có muốn chuyển tất cả chúng vào dự án \"{{projectName}}\" không?",
-        "OK": "Update all instances"
+        "OK": "Cập nhật tất cả các trường hợp"
       },
       "D_CONFIRM_REMOVE": {
         "MSG": "Việc xóa cấu hình định kỳ sẽ chuyển đổi tất cả các phiên bản trước đó của tác vụ này thành các tác vụ thông thường. Bạn có chắc chắn muốn tiếp tục không?",
@@ -1641,7 +1639,7 @@
         "START_TIME": "Thời gian bắt đầu dự kiến",
         "START_TIME_DESCRIPTION": "Ví dụ. 15:00. Để trống cho nhiệm vụ cả ngày",
         "SUNDAY": "Chủ nhật",
-        "THURSDAY": "Thursday",
+        "THURSDAY": "Thứ năm",
         "TITLE": "Tiêu đề nhiệm vụ",
         "TUESDAY": "Thứ ba",
         "WEDNESDAY": "Thứ Tư"
@@ -1825,7 +1823,7 @@
     "STATUS_MIGRATING": "Đang di chuyển dữ liệu...",
     "STATUS_COMPLETE": "Quá trình di chuyển hoàn tất!",
     "C_DOWNLOAD_BACKUP": "Bạn có muốn tải xuống bản sao lưu dữ liệu cũ của mình (có thể được sử dụng với các phiên bản Super Productivity cũ hơn) không?",
-    "DETECTED_LEGACY": "Detected legacy data. We will migrate it for you!",
+    "DETECTED_LEGACY": "Đã phát hiện dữ liệu cũ. Chúng tôi sẽ di chuyển nó cho bạn!",
     "E_MIGRATION_FAILED": "Di chuyển không thành công do lỗi:",
     "E_RESTART_FAILED": "Tự động khởi động lại không thành công. Vui lòng khởi động lại ứng dụng theo cách thủ công!",
     "SUCCESS": "Quá trình di chuyển đã hoàn tất! Đang khởi động lại ứng dụng ngay bây giờ..."
@@ -1938,7 +1936,7 @@
       "TOTAL_SIZE": "Tổng kích thước"
     },
     "EVALUATION": {
-      "IS_HIDE_EVALUATION_SHEET": "Hide evaluation sheet in daily summary",
+      "IS_HIDE_EVALUATION_SHEET": "Ẩn bảng đánh giá trong tóm tắt hàng ngày",
       "TITLE": "Đánh giá & Đo lường"
     },
     "FOCUS_MODE": {
@@ -2102,7 +2100,7 @@
       "IS_AUTO_MARK_PARENT_AS_DONE": "Tự động đánh dấu nhiệm vụ chính là đã hoàn thành khi tất cả các nhiệm vụ con đã hoàn thành",
       "IS_CONFIRM_BEFORE_DELETE": "Xác nhận trước khi xóa nhiệm vụ",
       "IS_MARKDOWN_FORMATTING_IN_NOTES_ENABLED": "Bật định dạng Markdown trong ghi chú tác vụ",
-      "IS_TRAY_SHOW_CURRENT": "Show current task in the tray / status menu (macOS/Windows only)",
+      "IS_TRAY_SHOW_CURRENT": "Hiển thị nhiệm vụ hiện tại trên khay hệ thống / menu trạng thái (chỉ macOS/Windows)",
       "NOTES_TEMPLATE": "Mẫu mô tả nhiệm vụ",
       "TITLE": "Nhiệm vụ"
     },
@@ -2164,7 +2162,7 @@
       "IS_FULL_SCREEN_BLOCKER": "Hiển thị thông báo trong cửa sổ toàn màn hình (chỉ dành cho máy tính để bàn)",
       "IS_LOCK_SCREEN": "Khóa màn hình khi đến giờ nghỉ (chỉ dành cho máy tính để bàn)",
       "MESSAGE": "Nhận tin nhắn nghỉ giải lao",
-      "MIN_WORKING_TIME": "Trigger take a break notification after X working without taking a break",
+      "MIN_WORKING_TIME": "Kích hoạt thông báo nghỉ giải lao sau X thời gian làm việc mà không nghỉ ngơi",
       "MOTIVATIONAL_IMGS": "Hình ảnh động lực (sử dụng URL web)",
       "NOTIFICATION_TITLE": "Hãy nghỉ ngơi!",
       "SNOOZE_TIME": "Báo lại thời gian khi được nhắc nghỉ ngơi",
@@ -2283,7 +2281,7 @@
     "NO_TAG_INFO": "Hiện tại không có thẻ nào. Bạn có thể thêm thẻ bằng cách nhập `#yourTagName` khi thêm hoặc chỉnh sửa tác vụ.",
     "PLANNER": "Người lập kế hoạch",
     "PROCRASTINATE": "Trì hoãn",
-    "PROJECT_MENU": "Project Menu",
+    "PROJECT_MENU": "Menu dự án",
     "PROJECT_SETTINGS": "Cài đặt dự án",
     "PROJECTS": "Dự án",
     "QUICK_HISTORY": "Lịch sử nhanh",
@@ -2395,7 +2393,7 @@
     "MENU_ENTRY_LABEL_REQUIRED": "Nhãn mục menu là bắt buộc",
     "MENU_ENTRY_ONCLICK_REQUIRED": "Cần phải nhập trình đơn trên trình xử lý Click",
     "MIN_VERSION": "Tối thiểu. Phiên bản:",
-    "NODE_EXECUTION_REQUIRED": "This plugin requires Node.js execution which is only available in the desktop app.",
+    "NODE_EXECUTION_REQUIRED": "Plugin này yêu cầu thực thi Node.js, tính năng này chỉ có sẵn trong ứng dụng dành cho máy tính để bàn.",
     "NODE_ONLY_DESKTOP": "Việc thực thi Node.js chỉ khả dụng trong ứng dụng dành cho máy tính để bàn",
     "NO_ADDITIONAL_INFO": "Không có thông tin bổ sung có sẵn",
     "NO_CONTENT_PROVIDED": "Không có nội dung được cung cấp",
@@ -2450,7 +2448,7 @@
     "TABS": {
       "GENERAL": "Tổng quan",
       "TASKS": "Nhiệm vụ",
-      "TIME_TRACKING": "Time & Tracking",
+      "TIME_TRACKING": "Thời gian & Theo dõi",
       "PRODUCTIVITY": "Năng suất",
       "PLUGINS": "Plugin",
       "SYNC_BACKUP": "Đồng bộ hóa và sao lưu"
@@ -2470,7 +2468,7 @@
     "SCHEDULED_TASKS_WITH_TIME": "Nhiệm vụ theo lịch trình với thời gian bắt đầu",
     "START_TASK": "Bắt đầu nhiệm vụ và xóa lời nhắc"
   },
-  "Share Chart": "",
+  "Share Chart": "Chia sẻ biểu đồ",
   "Share Heatmap": "",
   "THEMES": {
     "SELECT_THEME": "Chọn chủ đề",
@@ -2541,3 +2539,4 @@
   }
 
 }
+
