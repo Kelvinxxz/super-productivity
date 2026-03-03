@@ -1,0 +1,2542 @@
+{
+  "APP": {
+    "B_INSTALL": {
+      "IGNORE": "Bỏ qua",
+      "INSTALL": "Cài đặt",
+      "MSG": "Bạn có muốn cài đặt Super Productivity dưới dạng PWA (Ứng dụng web lũy tiến) không?"
+    },
+    "B_OFFLINE": "Bạn bị ngắt kết nối internet. Đồng bộ hóa và yêu cầu dữ liệu của nhà cung cấp vấn đề sẽ không hoạt động.",
+    "CONTEXT_MENU": {
+      "CHANGE_BACKGROUND": "Thay đổi nền"
+    },
+    "SKIP_SYNC_WAIT": "Bỏ qua việc chờ đồng bộ",
+    "UPDATE_WEB_APP": "Phiên bản mới có sẵn. Tải phiên bản mới?"
+  },
+  "BL": {
+    "NO_TASKS": "Hiện tại không có nhiệm vụ nào trong hồ sơ tồn đọng của bạn"
+  },
+  "BN": {
+    "SHOW_ISSUE_PANEL": "Bảng điều khiển nhà cung cấp vấn đề",
+    "SHOW_NOTES": "Ghi chú dự án"
+  },
+  "CONFIRM": {
+    "AUTO_FIX": "Dữ liệu của bạn có vẻ bị hỏng (\"{{validityError}}\"). Bạn có muốn thử tự động sửa nó không? Điều này có thể dẫn đến mất dữ liệu một phần.",
+    "RELOAD_AFTER_IDB_ERROR": "Lỗi cơ sở dữ liệu - Ứng dụng sẽ khởi động lại\n\nSiêu năng suất không thể lưu dữ liệu! Điều này thường được gây ra bởi:\n• Dung lượng ổ đĩa thấp (phổ biến nhất)\n• Cập nhật ứng dụng ở chế độ nền\n• Người dùng Linux Snap: chạy 'snap set core Experiment.refresh-app-awareness=true'\n\nNhững thay đổi gần đây của bạn có thể chưa được lưu. Vui lòng giải phóng dung lượng đĩa nếu thấp. Ứng dụng sẽ khởi động lại sau khi bạn đóng hộp thoại này.",
+    "RESTORE_FILE_BACKUP": "Dường như KHÔNG CÓ DỮ LIỆU, nhưng có bản sao lưu tại \"{{dir}}\". Bạn có muốn khôi phục bản sao lưu mới nhất từ ​​{{from}} không?",
+    "RESTORE_FILE_BACKUP_ANDROID": "Dường như KHÔNG CÓ DỮ LIỆU, nhưng có sẵn một bản sao lưu. Bạn có muốn tải nó không?",
+    "RESTORE_STRAY_BACKUP": "Trong lần đồng bộ hóa gần đây nhất có thể đã xảy ra lỗi. Bạn có muốn khôi phục bản sao lưu cuối cùng không?"
+  },
+  "DATETIME_SCHEDULE": {
+    "PRESS_ENTER_AGAIN": "Nhấn enter lần nữa để lưu"
+  },
+  "DIALOG_UNSPLASH_PICKER": {
+    "BY": "qua",
+    "NO_RESULTS": "Không tìm thấy hình ảnh nào. Vui lòng thử một cụm từ tìm kiếm khác.",
+    "SEARCH_LABEL": "Tìm kiếm hình ảnh",
+    "SEARCH_PLACEHOLDER": "ví dụ. thiên nhiên, núi, trừu tượng",
+    "TITLE": "Chọn hình nền từ Unsplash"
+  },
+  "DONATE_PAGE": {
+    "BUTTON_TEXT": "Đóng góp thông qua nhà tài trợ GitHub",
+    "INTRO_1": "Siêu năng suất được tài trợ hoàn toàn bởi cộng đồng. Không có theo dõi, không có quảng cáo và không thu thập dữ liệu — nhiệm vụ của bạn vẫn được lưu trên thiết bị của bạn.",
+    "INTRO_2": "Nếu bạn đánh giá cao cách tiếp cận này và muốn giữ cho dự án lành mạnh và phát triển thì việc đóng góp tự nguyện sẽ được đánh giá rất cao."
+  },
+  "F": {
+    "ATTACHMENT": {
+      "DIALOG_EDIT": {
+        "ADD_ATTACHMENT": "Thêm tệp đính kèm",
+        "EDIT_ATTACHMENT": "Chỉnh sửa tệp đính kèm",
+        "LABELS": {
+          "IMG": "Hình ảnh",
+          "LINK": "URL"
+        },
+        "SELECT_TYPE": "Chọn một loại",
+        "TYPES": {
+          "FILE": "Tệp (được mở bằng ứng dụng hệ thống mặc định)",
+          "IMG": "Hình ảnh (hiển thị dưới dạng hình thu nhỏ)",
+          "LINK": "Liên kết (mở trong trình duyệt web)"
+        }
+      }
+    },
+    "BOARDS": {
+      "DEFAULT": {
+        "DONE": "Xong",
+        "EISENHAUER_MATRIX": "Ma trận Eisenhower",
+        "IN_PROGRESS": "Đang tiến hành",
+        "KANBAN": "Kanban",
+        "NOT_URGENT_IMPORTANT": "Không khẩn cấp & quan trọng",
+        "NOT_URGENT_NOT_IMPORTANT": "Không khẩn cấp & Không quan trọng",
+        "TO_DO": "Việc cần làm",
+        "URGENT": "Cấp bách",
+        "URGENT_IMPORTANT": "Khẩn cấp & Quan trọng",
+        "URGENT_NOT_IMPORTANT": "Khẩn cấp & Không quan trọng"
+      },
+      "FORM": {
+        "ADD_NEW_PANEL": "Thêm bảng mới",
+        "BACKLOG_TASK_FILTER_ALL": "Tất cả",
+        "BACKLOG_TASK_FILTER_NO_BACKLOG": "Loại trừ",
+        "BACKLOG_TASK_FILTER_ONLY_BACKLOG": "Chỉ tồn đọng",
+        "BACKLOG_TASK_FILTER_TYPE": "Nhiệm vụ tồn đọng",
+        "COLUMNS": "Cột",
+        "TAGS_EXCLUDED": "Thẻ bị loại trừ",
+        "TAGS_REQUIRED": "Required Tags",
+        "TASK_DONE_STATE": "Trạng thái hoàn thành nhiệm vụ",
+        "TASK_DONE_STATE_ALL": "Tất cả",
+        "TASK_DONE_STATE_DONE": "Hoàn thành",
+        "TASK_DONE_STATE_UNDONE": "Chưa hoàn thành"
+      },
+      "V": {
+        "ADD_NEW_BOARD": "Thêm bảng mới",
+        "CONFIRM_DELETE": "Bạn có chắc chắn muốn xóa bảng này?",
+        "CREATE_NEW_TAGS_BTN": "Tạo thẻ",
+        "CREATE_NEW_TAGS_MSG": "{{nr}} thẻ mới cần được tạo để bảng này hoạt động",
+        "CREATE_NEW_TAG_BTN": "Tạo thẻ",
+        "CREATE_NEW_TAG_MSG": "Cần tạo 1 thẻ mới để bảng này hoạt động",
+        "EDIT_BOARD": "Bảng chỉnh sửa",
+        "NO_PANELS_BTN": "Bảng cấu hình",
+        "NO_PANELS_MSG": "Bảng này không có bảng nào được cấu hình. Thêm một số bảng vào nó."
+      }
+    },
+    "CALDAV": {
+      "FORM": {
+        "CALDAV_CATEGORY_FILTER": "Danh mục để lọc các vấn đề (không để trống)",
+        "CALDAV_PASSWORD": "Mật khẩu CalDAV của bạn",
+        "CALDAV_RESOURCE": "Tên của tài nguyên CalDAV (lịch)",
+        "CALDAV_URL": "URL CalDAV (URL cơ sở)",
+        "CALDAV_USER": "Tên người dùng CalDAV của bạn",
+        "IS_TRANSITION_ISSUES_ENABLED": "Tự động hoàn thành nhiệm vụ CalDAV khi hoàn thành nhiệm vụ"
+      },
+      "FORM_SECTION": {
+        "HELP": "<p>Tại đây, bạn có thể định cấu hình Siêu năng suất để liệt kê các nhiệm vụ CalDAV chưa hoàn thành cho một dự án cụ thể trong bảng tạo nhiệm vụ ở chế độ xem lập kế hoạch hàng ngày. Chúng sẽ được liệt kê dưới dạng đề xuất và sẽ cung cấp liên kết đến nhiệm vụ cũng như cung cấp thêm thông tin về nhiệm vụ đó.</p> <p>Ngoài ra, bạn có thể tự động thêm và đồng bộ hóa tất cả các nhiệm vụ chưa hoàn thành vào nhật ký nhiệm vụ tồn đọng của mình.</p><p>Để Nextcloud có thể hoạt động trong ứng dụng web, bạn có thể cần phải cho phép \"https://app.super-productivity.com\" trong ứng dụng Nextcloud <a href='https://apps.nextcloud.com/apps/webapppassword'>webapppassword<a>.</p>"
+      },
+      "ISSUE_CONTENT": {
+        "DESCRIPTION": "Sự miêu tả",
+        "LABELS": "Nhãn",
+        "MARK_AS_CHECKED": "Đánh dấu là đã chọn",
+        "STATUS": "Trạng thái",
+        "SUMMARY": "Bản tóm tắt"
+      },
+      "S": {
+        "CALENDAR_NOT_FOUND": "CalDAV: Không tìm thấy lịch \"{{calendarName}}\"",
+        "CALENDAR_READ_ONLY": "CalDAV: Lịch \"{{calendarName}}\" ở chế độ chỉ đọc",
+        "ISSUE_NOT_FOUND": "CalDAV: Tác vụ \"{{issueId}}\" dường như đã bị xóa trên máy chủ."
+      }
+    },
+    "NEXTCLOUD_DECK": {
+      "FORM": {
+        "BASE_URL": "URL cơ sở Nextcloud",
+        "USERNAME": "Tên người dùng Nextcloud của bạn",
+        "PASSWORD": "Mật khẩu ứng dụng Nextcloud của bạn",
+        "FILTER_BY_ASSIGNEE": "Chỉ nhập thẻ được chỉ định cho tôi",
+        "IS_TRANSITION_ISSUES_ENABLED": "Đồng bộ hóa trạng thái hoàn thành và tiêu đề trở lại Nextcloud Deck",
+        "POLL_INTERVAL_MINUTES": "Khoảng thời gian thăm dò (phút)",
+        "TITLE_TEMPLATE": "Mẫu tiêu đề nhiệm vụ",
+        "TITLE_TEMPLATE_DESCRIPTION": "Các biến: {CARD_TITLE}, {BOARD}, {COLUMN}, {ID}, {LABELS}. Ví dụ: [{BOARD}: {COLUMN}] {CARD_TITLE}. Chỉ để trống cho tiêu đề thẻ."
+      },
+      "FORM_SECTION": {
+        "HELP": "Định cấu hình tích hợp Nextcloud Deck của bạn để nhập thẻ dưới dạng nhiệm vụ. Sử dụng mật khẩu ứng dụng để xác thực."
+      },
+      "ISSUE_CONTENT": {
+        "DECK_DESCRIPTION": "Mô tả bộ bài",
+        "STACK": "ngăn xếp",
+        "ASSIGNED_USERS": "Người dùng được chỉ định",
+        "LABELS": "Nhãn"
+      },
+      "S": {
+        "BOARD_NOT_FOUND": "Nextcloud Deck: Không tìm thấy bảng",
+        "CARD_NOT_FOUND": "Nextcloud Deck: Thẻ \"{{issueId}}\" dường như đã bị xóa trên máy chủ.",
+        "ERR_CREDENTIALS_MISSING": "Trước tiên hãy nhập URL, tên người dùng và mật khẩu Nextcloud.",
+        "ERR_LOAD_BOARDS": "Không thể tải Deck board. Kiểm tra thông tin đăng nhập của bạn."
+      }
+    },
+    "CALENDARS": {
+      "BANNER": {
+        "ADD_AS_TASK": "Thêm làm nhiệm vụ",
+        "SHOW_TASK": "Hiển thị nhiệm vụ",
+        "TXT": "<strong>{{title}</strong> bắt đầu lúc <strong>{{start}</strong>!",
+        "TXT_MULTIPLE": "<strong>{{title}</strong> bắt đầu lúc <strong>{{start}</strong>!<br> (và {{nrOfOtherBanners}} sự kiện khác sắp đến hạn)",
+        "TXT_PAST": "<strong>{{title}}</strong> started at <strong>{{start}}</strong>!",
+        "TXT_PAST_MULTIPLE": "<strong>{{title}</strong> đã bắt đầu lúc <strong>{{start}</strong>!<br> (và {{nrOfOtherBanners}} sự kiện khác sắp đến hạn)"
+      },
+      "EVENT_STRINGS": {
+        "EVENTS_STR": "sự kiện",
+        "EVENT_STR": "sự kiện"
+      },
+      "S": {
+        "CAL_PROVIDER_ERROR": "Lỗi của nhà cung cấp lịch: {{errTxt}}"
+      }
+    },
+    "CONFIG": {
+      "S": {
+        "UPDATE_SECTION": "Đã cập nhật cài đặt cho <strong>{{sectionKey}</strong>"
+      }
+    },
+    "VOICE_REMINDER": {
+      "FORM": {
+        "HELP": "Lặp lại cụm từ đã định cấu hình mỗi X khi theo dõi thời gian cho một tác vụ.",
+        "L_INTERVAL": "Khoảng thời gian để lặp lại cụm từ",
+        "L_TEXT": "Chữ",
+        "L_TEXT_DESCRIPTION": "ví dụ. \"Làm việc trên ${currentTaskTitle}!\"",
+        "L_VOICE": "Chọn một giọng nói",
+        "L_VOICE_DESCRIPTION": "Chọn một giọng nói",
+        "TITLE": "Nhắc nhở bằng giọng nói"
+      }
+    },
+    "DROPBOX": {
+      "S": {
+        "OFFLINE": "Dropbox: Không thể đồng bộ hóa vì ngoại tuyến",
+        "SYNC_ERROR": "Dropbox: Lỗi khi đồng bộ hóa",
+        "UNABLE_TO_GENERATE_PKCE_CHALLENGE": "Đồng bộ hóa Dropbox yêu cầu kết nối an toàn (HTTPS). Hãy đảm bảo bạn đang sử dụng ứng dụng qua HTTPS hoặc thử phiên bản ổn định."
+      }
+    },
+    "D_RATE": {
+      "A_HOW": "Đánh giá như thế nào và ở đâu",
+      "BTN_DONT_BOTHER": "Đừng làm phiền tôi nữa",
+      "TITLE": "🙈 Xin hãy tha thứ cho chúng tôi, nhưng...",
+      "TXT": "Bạn sẽ giúp ích rất nhiều cho dự án bằng cách <strong>đánh giá tốt cho dự án nếu bạn thích nó!</strong>"
+    },
+    "FINISH_DAY_BEFORE_EXIT": {
+      "C": {
+        "FINISH_DAY_BEFORE_EXIT": "Có {{nr}} nhiệm vụ đã hoàn thành trong danh sách Hôm nay của bạn nhưng chưa được chuyển vào kho lưu trữ. Bạn có chắc chắn muốn bỏ việc mà chưa kết thúc một ngày của mình không?"
+      }
+    },
+    "FOCUS_MODE": {
+      "ADD_TIME_MINUTE": "Thêm 1 phút",
+      "B": {
+        "BREAK_RUNNING": "Giờ nghỉ đang diễn ra",
+        "END_FOCUS_SESSION": "Kết thúc phiên tập trung",
+        "END_SESSION": "Kết thúc phiên",
+        "PAUSE": "Tạm dừng",
+        "POMODORO_BREAK_RUNNING": "Giờ nghỉ #{{cycleNr}} đang chạy",
+        "POMODORO_SESSION_RUNNING": "Phiên Pomodoro #{{cycleNr}} đang chạy",
+        "RESUME": "Bản tóm tắt",
+        "SESSION_RUNNING": "Phiên tập trung đang chạy",
+        "START": "Bắt đầu",
+        "TO_FOCUS_OVERLAY": "Để tập trung lớp phủ"
+      },
+      "BACK_TO_PLANNING": "Quay lại Kế hoạch",
+      "BREAK_RELAX_MSG": "Hãy dành một chút thời gian để thư giãn",
+      "CLICK_TO_EDIT_DURATION": "Nhấp để chỉnh sửa thời lượng",
+      "COMPLETE_FOCUS_SESSION": "Hoàn thành phiên tập trung",
+      "CONTINUE_TO_NEXT_SESSION": "Tiếp tục phiên tiếp theo",
+      "COUNTDOWN": "Đếm ngược",
+      "COUNTDOWN_HINT": "Tập trung cho đến khi đồng hồ chạm 0",
+      "FINISH_TASK_AND_SELECT_NEXT": "Hoàn thành nhiệm vụ và chọn tiếp theo",
+      "FLOWTIME": "Thời gian chảy",
+      "FLOWTIME_HINT": "Tốc độ linh hoạt mà không cần tính giờ nghiêm ngặt",
+      "FOCUS_TIME_TOOLTIP": "thời gian tập trung",
+      "GET_READY": "Hãy sẵn sàng cho phiên tập trung của bạn!",
+      "GOGOGO": "Đi, đi, đi!!!",
+      "GO_TO_PROCRASTINATION": "Nhận trợ giúp khi trì hoãn",
+      "LONG_BREAK": "Kỳ nghỉ dài",
+      "LONG_BREAK_TITLE": "Kỳ nghỉ dài - Chu kỳ {{chu kỳ}}",
+      "ON": "TRÊN",
+      "OPEN_ISSUE_IN_BROWSER": "Sự cố mở trong trình duyệt web",
+      "PAUSE_BREAK": "Pause break",
+      "PAUSE_SESSION": "Tạm dừng phiên",
+      "PAUSE_TRACKING": "Tạm dừng theo dõi",
+      "PAUSE_TRACKING_FOR_CURRENT_TASK": "Tạm dừng theo dõi cho nhiệm vụ hiện tại",
+      "POMODORO": "Pomodoro",
+      "POMODORO_HINT": "Chạy nước rút có cấu trúc với thời gian nghỉ theo kế hoạch",
+      "POMODORO_SESSION_COMPLETED": "Phiên Pomodoro đã hoàn thành!",
+      "POMODORO_SETTINGS": "Cài đặt Pomodoro",
+      "PREP_GET_MENTALLY_READY": "Chuẩn bị tinh thần để tập trung và làm việc hiệu quả",
+      "PREP_SIT_UPRIGHT": "Ngồi (hoặc đứng) thẳng",
+      "PREP_STRETCH": "Tận hưởng sự kéo giãn nhẹ nhàng",
+      "REMOVE_TIME_MINUTE": "Xóa 1 phút",
+      "RESUME_BREAK": "Tiếp tục nghỉ giải lao",
+      "RESUME_SESSION": "Tiếp tục phiên",
+      "SELECT_MODE": "Chọn chế độ lấy nét của bạn",
+      "SELECT_TASK": "Chọn nhiệm vụ cần tập trung",
+      "SELECT_TASK_FIRST": "Chọn một nhiệm vụ đầu tiên để bắt đầu theo dõi",
+      "SELECT_TASK_TO_FOCUS": "Chọn nhiệm vụ cần tập trung",
+      "SESSION_COMPLETED": "Phiên tập trung đã hoàn tất!",
+      "SHORT_BREAK": "Nghỉ ngắn",
+      "SHORT_BREAK_TITLE": "Nghỉ ngắn - chu kỳ {{chu kỳ}}",
+      "SHOW_HIDE_NOTES_AND_ATTACHMENTS": "Hiển thị/ẩn ghi chú nhiệm vụ và tệp đính kèm",
+      "SKIP_BREAK": "Bỏ qua giờ giải lao",
+      "START_BREAK": "Bắt đầu nghỉ giải lao",
+      "START_FOCUS_SESSION": "Bắt đầu phiên tập trung",
+      "START_NEXT_FOCUS_SESSION": "Bắt đầu phiên tập trung tiếp theo",
+      "SWITCH_TASK": "Chuyển đổi nhiệm vụ",
+      "WORKED_FOR": "Bạn đã làm việc cho"
+    },
+    "GITEA": {
+      "FORM": {
+        "HOST": "Máy chủ (ví dụ: https://try.gitea.io)",
+        "REPO_FULL_NAME": "Tên người dùng hoặc Tên tổ chức/kho lưu trữ",
+        "REPO_FULL_NAME_DESCRIPTION": "Có thể được tìm thấy như một phần của URL khi xem kho lưu trữ trong trình duyệt web.",
+        "SCOPE": "Phạm vi",
+        "SCOPE_ALL": "Tất cả",
+        "SCOPE_ASSIGNED": "Đã giao cho tôi",
+        "SCOPE_CREATED": "Được tạo bởi tôi",
+        "TOKEN": "Mã thông báo truy cập"
+      },
+      "FORM_SECTION": {
+        "HELP": "<p>Tại đây, bạn có thể định cấu hình Siêu năng suất để liệt kê các sự cố Gitea đang mở cho một kho lưu trữ cụ thể trong bảng tạo tác vụ ở chế độ xem lập kế hoạch hàng ngày. Chúng sẽ được liệt kê dưới dạng đề xuất và sẽ cung cấp liên kết đến vấn đề cũng như thông tin thêm về vấn đề đó.</p> <p>Ngoài ra, bạn có thể tự động thêm và nhập tất cả các vấn đề đang mở.</p><p>Để đạt được giới hạn sử dụng và để truy cập, bạn có thể cung cấp mã thông báo truy cập."
+      },
+      "ISSUE_CONTENT": {
+        "ASSIGNEE": "Người được chuyển nhượng",
+        "DESCRIPTION": "Sự miêu tả",
+        "LABELS": "Nhãn",
+        "MARK_AS_CHECKED": "Đánh dấu các cập nhật là đã kiểm tra",
+        "PROJECT": "Dự án",
+        "STATUS": "Trạng thái",
+        "SUMMARY": "Bản tóm tắt",
+        "WRITE_A_COMMENT": "Viết bình luận"
+      }
+    },
+    "GITHUB": {
+      "FORM": {
+        "FILTER_USER": "Tên người dùng (ví dụ: để tự lọc các thay đổi)",
+        "INVALID_TOKEN_MESSAGE": "Không phải là mã thông báo GitHub hợp lệ. Nó phải bắt đầu bằng \"ghp_\".",
+        "IS_ASSIGNEE_FILTER": "Chỉ nhập các vấn đề được giao cho tôi để tồn đọng",
+        "REPO": "tên người dùng/tên kho lưu trữ",
+        "TOKEN": "Mã thông báo truy cập"
+      },
+      "FORM_SECTION": {
+        "HELP": "<p>Here you can configure Super Productivity to list open GitHub issues for a specific repository in the task creation panel in the daily planning view. They will be listed as suggestions and will provide a link to the issue as well as more information about it.</p> <p>In addition, you can automatically import all open issues.</p><p>To get by usage limits and to access you can provide a an access token. <a href='https://docs.github.com/en/free-pro-team@latest/developers/apps/scopes-for-oauth-apps'>More info about its scopes can be found here</a>."
+      },
+      "ISSUE_CONTENT": {
+        "ASSIGNEE": "Người được chuyển nhượng",
+        "AT": "Tại",
+        "DESCRIPTION": "Sự miêu tả",
+        "LABELS": "Nhãn",
+        "LAST_COMMENT": "Bình luận cuối cùng",
+        "LOAD_ALL_COMMENTS": "Tải tất cả {{nr}} nhận xét",
+        "LOAD_DESCRIPTION_AND_ALL_COMMENTS": "Tải mô tả và tất cả các bình luận",
+        "MARK_AS_CHECKED": "Đánh dấu các cập nhật là đã kiểm tra",
+        "STATUS": "Trạng thái",
+        "SUMMARY": "Bản tóm tắt",
+        "WRITE_A_COMMENT": "Viết bình luận"
+      },
+      "S": {
+        "CONFIG_ERROR": "GitHub: Lỗi khi ánh xạ dữ liệu. Tên kho lưu trữ của bạn có đúng không?",
+        "ERR_UNKNOWN": "GitHub: Lỗi không xác định {{statusCode}} {{errorMsg}}. Đã vượt quá giới hạn tốc độ API?"
+      }
+    },
+    "GITLAB": {
+      "DIALOG_SUBMIT_WORKLOG": {
+        "PAST_DAY_INFO": "Khoảng thời gian được điền trước chứa dữ liệu chưa được theo dõi từ những ngày trước.",
+        "TITLE": "Gửi thời gian dành cho các vấn đề tới GitLab",
+        "TOTAL_MSG": "Bạn sẽ gửi tổng cộng <em>{{totalTimeToSubmit}</em> thời gian làm việc trong ngày hôm nay cho <em>{{nrOfTasksToSubmit}</em> các vấn đề khác nhau.",
+        "T_ALREADY_TRACKED": "Đã theo dõi",
+        "T_TITLE": "Tiêu đề",
+        "T_TO_BE_SUBMITTED": "Để được nộp"
+      },
+      "FORM": {
+        "FILTER": "Bộ lọc tùy chỉnh",
+        "FILTER_DESCRIPTION": "Xem https://docs.gitlab.com/ee/api/issues.html#list-issues. Nhiều có thể được kết hợp với &",
+        "FILTER_USER": "Lọc tên người dùng",
+        "GITLAB_BASE_URL": "URL cơ sở GitLab tùy chỉnh (tùy chọn)",
+        "PROJECT": "tên người dùng/dự án",
+        "PROJECT_HINT": "ví dụ. siêu năng suất/siêu năng suất",
+        "SCOPE": "Phạm vi",
+        "SCOPE_ALL": "Tất cả",
+        "SCOPE_ASSIGNED": "Đã giao cho tôi",
+        "SCOPE_CREATED": "Được tạo bởi tôi",
+        "SOURCE": "Nguồn",
+        "SOURCE_GLOBAL": "Tất cả",
+        "SOURCE_GROUP": "Nhóm",
+        "SOURCE_PROJECT": "Dự án",
+        "SUBMIT_TIMELOGS": "Gửi nhật ký thời gian tới GitLab",
+        "SUBMIT_TIMELOGS_DESCRIPTION": "Hiển thị hộp thoại theo dõi thời gian sau khi nhấp vào \"Ngày kết thúc\"",
+        "TOKEN": "Mã thông báo truy cập"
+      },
+      "FORM_SECTION": {
+        "HELP": "<p>Tại đây, bạn có thể định cấu hình Siêu năng suất để liệt kê các vấn đề GitLab đang mở (phiên bản trực tuyến hoặc phiên bản tự lưu trữ) cho một dự án cụ thể trong bảng tạo tác vụ ở chế độ xem lập kế hoạch hàng ngày. Chúng sẽ được liệt kê dưới dạng đề xuất và sẽ cung cấp liên kết tới vấn đề cũng như thông tin thêm về vấn đề đó.</p> <p>Ngoài ra, bạn có thể tự động nhập tất cả các vấn đề đang mở.</p>"
+      },
+      "ISSUE_CONTENT": {
+        "ASSIGNEE": "Người được chuyển nhượng",
+        "AT": "Tại",
+        "DESCRIPTION": "Sự miêu tả",
+        "LABELS": "Nhãn",
+        "MARK_AS_CHECKED": "Đánh dấu các cập nhật là đã kiểm tra",
+        "PROJECT": "Dự án",
+        "STATUS": "Trạng thái",
+        "SUMMARY": "Bản tóm tắt",
+        "WRITE_A_COMMENT": "Viết bình luận"
+      },
+      "S": {
+        "ERR_UNKNOWN": "GitLab: Lỗi không xác định {{statusCode}} {{errorMsg}}"
+      }
+    },
+    "ISSUE": {
+      "CROSS_ORIGIN_BROWSER_WARNING": "Sự tích hợp này có thể sẽ không hoạt động trong trình duyệt web của bạn. Vui lòng tải xuống phiên bản Super Productivity dành cho máy tính để bàn hoặc Android!",
+      "DEFAULT": {
+        "ISSUES_STR": "vấn đề",
+        "ISSUE_STR": "issue"
+      },
+      "DEFAULT_PROJECT_DESCRIPTION": "Dự án được giao cho các nhiệm vụ được tạo từ các vấn đề.",
+      "DEFAULT_PROJECT_LABEL": "Dự án siêu năng suất mặc định",
+      "HOW_TO_GET_A_TOKEN": "Làm cách nào để nhận được mã thông báo?",
+      "ISSUE_CONTENT": {
+        "ASSIGNEE": "Người được chuyển nhượng",
+        "AT": "Tại",
+        "ATTACHMENTS": "Tệp đính kèm",
+        "AUTHOR": "Tác giả",
+        "CATEGORY": "Loại",
+        "COMPONENTS": "Linh kiện",
+        "DESCRIPTION": "Sự miêu tả",
+        "DUE_DATE": "Ngày đáo hạn",
+        "LABELS": "Nhãn",
+        "LAST_COMMENT": "Bình luận cuối cùng",
+        "LOAD_ALL_COMMENTS": "Tải tất cả {{nr}} nhận xét",
+        "LOCATION": "Vị trí",
+        "MARK_AS_CHECKED": "Đánh dấu các cập nhật là đã kiểm tra",
+        "PRIORITY": "Sự ưu tiên",
+        "RELATED": "Có liên quan",
+        "START": "Bắt đầu",
+        "STATUS": "Trạng thái",
+        "STORY_POINTS": "Điểm câu chuyện",
+        "SUB_TASKS": "Nhiệm vụ phụ",
+        "SUMMARY": "Bản tóm tắt",
+        "TIME_SPENT": "Thời gian đã sử dụng",
+        "TYPE": "Kiểu",
+        "VERSION": "Phiên bản",
+        "WORKLOG": "nhật ký công việc"
+      },
+      "S": {
+        "ERR_GENERIC": "{{issueProviderName}} Lỗi: {{errTxt}}",
+        "ERR_NETWORK": "{{issueProviderName}}: Yêu cầu không thành công do lỗi mạng phía máy khách",
+        "ERR_NOT_CONFIGURED": "{{issueProviderName}}: Chưa được định cấu hình đúng cách",
+        "IMPORTED_MULTIPLE_ISSUES": "{{issueProviderName}}: Đã nhập {{nr}} mới {{issuesStr}}",
+        "IMPORTED_SINGLE_ISSUE": "{{issueProviderName}}: Đã nhập {{issueStr}} \"{{issueTitle}}\"",
+        "ISSUE_NO_UPDATE_REQUIRED": "{{issueProviderName}}: Không cần cập nhật",
+        "ISSUE_UPDATE_MULTIPLE": "{{issueProviderName}}: Dữ liệu được cập nhật cho {{nr}} {{issuesStr}}",
+        "ISSUE_UPDATE_SINGLE": "{{issueProviderName}}: Dữ liệu được cập nhật cho \"{{issueTitle}}\"",
+        "POLLING_BACKLOG": "{{issueProviderName}}: Thăm dò ý kiến ​​cho {{issuesStr}} mới",
+        "POLLING_CHANGES": "{{issueProviderName}}: Thay đổi thăm dò ý kiến ​​cho {{issuesStr}}"
+      }
+    },
+    "ISSUE_PANEL": {
+      "CALENDAR_AGENDA": {
+        "OFFLINE_BANNER_MSG": "Hiển thị kết quả lịch được lưu trong bộ nhớ cache. Dữ liệu có thể đã lỗi thời."
+      }
+    },
+    "JIRA": {
+      "BANNER": {
+        "BLOCK_ACCESS_MSG": "Jira: Để ngăn chặn việc khóa API, quyền truy cập đã bị chặn bởi Super Productivity. Có lẽ bạn nên kiểm tra cài đặt Jira của mình!",
+        "BLOCK_ACCESS_UNBLOCK": "Bỏ chặn"
+      },
+      "CFG_CMP": {
+        "ALWAYS_ASK": "Luôn mở hộp thoại",
+        "DONE": "Trạng thái hoàn thành nhiệm vụ",
+        "DO_NOT": "Đừng chuyển tiếp",
+        "ENABLE": "Kích hoạt tích hợp Jira",
+        "ENABLE_TRANSITIONS": "Bật xử lý chuyển đổi",
+        "IN_PROGRESS": "Trạng thái bắt đầu nhiệm vụ",
+        "LOAD_SUGGESTIONS": "Tải đề xuất",
+        "MAP_CUSTOM_FIELDS": "Tải điểm câu chuyện",
+        "MAP_CUSTOM_FIELDS_INFO": "Thật không may, một số dữ liệu của Jira được lưu trong các trường tùy chỉnh khác nhau cho mỗi lần cài đặt. Để bao gồm dữ liệu này, bạn cần chọn trường tùy chỉnh thích hợp cho nó. Hiện tại chỉ có trường điểm câu chuyện cần được ánh xạ.",
+        "OPEN": "Status for pausing task",
+        "SELECT_ISSUE_FOR_TRANSITIONS": "Chọn vấn đề để tải các chuyển tiếp có sẵn",
+        "STORY_POINTS": "Tên trường điểm câu chuyện",
+        "TRANSITION": "Xử lý chuyển tiếp"
+      },
+      "DIALOG_CONFIRM_ASSIGNMENT": {
+        "MSG": "<strong>{{summary}</strong> hiện được giao cho <strong>{{người được giao}</strong>. Bạn có muốn gán nó cho chính mình?",
+        "OK": "Làm đi!"
+      },
+      "DIALOG_INITIAL": {
+        "TITLE": "Thiết lập Jira cho dự án"
+      },
+      "DIALOG_TRANSITION": {
+        "CHOOSE_STATUS": "Chọn trạng thái để gán",
+        "CURRENT_ASSIGNEE": "Người được chuyển nhượng hiện tại:",
+        "CURRENT_STATUS": "Tình trạng hiện tại:",
+        "TASK_NAME": "Tên nhiệm vụ:",
+        "TITLE": "Jira: Cập nhật trạng thái"
+      },
+      "DIALOG_WORKLOG": {
+        "CHECKBOXES": {
+          "ALL_TIME": "Luôn sử dụng tất cả thời gian dành cho công việc làm mặc định",
+          "ALL_TIME_MINUS_LOGGED": "Luôn chỉ sử dụng thời gian đã sử dụng trừ đi thời gian đã ghi làm mặc định",
+          "TIME_SPENT_TODAY": "Luôn chỉ sử dụng thời gian dành cho ngày hôm nay làm mặc định",
+          "TIME_SPENT_YESTERDAY": "Luôn chỉ sử dụng thời gian của ngày hôm qua làm mặc định"
+        },
+        "CURRENTLY_LOGGED": "Thời gian ghi hiện tại:",
+        "INVALID_DATE": "Giá trị đã nhập không phải là ngày tháng!",
+        "SAVE_WORKLOG": "Lưu nhật ký công việc",
+        "STARTED": "Đã bắt đầu",
+        "SUBMIT_WORKLOG_FOR": "Gửi nhật ký công việc cho Jira",
+        "TIME_SPENT": "Thời gian đã sử dụng",
+        "TIME_SPENT_TOOLTIP": "Thêm thời gian khác nhau",
+        "TITLE": "Jira: Gửi nhật ký công việc"
+      },
+      "FORM_ADV": {
+        "AUTO_ADD_BACKLOG_JQL_QUERY": "JQL được sử dụng để tự động nhập các vấn đề vào Super Productivity",
+        "IS_ADD_WORKLOG_ON_SUB_TASK_DONE": "Mở hộp thoại để gửi nhật ký công việc cho Jira khi hoàn thành nhiệm vụ phụ",
+        "IS_CHECK_TO_RE_ASSIGN_TICKET_ON_TASK_START": "Kiểm tra xem vấn đề hiện đang được xử lý có được chỉ định cho người dùng hiện tại không",
+        "IS_WORKLOG_ENABLED": "Mở hộp thoại để gửi nhật ký công việc cho Jira khi nhiệm vụ hoàn thành",
+        "SEARCH_JQL_QUERY": "Truy vấn JQL để hạn chế các tác vụ tìm kiếm",
+        "WORKLOG_DEFAULT_ALL_TIME": "Điền vào tất cả thời gian dành cho nhiệm vụ",
+        "WORKLOG_DEFAULT_ALL_TIME_MINUS_LOGGED": "Điền vào tất cả thời gian đã sử dụng trừ đi thời gian đã ghi",
+        "WORKLOG_DEFAULT_TIME_MODE": "Giá trị thời gian mặc định cho hộp thoại",
+        "WORKLOG_DEFAULT_TODAY": "Chỉ điền vào thời gian dành cho ngày hôm nay",
+        "WORKLOG_DEFAULT_YESTERDAY": "Chỉ lấp đầy thời gian dành cho ngày hôm qua"
+      },
+      "FORM_CRED": {
+        "ALLOW_SELF_SIGNED": "Cho phép chứng chỉ tự ký",
+        "HOST": "Máy chủ (ví dụ: https://my-host.de:1234)",
+        "PASSWORD": "Mã thông báo / Mật khẩu",
+        "USER_NAME": "Email / Tên người dùng",
+        "USE_PAT": "Thay vào đó hãy sử dụng Mã thông báo truy cập cá nhân (LEGACY)",
+        "WONKY_COOKIE_MODE": "Xác thực dự phòng cookie Wonky (chỉ ứng dụng trên máy tính để bàn)"
+      },
+      "FORM_SECTION": {
+        "ADV_CFG": "Cấu hình nâng cao",
+        "HELP_ARR": {
+          "H1": "Cấu hình cơ bản",
+          "H2": "Cài đặt nhật ký công việc",
+          "H3": "Chuyển tiếp mặc định",
+          "P1_1": "Vui lòng cung cấp tên đăng nhập (có thể tìm thấy trên trang hồ sơ của bạn) và <a target=\"_blank\" href=\"https://confluence.atlassian.com/cloud/api-tokens-938839638.html\" target=\"_blank\">mã thông báo API</a> hoặc mật khẩu nếu bạn không thể tạo mã thông báo API vì lý do nào đó. Xin lưu ý rằng các phiên bản mới hơn của Jira đôi khi chỉ hoạt động với mã thông báo.",
+          "P1_2": "Bạn cũng cần chỉ định một truy vấn JQL được sử dụng cho các đề xuất thêm nhiệm vụ từ Jira. Nếu bạn cần trợ giúp, hãy xem liên kết này <a target=\"_blank\" href=\"https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-764478330.html\" target=\"_blank\">https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-764478330.html</a>.",
+          "P1_3": "Bạn cũng có thể định cấu hình nếu muốn tự động (ví dụ: mỗi khi bạn truy cập chế độ xem lập kế hoạch), để nhập tất cả các vấn đề mới được chỉ định bởi truy vấn JQL tùy chỉnh.",
+          "P1_4": "Một tùy chọn khác là \"Kiểm tra xem vé hiện tại có được gán cho người dùng hiện tại hay không\". Nếu được bật và bạn đang bắt đầu, việc kiểm tra sẽ được thực hiện để đảm bảo bạn hiện được chỉ định cho vé đó trên Jira. Nếu không, một hộp thoại sẽ xuất hiện trong đó bạn có thể chọn giao vé cho chính mình.",
+          "P2_1": "Có một số tùy chọn để xác định thời điểm và cách thức bạn muốn gửi nhật ký công việc. Bật <em>'Mở hộp thoại nhật ký công việc để thêm nhật ký công việc vào Jira khi nhiệm vụ hoàn thành'</em> sẽ mở hộp thoại để thêm nhật ký công việc mỗi khi bạn đánh dấu Nhiệm vụ Jira là đã hoàn thành. Vì vậy, hãy nhớ rằng nhật ký công việc sẽ được thêm vào đầu mọi thứ được theo dõi cho đến nay. Nếu bạn đánh dấu một nhiệm vụ là đã hoàn thành lần thứ hai, bạn có thể không muốn gửi lại toàn bộ thời gian đã làm việc cho nhiệm vụ đó.",
+          "P2_2": "<em>'Mở hộp thoại nhật ký công việc khi nhiệm vụ phụ được hoàn thành chứ không phải cho các nhiệm vụ có nhiệm vụ phụ'</em> mở hộp thoại nhật ký công việc mỗi khi bạn đánh dấu một nhiệm vụ phụ của vấn đề Jira là đã hoàn thành. Vì bạn đã theo dõi thời gian của mình thông qua các nhiệm vụ phụ nên sẽ không có hộp thoại nào được mở khi bạn đánh dấu chính nhiệm vụ Jira là đã hoàn thành.",
+          "P2_3": "<em>'Send updates to worklog automatically without dialog'</em> does what it says. Because marking a task as completed several times leads to the whole worked time being tracked twice, this is not recommended.",
+          "P3_1": "Tại đây bạn có thể cấu hình lại các chuyển tiếp mặc định của mình. Jira cho phép cấu hình nhiều chuyển đổi thường hoạt động dưới dạng các cột khác nhau trên bảng linh hoạt Jira của bạn. Chúng tôi không thể đưa ra giả định về vị trí và thời điểm chuyển đổi nhiệm vụ của mình và bạn cần phải đặt nó theo cách thủ công."
+        }
+      },
+      "ISSUE_CONTENT": {
+        "ASSIGNEE": "Người được chuyển nhượng",
+        "AT": "Tại",
+        "ATTACHMENTS": "Tệp đính kèm",
+        "CHANGED": "đã thay đổi",
+        "COMMENTS": "Bình luận",
+        "COMPONENTS": "Linh kiện",
+        "DESCRIPTION": "Sự miêu tả",
+        "LIST_OF_CHANGES": "Danh sách thay đổi",
+        "MARK_AS_CHECKED": "Đánh dấu các cập nhật là đã kiểm tra",
+        "ON": "TRÊN",
+        "RELATED": "Có liên quan",
+        "STATUS": "Trạng thái",
+        "STORY_POINTS": "Điểm câu chuyện",
+        "SUB_TASKS": "Nhiệm vụ phụ",
+        "SUMMARY": "Bản tóm tắt",
+        "WORKLOG": "nhật ký công việc",
+        "WRITE_A_COMMENT": "Viết bình luận"
+      },
+      "S": {
+        "ADDED_WORKLOG_FOR": "Jira: Đã thêm nhật ký công việc cho {{issueKey}}",
+        "EXTENSION_NOT_LOADED": "Tiện ích mở rộng siêu năng suất chưa được tải. Tải lại trang có thể giúp ích",
+        "INSUFFICIENT_SETTINGS": "Cài đặt không đủ được cung cấp cho Jira",
+        "INVALID_RESPONSE": "Jira: Phản hồi chứa dữ liệu không hợp lệ",
+        "NO_AUTO_IMPORT_JQL": "Jira: Không có truy vấn tìm kiếm nào được xác định để tự động nhập",
+        "NO_VALID_TRANSITION": "Jira: Không có cấu hình chuyển đổi hợp lệ",
+        "TIMED_OUT": "Jira: Yêu cầu đã hết thời gian",
+        "TRANSITION": "Jira: Đặt vấn đề \"{{issueKey}}\" thành \"{{name}}\"",
+        "TRANSITIONS_LOADED": "Jira: Đã tải chuyển tiếp. Sử dụng các lựa chọn bên dưới để gán chúng",
+        "TRANSITION_SUCCESS": "Jira: Đặt vấn đề {{issueKey}} thành <strong>{{chosenTransition}</strong>",
+        "UNABLE_TO_REASSIGN": "Jira: Không thể gán lại vé cho chính bạn vì bạn không chỉ định tên người dùng. Vui lòng truy cập cài đặt."
+      },
+      "STEPPER": {
+        "CREDENTIALS": "Thông tin xác thực",
+        "DONE": "Bây giờ bạn đã hoàn tất.",
+        "LOGIN_SUCCESS": "Đăng nhập thành công!",
+        "TEST_CREDENTIALS": "Kiểm tra thông tin xác thực",
+        "WELCOME_USER": "Chào mừng {{user}}!"
+      }
+    },
+    "CLIPBOARD_IMAGE": {
+      "PASTE_SUCCESS": "Đã dán hình ảnh thành công",
+      "SIZE_EXCEEDED": "Kích thước hình ảnh ({{actualSize}}) vượt quá kích thước tối đa cho phép ({{maxSize}})",
+      "STORAGE_QUOTA_EXCEEDED": "Đã vượt quá hạn ngạch bộ nhớ. Vui lòng giải phóng dung lượng hoặc giảm kích thước hình ảnh."
+    },
+    "MARKDOWN_PASTE": {
+      "CONFIRM_ADD_TO_SUB_TASK_NOTES": "Thêm danh sách Markdown đã dán vào ghi chú của nhiệm vụ phụ \"{{parentTaskTitle}}\"?",
+      "CONFIRM_PARENT_TASKS": "Tạo <strong>{{tasksCount}} nhiệm vụ mới</strong> từ danh sách Markdown đã dán?",
+      "CONFIRM_PARENT_TASKS_WITH_SUBS": "Tạo <strong>{{tasksCount}} nhiệm vụ mới và {{subTasksCount}} nhiệm vụ phụ</strong> từ danh sách Markdown đã dán?",
+      "CONFIRM_SUB_TASKS": "Tạo {{tasksCount}} nhiệm vụ phụ mới từ danh sách Markdown đã dán?",
+      "CONFIRM_SUB_TASKS_WITH_PARENT": "Tạo <strong>{{tasksCount}} nhiệm vụ phụ mới trong \"{{parentTaskTitle}}\"</strong> từ danh sách Markdown đã dán?",
+      "DIALOG_TITLE": "Đã phát hiện danh sách Markdown đã dán!"
+    },
+    "METRIC": {
+      "CMP": {
+        "ACTIVITY_HEATMAP": "Bản đồ nhiệt hoạt động",
+        "AVG_BREAKS_PER_DAY": "Trung bình nghỉ mỗi ngày",
+        "AVG_TASKS_PER_DAY_WORKED": "Trung bình nhiệm vụ mỗi ngày đã làm việc",
+        "AVG_TIME_SPENT_ON_BREAKS": "Trung bình thời gian dành cho nghỉ giải lao",
+        "AVG_TIME_SPENT_PER_DAY": "Trung bình thời gian dành mỗi ngày",
+        "AVG_TIME_SPENT_PER_TASK": "Trung bình thời gian dành cho mỗi nhiệm vụ",
+        "COUNTING_SUBTASKS": "(counting subtasks)",
+        "DAYS_WORKED": "Số ngày làm việc",
+        "FOCUS_SESSION_TRENDS": "Phiên tập trung theo thời gian",
+        "GLOBAL_METRICS": "Số liệu toàn cầu",
+        "NO_ADDITIONAL_DATA_YET": "Chưa có dữ liệu bổ sung nào được thu thập. Hãy sử dụng biểu mẫu trên bảng \"Đánh giá\" tóm tắt hàng ngày để thực hiện việc này.",
+        "PRODUCTIVITY_BREAKDOWN_OVER_TIME": "Năng suất & Tính bền vững theo thời gian",
+        "SIMPLE_CLICK_COUNTERS_OVER_TIME": "Bấm vào Bộ đếm theo thời gian",
+        "SIMPLE_COUNTERS": "Bộ đếm đơn giản và theo dõi thói quen",
+        "SIMPLE_STOPWATCH_COUNTERS_OVER_TIME": "Bộ đếm đồng hồ bấm giờ theo thời gian",
+        "TASKS_DONE_CREATED": "Nhiệm vụ (đã hoàn thành/tạo)",
+        "TIME_ESTIMATED": "Thời gian ước tính",
+        "TIME_FRAME_1_MONTH": "1 tháng",
+        "TIME_FRAME_2_WEEKS": "2 tuần",
+        "TIME_FRAME_LABEL": "Khung thời gian",
+        "TIME_FRAME_MAX": "Tối đa",
+        "TIME_SPENT": "Thời gian đã sử dụng",
+        "YEAR": "Năm"
+      },
+      "EVAL_FORM": {
+        "DAILY_STATE": "Trạng thái hàng ngày",
+        "DAILY_STATE_TOOLTIP": "Hệ thống góc phần tư dựa trên cả hai điểm (>50 là cao): Deep Flow (cao/cao), Overdrive (cao/thấp), Phục hồi (thấp/cao), Drift (thấp/thấp)",
+        "ENERGY_LEVEL": "Năng lượng của bạn thế nào?",
+        "ENERGY_LEVEL_HINT": "😫 Kiệt sức – 😐 OK – 😊 Tốt",
+        "FOCUS_WORK_TIME": "Thời gian làm việc tập trung",
+        "IMPACT_OF_WORK": "Bạn đánh giá thế nào về tác động của công việc ngày hôm nay?",
+        "IMPACT_OF_WORK_HINT": "1: Không có tiến bộ đáng kể – 4: Tác động đáng kể",
+        "NOTES": "",
+        "PRODUCTIVITY": "",
+        "PRODUCTIVITY_SCORE": "Điểm năng suất",
+        "PRODUCTIVITY_SCORE_TOOLTIP": "65% Tác động (thang 1-4) • 30% Tập trung vào mục tiêu 4h • 5% tổng công việc (giới hạn ở 10h)",
+        "SCORE_BREAKDOWN_TITLE_PRODUCTIVITY": "Phân tích năng suất trong 7 ngày",
+        "SCORE_BREAKDOWN_TITLE_SUSTAINABILITY": "Phân tích bền vững trong 7 ngày",
+        "STATE_DEEP_FLOW_HEADLINE": "Deep Flow: Khả năng tập trung tuyệt vời và tốc độ bền vững.",
+        "STATE_DEEP_FLOW_HINT": "Bạn đang ở vị trí thuận lợi - hãy suy nghĩ xem điều gì đã khiến sự kết hợp này trở nên khả thi.",
+        "STATE_DRIFT_HEADLINE": "Drift: Tập trung thấp và năng lượng thấp.",
+        "STATE_DRIFT_HINT": "Không sao đâu. Hãy suy ngẫm về điều khiến bạn mất tập trung và điều chỉnh nhẹ nhàng — mỗi lần thiết lập lại là một cơ hội để học hỏi.",
+        "STATE_IMPACT_MISMATCH_HEADLINE": "Tác động thấp: Tập trung nhiều nhưng thu được ít.",
+        "STATE_IMPACT_MISMATCH_HINT": "Bạn đã đầu tư sự tập trung vững chắc - bây giờ hãy hướng nó vào công việc có tác động cao hơn để cảm nhận sự khác biệt.",
+        "STATE_OVERDRIVE_HEADLINE": "Tăng tốc: Hiệu quả nhưng có chi phí.",
+        "STATE_OVERDRIVE_HINT": "Bạn đã làm được rất nhiều việc — bây giờ hãy nhớ nạp lại năng lượng trước khi tình trạng kiệt sức ập đến.",
+        "STATE_RECOVERY_HEADLINE": "Phục hồi: Nghỉ ngơi và nạp lại năng lượng.",
+        "STATE_RECOVERY_HINT": "Bạn đang cho tâm trí mình không gian để hồi phục. Ngày mai bạn sẽ có đủ năng lượng để lặn sâu hơn nữa.",
+        "STATE_STEADY_HEADLINE": "Nhịp điệu ổn định: Tiến bộ nhất quán, bền vững.",
+        "STATE_STEADY_HINT": "Cân bằng tốt đẹp. Bạn đang giữ đà mà không cần quá căng thẳng - hãy tiếp tục nuôi dưỡng những gì khiến tốc độ này hoạt động.",
+        "SUSTAINABILITY_SCORE": "Điểm bền vững",
+        "SUSTAINABILITY_SCORE_TOOLTIP": "45% Mức năng lượng • 40% Giờ làm việc hợp lý (0 lúc 10h) • 15% Cân bằng tiêu điểm (tối ưu lúc 4h)",
+        "TOTAL_WORK_TIME": "Tổng thời gian làm việc hôm nay"
+      },
+      "FOCUS_SESSION_DIALOG": {
+        "ADD_BTN": "Thêm vào",
+        "ADD_SESSION": "Thêm phiên",
+        "CHART_LABEL": "Thời gian lấy nét (phút)",
+        "NEW_SESSION_DURATION": "Khoảng thời gian",
+        "NO_SESSIONS": "Không có phiên tập trung nào cho ngày này",
+        "SESSIONS_LIST": "Phiên",
+        "TITLE": "Phiên tập trung",
+        "TOTAL_SESSIONS": "Total Sessions",
+        "TOTAL_TIME": "Tổng thời gian"
+      },
+      "REFLECTION": {
+        "HISTORY_BTN": "Xem những phản ánh trong quá khứ",
+        "HISTORY_EMPTY": "Chưa có phản ánh nào được lưu. Ghi lại ghi chú của ngày hôm nay để bắt đầu một chuỗi.",
+        "HISTORY_TITLE": "lịch sử phản ánh",
+        "PLACEHOLDER_1": "Điều gì đã làm tốt hôm nay? Ngày mai nên thay đổi điều gì?",
+        "PLACEHOLDER_2": "Cải thiện nhỏ cho ngày mai?",
+        "PLACEHOLDER_3": "Tiêu điểm đã trượt ở đâu - và bạn có thể bảo vệ nó bằng cách nào?",
+        "PLACEHOLDER_4": "Nhiệm vụ nào đã mang lại cho bạn năng lượng? Cái nào đã làm cạn kiệt nó?",
+        "PLACEHOLDER_5": "Một điều cần nhắc lại. Một điều cần thay đổi.",
+        "REMINDER_CREATED": "Lời nhắc suy ngẫm được lên lịch cho ngày mai",
+        "REMINDER_ERROR": "Không thể lên lịch lời nhắc",
+        "REMINDER_NEEDS_TEXT": "Viết cảm nghĩ trước khi xin nhắc nhở",
+        "REMINDER_TASK_TITLE": "Xem lại ghi chú phản ánh",
+        "REMIND_LABEL": "Nhắc tôi vào ngày mai về điều này",
+        "TITLE": "Ghi chú phản ánh"
+      }
+    },
+    "NOTE": {
+      "D_FULLSCREEN": {
+        "TOOLBAR": {
+          "BOLD": "In đậm",
+          "BULLET_LIST": "Danh sách có dấu đầu dòng",
+          "CODE_BLOCK": "Khối mã",
+          "HEADING_1": "Tiêu đề 1",
+          "HEADING_2": "Tiêu đề 2",
+          "HEADING_3": "Tiêu đề 3",
+          "INLINE_CODE": "Mã nội tuyến",
+          "INSERT_IMAGE": "Chèn hình ảnh",
+          "INSERT_LINK": "Chèn liên kết",
+          "INSERT_TABLE": "Chèn bảng",
+          "ITALIC": "Nghiêng",
+          "NUMBERED_LIST": "Danh sách đánh số",
+          "QUOTE": "Trích dẫn",
+          "STRIKETHROUGH": "Gạch ngang",
+          "TASK_LIST": "danh sách nhiệm vụ"
+        },
+        "VIEW_PARSED": "Xem dưới dạng phân tích cú pháp (không thể chỉnh sửa) Markdown",
+        "VIEW_SPLIT": "Xem Markdown được phân tích cú pháp và chưa được phân tích cú pháp ở chế độ xem tách",
+        "VIEW_TEXT_ONLY": "Xem dưới dạng văn bản chưa được phân tích cú pháp"
+      },
+      "NOTES_CMP": {
+        "ADD_BTN": "Thêm ghi chú mới",
+        "DROP_TO_ADD": "Thả vào đây để thêm ghi chú mới",
+        "NO_NOTES": "Hiện tại không có ghi chú nào"
+      },
+      "NOTE_CMP": {
+        "DISABLE_PARSE": "Tắt phân tích cú pháp Markdown để xem trước",
+        "ENABLE_PARSE": "Bật phân tích cú pháp Markdown"
+      },
+      "S": {
+        "NOTE_ADDED": "Đã lưu ghi chú"
+      }
+    },
+    "OPEN_PROJECT": {
+      "CFG_CMP": {
+        "ALWAYS_ASK": "Luôn mở hộp thoại",
+        "DONE": "Trạng thái hoàn thành nhiệm vụ",
+        "DO_NOT": "Đừng chuyển tiếp",
+        "ENABLE": "Kích hoạt tích hợp OpenProject",
+        "ENABLE_TRANSITIONS": "Bật xử lý chuyển đổi",
+        "IN_PROGRESS": "Trạng thái bắt đầu nhiệm vụ",
+        "OPEN": "Trạng thái tạm dừng tác vụ",
+        "PROGRESS_ON_SAVE": "Tiến trình mặc định khi lưu",
+        "SELECT_ISSUE_FOR_TRANSITIONS": "Chọn vấn đề để tải các chuyển tiếp có sẵn",
+        "TRANSITION": "Xử lý chuyển tiếp"
+      },
+      "DIALOG_TRACK_TIME": {
+        "ACTIVITY": "Activity",
+        "CURRENTLY_LOGGED": "Thời gian ghi hiện tại:",
+        "INVALID_DATE": "Giá trị đã nhập không phải là ngày tháng!",
+        "POST_TIME": "Thời gian đăng bài",
+        "STARTED": "Đã bắt đầu",
+        "SUBMIT_TIME_FOR": "Gửi thời gian tới OpenProject cho",
+        "TIME_SPENT": "Thời gian đã sử dụng",
+        "TITLE": "OpenProject: Gửi nhật ký làm việc"
+      },
+      "DIALOG_TRANSITION": {
+        "CHOOSE_STATUS": "Chọn trạng thái để gán",
+        "CURRENT_ASSIGNEE": "Người được chuyển nhượng hiện tại:",
+        "CURRENT_STATUS": "Tình trạng hiện tại:",
+        "PERCENTAGE_DONE": "Tiến triển:",
+        "TASK_NAME": "Tên nhiệm vụ:",
+        "TITLE": "OpenProject: Cập nhật trạng thái"
+      },
+      "FORM": {
+        "FILTER_USER": "Lọc tên người dùng",
+        "HOST": "Máy chủ (ví dụ: https://www.openproject.org/)",
+        "IS_SHOW_TIME_TRACKING_DIALOG": "Hiển thị hộp thoại theo dõi thời gian để báo cáo cho OpenProject",
+        "IS_SHOW_TIME_TRACKING_DIALOG_DESCRIPTION": "Yêu cầu bật mô-đun theo dõi thời gian cho dự án OpenProject",
+        "IS_SHOW_TIME_TRACKING_DIALOG_FOR_EACH_SUB_TASK": "Hiển thị hộp thoại theo dõi thời gian khi hoàn thành nhiệm vụ con",
+        "PROJECT_ID": "Mã dự án",
+        "PROJECT_ID_DESCRIPTION": "Có thể được tìm thấy như một phần của URL khi xem dự án trong trình duyệt web.",
+        "SCOPE": "Phạm vi",
+        "SCOPE_ALL": "Tất cả",
+        "SCOPE_ASSIGNED": "Đã giao cho tôi",
+        "SCOPE_CREATED": "Được tạo bởi tôi",
+        "TOKEN": "Mã thông báo truy cập"
+      },
+      "FORM_SECTION": {
+        "HELP": "<p>Tại đây, bạn có thể định cấu hình Siêu năng suất để liệt kê các gói công việc OpenProject đang mở. Xin lưu ý rằng để tính năng này hoạt động trong phiên bản trình duyệt web, bạn cần phải định cấu hình CORS cho máy chủ OpenProject của mình để cho phép truy cập từ app.super-productivity.com</p>"
+      },
+      "ISSUE_CONTENT": {
+        "ASSIGNEE": "Người được chuyển nhượng",
+        "ATTACHMENTS": "Tệp đính kèm",
+        "DESCRIPTION": "Sự miêu tả",
+        "MARK_AS_CHECKED": "Đánh dấu các cập nhật là đã kiểm tra",
+        "STATUS": "Trạng thái",
+        "SUMMARY": "Bản tóm tắt",
+        "TYPE": "Kiểu",
+        "UPLOAD_ATTACHMENT": "Tải lên tác vụ"
+      },
+      "ISSUE_STRINGS": {
+        "ISSUES_STR": "gói công việc",
+        "ISSUE_STR": "gói công việc"
+      },
+      "S": {
+        "ERR_NO_FILE": "Không có tập tin nào được chọn",
+        "ERR_UNKNOWN": "OpenProject: Lỗi không xác định {{statusCode}} {{errorMsg}}. CORS có được cấu hình đúng cho máy chủ không?",
+        "POST_TIME_SUCCESS": "OpenProject: Đã tạo thành công mục thời gian cho {{issueTitle}}",
+        "TRANSITION": "OpenProject: Đặt vấn đề \"{{issueKey}}\" thành \"{{name}}\"",
+        "TRANSITIONS_LOADED": "Đã tải chuyển tiếp. Sử dụng các lựa chọn bên dưới để gán chúng",
+        "TRANSITION_SUCCESS": "OpenProject: Đặt vấn đề {{issueKey}} thành <strong>{{chosenTransition}</strong>"
+      }
+    },
+    "PLANNER": {
+      "D": {
+        "ADD_PLANNED": {
+          "RE_PLAN_ALL": "Lên lịch lại tất cả"
+        }
+      },
+      "EDIT_REPEATED_TASK": "Chỉnh sửa nhiệm vụ định kỳ \"{{taskName}}\"",
+      "NO_TASKS": "Không có nhiệm vụ",
+      "PLAN_VIEW": {
+        "NO_SCHEDULED_ITEMS": "Không có mục nào được lên lịch"
+      },
+      "S": {
+        "REMOVED_PLAN_DATE": "Đã xóa ngày lập kế hoạch cho nhiệm vụ \"{{taskTitle}}\"",
+        "TASK_ALREADY_PLANNED": "Nhiệm vụ đã được lên kế hoạch cho {{date}}",
+        "TASK_PLANNED_FOR": "Nhiệm vụ đã lên kế hoạch cho <strong>{{date}</strong>{{extra}}"
+      }
+    },
+    "POMODORO": {
+      "BREAK_IS_DONE": "Break is over!"
+    },
+    "PROJECT": {
+      "D_CONFIRM_DUPLICATE_BIG_PROJECT": {
+        "CANCEL": "Hủy bỏ",
+        "MSG": "Dự án này lớn và có thể mất một thời gian để nhân rộng. Bạn có muốn tiếp tục không?",
+        "OK": "Dù sao cũng trùng lặp",
+        "TITLE": "Dự án trùng lặp?"
+      },
+      "D_CREATE": {
+        "CREATE": "Tạo dự án",
+        "EDIT": "Chỉnh sửa dự án"
+      },
+      "D_DELETE": {
+        "MSG": "Bạn có chắc chắn muốn xóa dự án \"{{title}}\" không?"
+      },
+      "FORM_BASIC": {
+        "L_ENABLE_BACKLOG": "Kích hoạt dự án tồn đọng",
+        "L_IS_HIDDEN_FROM_MENU": "Ẩn dự án khỏi menu",
+        "L_TITLE": "Tên dự án",
+        "TITLE": "Cài đặt cơ bản"
+      },
+      "FORM_THEME": {
+        "HELP": "Cài đặt chủ đề cho dự án của bạn.",
+        "D_BACKGROUND_OVERLAY_OPACITY": "Điều chỉnh giá trị này để làm cho nền trong suốt hơn hoặc ít hơn. Mặc định là 20%.",
+        "L_BACKGROUND_OVERLAY_OPACITY": "Làm tối/làm sáng hình nền để có độ tương phản tốt hơn",
+        "L_BACKGROUND_IMAGE_DARK": "URL hình nền (Chủ đề tối)",
+        "L_BACKGROUND_IMAGE_LIGHT": "URL hình nền (Chủ đề nhẹ)",
+        "L_COLOR_ACCENT": "Màu nhấn",
+        "L_COLOR_PRIMARY": "Màu cơ bản",
+        "L_COLOR_WARN": "Màu cảnh báo/lỗi",
+        "L_HUE_ACCENT": "Ngưỡng cho văn bản tối trên nền màu nhấn",
+        "L_HUE_PRIMARY": "Ngưỡng cho văn bản tối trên nền màu chính",
+        "L_HUE_WARN": "Ngưỡng cho văn bản tối trên nền màu cảnh báo",
+        "L_IS_AUTO_CONTRAST": "Tự động đặt màu văn bản để dễ đọc nhất",
+        "L_IS_DISABLE_BACKGROUND_TINT": "Vô hiệu hóa màu nền",
+        "L_THEME_COLOR": "Màu chủ đề",
+        "TITLE": "chủ đề"
+      },
+      "S": {
+        "ARCHIVED": "Dự án đã lưu trữ",
+        "CREATED": "Đã tạo dự án <strong>{{title}</strong>. Bạn có thể chọn nó từ menu ở trên cùng bên trái.",
+        "DELETED": "Dự án đã xóa",
+        "UNARCHIVED": "Dự án chưa được lưu trữ",
+        "UPDATED": "Đã cập nhật cài đặt dự án"
+      }
+    },
+    "PROJECT_FOLDER": {
+      "CONFIRM_DELETE": "Bạn có chắc chắn muốn xóa thư mục \"{{title}}\" không? Tất cả các dự án trong thư mục này sẽ được chuyển đến cấp độ gốc.",
+      "DIALOG": {
+        "CREATE_TITLE": "Tạo thư mục",
+        "EDIT_TITLE": "Chỉnh sửa thư mục",
+        "NAME_LABEL": "Tên thư mục",
+        "NAME_PLACEHOLDER": "Nhập tên thư mục",
+        "NAME_REQUIRED": "Tên thư mục là bắt buộc",
+        "NO_PARENT": "Không có cha mẹ (cấp cơ sở)",
+        "PARENT_LABEL": "Thư mục mẹ"
+      },
+      "SELECT": {
+        "LABEL": "Thư mục",
+        "NO_PARENT": "Không có thư mục (cấp gốc)",
+        "PLACEHOLDER": "Chọn thư mục"
+      },
+      "TOOLTIP_CREATE": "Tạo thư mục dự án",
+      "TOOLTIP_VISIBILITY": "Hiển thị/ẩn dự án"
+    },
+    "QUICK_HISTORY": {
+      "NO_DATA": "Không có dữ liệu cho năm hiện tại",
+      "PAGE_TITLE": "Lịch sử nhanh",
+      "WEEK_TITLE": "Tuần {{nr}} ({{timeSpent}})"
+    },
+    "REDMINE": {
+      "DIALOG_TRACK_TIME": {
+        "ACTIVITY": "Hoạt động",
+        "INVALID_DATE": "Giá trị đã nhập không phải là ngày tháng!",
+        "POST_TIME": "Post Time",
+        "STARTED": "Đã bắt đầu",
+        "SUBMIT_TIME_FOR": "Gửi thời gian tới Redmine để",
+        "TIME_SPENT": "Thời gian đã sử dụng",
+        "TITLE": "Redmine: Gửi nhật ký công việc"
+      },
+      "FORM": {
+        "API_KEY": "Khóa truy cập API",
+        "HOST": "Máy chủ (ví dụ: https://redmine.org)",
+        "PROJECT_ID": "Mã định danh dự án",
+        "PROJECT_ID_DESCRIPTION": "Có thể được tìm thấy như một phần của URL khi xem dự án trên trình duyệt web.",
+        "SCOPE": "Phạm vi",
+        "SCOPE_ALL": "Tất cả",
+        "SCOPE_ASSIGNED": "Đã giao cho tôi",
+        "SCOPE_CREATED": "Được tạo bởi tôi",
+        "IS_SHOW_TIME_TRACKING_DIALOG": "Hiển thị hộp thoại theo dõi thời gian để báo cáo cho Redmine",
+        "IS_SHOW_TIME_TRACKING_DIALOG_DESCRIPTION": "Yêu cầu kích hoạt mô-đun theo dõi thời gian cho dự án Redmine",
+        "IS_SHOW_TIME_TRACKING_DIALOG_FOR_EACH_SUB_TASK": "Hiển thị hộp thoại theo dõi thời gian khi hoàn thành nhiệm vụ con"
+      },
+      "FORM_SECTION": {
+        "HELP": "<p>Tại đây, bạn có thể định cấu hình Siêu năng suất để liệt kê các sự cố Redmine đang mở (phiên bản trực tuyến hoặc phiên bản tự lưu trữ) cho một dự án cụ thể trong bảng tạo tác vụ ở chế độ xem lập kế hoạch hàng ngày. Chúng sẽ được liệt kê dưới dạng đề xuất và sẽ cung cấp liên kết tới vấn đề cũng như thông tin thêm về vấn đề đó.</p><p>Ngoài ra, bạn có thể tự động nhập tất cả các vấn đề đang mở.</p>",
+        "TITLE": "Redmine"
+      },
+      "ISSUE_CONTENT": {
+        "AUTHOR": "Tác giả",
+        "DESCRIPTION": "Sự miêu tả",
+        "MARK_AS_CHECKED": "Đánh dấu các cập nhật là đã kiểm tra",
+        "PRIORITY": "Sự ưu tiên",
+        "STATUS": "Trạng thái"
+      },
+      "S": {
+        "POST_TIME_SUCCESS": "Redmine: Đã tạo thành công mục thời gian cho {{issueTitle}}"
+      }
+    },
+    "REFLECTION_NOTE": {
+      "ACTION_DISMISS": "Miễn nhiệm",
+      "MSG": "Ghi chú suy ngẫm: ({{date}}): {{content}}"
+    },
+    "REMINDER": {
+      "COUNTDOWN_BANNER": {
+        "START_NOW": "Bắt đầu ngay bây giờ",
+        "TXT": "<strong>{{title}</strong> bắt đầu lúc <strong>{{start}</strong>!",
+        "TXT_MULTIPLE": "<strong>{{title}</strong> bắt đầu lúc <strong>{{start}</strong>!<br> (và {{nrOfOtherBanners}} nhiệm vụ khác sắp đến hạn)"
+      },
+      "S_ACTIVE_TASK_DUE": "Nhiệm vụ bạn đang thực hiện hiện đã đến hạn!<br/> ({{title}})",
+      "S_REMINDER_ERR": "Lỗi giao diện nhắc nhở"
+    },
+    "SCHEDULE": {
+      "D_INITIAL": {
+        "TEXT": "<p>Lịch trình sẽ cung cấp cho bạn bức tranh rõ hơn về cách thực hiện các nhiệm vụ đã lên kế hoạch của một người theo thời gian. Nó được tạo tự động từ Nhiệm vụ của bạn và chỉ yêu cầu <strong>ước tính thời gian để chúng hoạt động</strong>.</p><p>Có hai điều được phân biệt: <strong>Nhiệm vụ theo lịch trình</strong>, được hiển thị vào thời gian đã lên kế hoạch và <strong>Nhiệm vụ thông thường</strong>, sẽ diễn ra xung quanh các sự kiện cố định đó.</p><p>Nếu bạn cung cấp thời gian bắt đầu và kết thúc công việc (được đề xuất), các nhiệm vụ thông thường sẽ không bao giờ được đặt ra ngoài các ranh giới này.</p>",
+        "TITLE": "Lịch trình"
+      },
+      "END": "Kết thúc công việc",
+      "INSERT_BEFORE": "Trước",
+      "LUNCH_BREAK": "Nghỉ trưa",
+      "MONTH": "Tháng",
+      "NOW": "Hiện nay",
+      "NO_TASKS": "Hiện tại không có nhiệm vụ nào. Vui lòng thêm một số tác vụ thông qua nút dấu cộng (+) ở thanh trên cùng.",
+      "PLAN_END_DAY": "Kết thúc {{date}}",
+      "PLAN_START_DAY": "Bắt đầu {{date}}",
+      "SHIFT_KEY_INFO": "Giữ phím Shift để chuyển chế độ lập kế hoạch trong ngày",
+      "START": "Bắt đầu công việc"
+    },
+    "SEARCH_BAR": {
+      "INFO": "Bắt đầu nhập để tìm kiếm nhiệm vụ",
+      "NO_RESULTS": "Không tìm thấy nhiệm vụ nào phù hợp với tìm kiếm của bạn",
+      "PLACEHOLDER": "Tìm kiếm nhiệm vụ hoặc ghi chú nhiệm vụ"
+    },
+    "SIMPLE_COUNTER": {
+      "D_CONFIRM_REMOVE": {
+        "MSG": "Xóa một bộ đếm đơn giản cũng sẽ xóa tất cả dữ liệu được theo dõi trong quá khứ trên đó. Bạn có chắc chắn muốn tiếp tục không?",
+        "OK": "Làm đi!"
+      },
+      "D_EDIT": {
+        "CURRENT_STREAK": "Chuỗi hiện tại",
+        "DAILY_GOAL": "Mục tiêu hàng ngày",
+        "DAYS": "Ngày",
+        "L_COUNTER": "Đếm"
+      },
+      "FORM": {
+        "ADD_NEW": "Thêm bộ đếm/thói quen đơn giản",
+        "HELP": "Tại đây bạn có thể định cấu hình các nút đơn giản sẽ xuất hiện ở trên cùng bên phải. Chúng có thể là bộ tính giờ hoặc bộ đếm đơn giản được đếm bằng cách nhấp vào chúng. Bằng cách bật 'Dấu vết theo dõi', bạn có thể sử dụng chúng để theo dõi thói quen.",
+        "L_COUNTDOWN_DURATION": "Thời gian đếm ngược",
+        "L_DAILY_GOAL": "Mục tiêu hàng ngày cho chuỗi thành công",
+        "L_ICON": "Biểu tượng",
+        "L_ICON_ON": "Biểu tượng khi bật",
+        "L_IS_ENABLED": "Đã bật",
+        "L_IS_HIDE_BUTTON": "Ẩn nút thanh công cụ",
+        "L_TITLE": "Tiêu đề",
+        "L_TRACK_STREAKS": "Theo dõi các vệt",
+        "L_TYPE": "Kiểu",
+        "L_WEEKDAYS": "Các ngày trong tuần để kiểm tra chuỗi",
+        "L_STREAK_MODE": "Chế độ theo dõi vệt",
+        "L_STREAK_MODE_SPECIFIC_DAYS": "Các ngày trong tuần cụ thể",
+        "L_STREAK_MODE_WEEKLY_FREQUENCY": "Tần suất hàng tuần (ví dụ: 3 lần mỗi tuần)",
+        "L_WEEKLY_FREQUENCY": "Số lần hoàn thành mỗi tuần",
+        "TITLE": "Bộ đếm đơn giản và theo dõi thói quen",
+        "TYPE_CLICK_COUNTER": "Bộ đếm lượt nhấp",
+        "TYPE_REPEATED_COUNTDOWN": "Đếm ngược lặp đi lặp lại",
+        "TYPE_STOPWATCH": "Đồng hồ bấm giờ"
+      },
+      "HABIT_TRACKER": {
+        "PREV_WEEK": "Tuần trước",
+        "NEXT_WEEK": "Tuần tới",
+        "TODAY": "Hôm nay",
+        "ADD_HABIT": "Thêm một thói quen mới",
+        "DISABLED_HABITS": "Thói quen khuyết tật"
+      },
+      "S": {
+        "GOAL_REACHED_1": "Bạn đã đạt được mục tiêu của mình cho ngày hôm nay!",
+        "GOAL_REACHED_2": "Khoảng thời gian hiện tại:"
+      }
+    },
+    "SYNC": {
+      "A": {
+        "REMOTE_MODEL_VERSION_NEWER": "Phiên bản mô hình từ xa mới hơn phiên bản cục bộ. Vui lòng cập nhật ứng dụng địa phương của bạn lên phiên bản mới nhất!"
+      },
+      "BTN_SYNC_NOW": "Đồng bộ hóa ngay bây giờ",
+      "BTN_RESTORE_FROM_HISTORY": "Khôi phục từ Lịch sử",
+      "C": {
+        "FORCE_UPLOAD": "Việc buộc tải lên dữ liệu của bạn có thể dẫn đến mất dữ liệu. Bạn có chắc chắn muốn tiếp tục không?"
+      },
+      "D_AUTH_CODE": {
+        "FOLLOW_LINK": "Vui lòng mở liên kết sau và sao chép mã xác thực được cung cấp ở đó vào trường nhập bên dưới.",
+        "FOLLOW_LINK_MOBILE": "Vui lòng nhấn vào nút bên dưới để ủy quyền. Bạn sẽ được tự động chuyển hướng trở lại ứng dụng.",
+        "GET_AUTH_CODE": "Nhận mã ủy quyền",
+        "L_AUTH_CODE": "Nhập mã xác thực",
+        "TITLE": "Đăng nhập: {{nhà cung cấp}}",
+        "WAITING_FOR_AUTH": "Đang chờ xác thực..."
+      },
+      "D_CONFLICT": {
+        "ADDITIONAL_INFO": "Thông tin bổ sung",
+        "CHANGES": "Thay đổi",
+        "CHANGES_SINCE_LAST_SYNC": "Những thay đổi kể từ lần đồng bộ hóa gần đây nhất",
+        "COMPARISON_RESULT": "Kết quả so sánh",
+        "DATE": "Ngày",
+        "LAST_SYNC": "Đồng bộ hóa lần cuối:",
+        "LAST_SYNCED": "Đồng bộ hóa lần cuối",
+        "LAST_WRITE": "Viết lần cuối",
+        "LOCAL": "Địa phương",
+        "LOCAL_REMOTE": "Địa phương -> Từ xa",
+        "NEVER": "Không bao giờ",
+        "OVERWRITE_WARNING": "WARNING: The {{targetName}} data contains approximately {{targetChanges}} changes while the {{sourceName}} data only has {{sourceChanges}} changes. Are you sure you want to overwrite the {{targetName}} data with the {{sourceName}} version? This action cannot be undone.",
+        "REMOTE": "Xa",
+        "RESULT": "Kết quả",
+        "TEXT": "<p>Cập nhật từ xa. Cả dữ liệu cục bộ và từ xa dường như đều bị sửa đổi.</p>",
+        "TIME": "Thời gian",
+        "TIMESTAMP": "Dấu thời gian",
+        "TITLE": "Đồng bộ hóa: Dữ liệu xung đột",
+        "USE_LOCAL": "Giữ cục bộ",
+        "USE_REMOTE": "Giữ điều khiển từ xa",
+        "VECTOR_CLOCK": "Đồng Hồ Vector",
+        "VECTOR_CLOCK_HEADING": "Đồng Hồ Vector",
+        "VECTOR_COMPARISON_CONCURRENT": "Đồng thời (Xung đột thực sự)",
+        "VECTOR_COMPARISON_EQUAL": "Bình đẳng",
+        "VECTOR_COMPARISON_LOCAL_GREATER": "Cục bộ > Từ xa",
+        "VECTOR_COMPARISON_LOCAL_LESS": "Cục bộ < Từ xa"
+      },
+      "D_DECRYPT_ERROR": {
+        "BTN_OVER_WRITE_REMOTE": "Sử dụng mật khẩu này và ghi đè từ xa",
+        "CHANGE_PW_AND_DECRYPT": "Thử lại giải mã",
+        "TITLE": "Giải mã không thành công",
+        "P1": "Dữ liệu từ xa của bạn được mã hóa và giải mã không thành công.",
+        "P2_FORGOT_PW": "Nếu bạn <strong>quên mật khẩu</strong>, hãy nhập đúng mật khẩu và nhấp vào \"Thử giải mã lại\".",
+        "P3_PW_CHANGED": "Nếu bạn <strong>đã thay đổi mật khẩu của mình trên một thiết bị khác</strong>, hãy nhập mật khẩu mới và nhấp vào \"Ghi đè từ xa\". Điều này sẽ tải dữ liệu cục bộ của bạn lên máy chủ.",
+        "PASSWORD": "Mật khẩu"
+      },
+      "D_ENTER_PASSWORD": {
+        "TITLE": "Yêu cầu mật khẩu mã hóa",
+        "MESSAGE": "Máy chủ đồng bộ hóa chứa dữ liệu được mã hóa nhưng không có mật khẩu mã hóa nào được định cấu hình trên thiết bị này. Vui lòng nhập mật khẩu mã hóa để giải mã và đồng bộ hóa dữ liệu của bạn.",
+        "PASSWORD_LABEL": "Mật khẩu mã hóa",
+        "BTN_SAVE_AND_SYNC": "Lưu & Đồng bộ hóa",
+        "FORCE_OVERWRITE_INFO": "Nếu muốn giữ lại dữ liệu cục bộ của mình, bạn có thể ghi đè lên máy chủ.",
+        "FORCE_OVERWRITE_TITLE": "Ghi đè dữ liệu máy chủ?",
+        "FORCE_OVERWRITE_CONFIRM": "Thao tác này sẽ <strong>xóa tất cả dữ liệu trên máy chủ</strong> và tải lên dữ liệu cục bộ được mã hóa bằng mật khẩu này của bạn. Tiếp tục?",
+        "BTN_FORCE_OVERWRITE": "Sử dụng dữ liệu cục bộ"
+      },
+      "D_FRESH_CLIENT_CONFIRM": {
+        "MESSAGE": "Đây dường như là một cài đặt mới. Đã tìm thấy dữ liệu từ xa có {{count}} thay đổi. Bạn có muốn tải xuống và ghi đè dữ liệu cục bộ của mình bằng nó không?",
+        "OK": "Tải xuống dữ liệu từ xa",
+        "TITLE": "Đồng bộ hóa ban đầu"
+      },
+      "D_SYNC_IMPORT_CONFLICT": {
+        "TITLE": "Đã phát hiện xung đột đồng bộ hóa",
+        "MSG_INCOMING": "Dữ liệu của bạn đã được thay thế hoàn toàn trên một thiết bị khác. Bạn có {{filteredOpCount}} thay đổi cục bộ có thể không được chuyển sang.",
+        "MSG_INCOMING_NO_OPS": "Dữ liệu của bạn đã được thay thế hoàn toàn trên một thiết bị khác. Thiết bị này sẽ đồng bộ sang trạng thái mới.",
+        "MSG_LOCAL_FILTERS": "Dữ liệu cục bộ của bạn đã được nhập/khôi phục nhưng máy chủ có {{filteredOpCount}} thay đổi từ các thiết bị khác không thể tự động hợp nhất.",
+        "IMPORT_DATE": "Ngày nhập",
+        "FILTERED_CHANGES": "Những thay đổi bị ảnh hưởng",
+        "USE_LOCAL": "Sử dụng dữ liệu của tôi",
+        "USE_REMOTE": "Sử dụng dữ liệu máy chủ",
+        "RECOMMEND_SERVER": "Khuyến nghị: Chấp nhận dữ liệu máy chủ để luôn đồng bộ với thiết bị kia.",
+        "REASON_PASSWORD_CHANGED": "Lý do: Mật khẩu mã hóa đã được thay đổi trên thiết bị khác.",
+        "REASON_FILE_IMPORT": "Lý do: Tệp dữ liệu đã được nhập trên thiết bị khác.",
+        "REASON_BACKUP_RESTORE": "Lý do: Bản sao lưu đã được khôi phục trên một thiết bị khác.",
+        "REASON_FORCE_UPLOAD": "Lý do: Một thiết bị khác buộc tải lên dữ liệu cục bộ của nó.",
+        "REASON_SERVER_MIGRATION": "Lý do: Dữ liệu đã được di chuyển sang máy chủ đồng bộ hóa mới.",
+        "REASON_REPAIR": "Lý do: Việc sửa chữa dữ liệu tự động đã được thực hiện.",
+        "REASON_UNKNOWN": "Lý do: Việc thay thế toàn bộ trạng thái đã được thực hiện."
+      },
+      "D_SERVER_MIGRATION_CONFIRM": {
+        "TITLE": "Máy chủ đã có dữ liệu",
+        "MESSAGE": "This sync server already contains data. Would you like to upload your local data to merge with it? If you skip this, some of your local changes may not sync.",
+        "CONFIRM": "Tải lên dữ liệu cục bộ",
+        "SKIP": "Nhảy"
+      },
+      "D_LOCAL_DATA_REPLACE_CONFIRM": {
+        "MESSAGE": "Bạn có {{count}} thay đổi cục bộ chưa được đồng bộ hóa sẽ được thay thế bằng dữ liệu từ xa. Bạn có muốn tiếp tục không?",
+        "TITLE": "Thay thế dữ liệu cục bộ?"
+      },
+      "D_INCOMPLETE_SYNC": {
+        "BTN_CLOSE_APP": "Đóng ứng dụng",
+        "BTN_DOWNLOAD_BACKUP": "Tải xuống bản sao lưu cục bộ",
+        "BTN_FORCE_DOWNLOAD": "Buộc tải xuống từ xa",
+        "BTN_FORCE_UPLOAD": "Buộc tải lên cục bộ",
+        "INCOHERENT_P1": "Ngày của dữ liệu từ xa của bạn là từ tương lai",
+        "INCOHERENT_P2": "Bạn nên kiểm tra thời gian được cấu hình trên hệ thống của mình!",
+        "P1": "Dữ liệu đồng bộ từ xa không mạch lạc!",
+        "P2": "Mô hình bị ảnh hưởng:",
+        "T3": "Bạn có 2 lựa chọn:",
+        "T4": "1. Đi tới thiết bị khác của bạn và hoàn tất đồng bộ hóa ở đó.",
+        "T5": "2. Hoặc bạn có thể ghi đè dữ liệu từ xa bằng dữ liệu cục bộ của mình. Tất cả những thay đổi từ xa sẽ\n    bị lạc!",
+        "T6": "Nên tạo bản sao lưu dữ liệu bạn ghi đè!!!"
+      },
+      "D_INITIAL_CFG": {
+        "SAVE_AND_ENABLE": "Lưu và bật đồng bộ hóa",
+        "TITLE": "Định cấu hình đồng bộ hóa"
+      },
+      "D_PERMISSION": {
+        "DISABLE_SYNC": "Tắt đồng bộ hóa",
+        "PERM_FILE": "Cho phép",
+        "TEXT": "<p>Quyền đồng bộ hóa cục bộ đối với tệp của bạn đã bị thu hồi.</p>",
+        "TITLE": "Đồng bộ hóa: Quyền tệp cục bộ bị từ chối"
+      },
+      "D_RESTORE": {
+        "TITLE": "Khôi phục từ Lịch sử",
+        "LOADING": "Đang tải điểm khôi phục...",
+        "NO_POINTS": "Không có điểm khôi phục có sẵn. Điểm khôi phục được tạo khi bạn đồng bộ hóa hoặc nhập dữ liệu.",
+        "INTRO": "Chọn một thời điểm để khôi phục dữ liệu của bạn về:",
+        "WARNING": "Điều này sẽ thay thế TẤT CẢ dữ liệu hiện tại của bạn bằng bản sao lưu đã chọn. Hành động này không thể hoàn tác được!",
+        "BTN_RESTORE": "Khôi phục",
+        "TYPE_SYNC_IMPORT": "Nhập đồng bộ đầy đủ",
+        "TYPE_BACKUP_IMPORT": "Khôi phục sao lưu",
+        "TYPE_REPAIR": "Tự động sửa chữa",
+        "CONFIRM_TITLE": "Xác nhận Khôi phục",
+        "CONFIRM_MSG": "Bạn có hoàn toàn chắc chắn muốn khôi phục về <strong>{{timestamp}</strong> không?<br><br>Thao tác này sẽ <strong>thay thế hoàn toàn</strong> tất cả dữ liệu hiện tại của bạn và <strong>không thể hoàn tác</strong>.",
+        "ERROR_LOADING": "Không thể tải điểm khôi phục",
+        "ERROR_RESTORE": "Không thể khôi phục dữ liệu"
+      },
+      "FORM": {
+        "DROPBOX": {
+          "INFO_TEXT": "Xác thực Dropbox sử dụng OAuth. Nhấp vào nút bên dưới để xác thực bằng tài khoản Dropbox của bạn.",
+          "BTN_AUTHENTICATE": "Xác thực bằng Dropbox",
+          "BTN_REAUTHENTICATE": "Xác thực lại bằng Dropbox",
+          "AUTH_SUCCESS": "Xác thực Dropbox thành công! Đã lưu thông tin xác thực.",
+          "REAUTH_SUCCESS": "Xác thực lại Dropbox thành công! Đã cập nhật thông tin xác thực.",
+          "STATUS_CONFIGURED": "Dropbox đã được cấu hình và sẵn sàng đồng bộ hóa",
+          "STATUS_NOT_CONFIGURED": "Chưa được định cấu hình - xác thực để bật đồng bộ hóa",
+          "L_ACCESS_TOKEN": "Mã thông báo truy cập (được tạo từ Mã xác thực)"
+        },
+        "GOOGLE": {
+          "L_SYNC_FILE_NAME": "Tên tệp đồng bộ hóa"
+        },
+        "LOCAL_FILE": {
+          "INFO_TEXT": "Đồng bộ hóa tệp cục bộ lưu trữ dữ liệu trong một thư mục trên thiết bị của bạn. <strong>Quan trọng:</strong> Không sử dụng các công cụ đồng bộ hóa tệp như Syncthing, Resilio hoặc tương tự để đồng bộ hóa thư mục này giữa các thiết bị - chúng có thể gây ra xung đột. Để đồng bộ hóa nhiều thiết bị, thay vào đó hãy sử dụng WebDAV, Dropbox hoặc SuperSync.",
+          "L_SYNC_FILE_PATH_PERMISSION_VALIDATION": "Cần có quyền truy cập tập tin",
+          "L_SYNC_FOLDER_PATH": "Đồng bộ đường dẫn thư mục"
+        },
+        "SUPER_SYNC": {
+          "INFO_TEXT": "SuperSync giữ cho các tác vụ của bạn được đồng bộ hóa trên tất cả các thiết bị của bạn trong thời gian thực. Dữ liệu của bạn được lưu trữ an toàn trên máy chủ đồng bộ. Lưu ý: SuperSync hiện đang ở giai đoạn Beta.",
+          "L_SERVER_URL": "URL máy chủ",
+          "SERVER_URL_DESCRIPTION": "Leave as-is for the official server, or enter a custom server URL",
+          "LOGIN_INSTRUCTIONS": "Nhấp vào nút bên dưới để mở trang đăng nhập máy chủ. Sau khi đăng nhập, sao chép mã thông báo truy cập của bạn và dán vào đây.",
+          "BTN_GET_TOKEN": "Mở máy chủ và nhận mã thông báo",
+          "L_ACCESS_TOKEN": "Mã thông báo truy cập",
+          "ACCESS_TOKEN_DESCRIPTION": "Dán mã thông báo bạn đã sao chép từ trang đăng nhập máy chủ",
+          "L_ENABLE_E2E_ENCRYPTION": "Kích hoạt mã hóa đầu cuối",
+          "E2E_ENCRYPTION_DESCRIPTION": "Sẽ chậm hơn nhưng an toàn hơn",
+          "ENCRYPTION_WARNING": "CẢNH BÁO: Nếu bạn quên mật khẩu mã hóa, dữ liệu của bạn sẽ không thể phục hồi được. Mật khẩu này tách biệt với mật khẩu đăng nhập của bạn. Bạn phải sử dụng cùng một mật khẩu trên tất cả các thiết bị.",
+          "L_CHANGE_ENCRYPTION_PASSWORD": "Thay đổi mật khẩu mã hóa",
+          "CHANGE_PASSWORD_WARNING": "CẢNH BÁO: Thao tác này sẽ xóa vĩnh viễn TẤT CẢ lịch sử đồng bộ hóa và bản sao lưu trên máy chủ. Các phiên bản trước không thể phục hồi được. Dữ liệu hiện tại của bạn sẽ được tải lên lại với mật khẩu mới. Tất cả các thiết bị khác sẽ cần mật khẩu mới.",
+          "FORCE_OVERWRITE_INFO": "Nếu không thể đồng bộ hóa vì không biết mật khẩu mã hóa hiện tại, bạn có thể ghi đè lên máy chủ bằng dữ liệu cục bộ và mật khẩu mới.",
+          "FORCE_OVERWRITE_TITLE": "Ghi đè dữ liệu máy chủ?",
+          "FORCE_OVERWRITE_CONFIRM": "Thao tác này sẽ <strong>xóa tất cả dữ liệu trên máy chủ</strong> và tải dữ liệu cục bộ của bạn lên bằng mật khẩu mới. Những thay đổi cục bộ chưa được đồng bộ hóa có thể bị mất. Bạn có chắc chắn muốn tiếp tục không?",
+          "CHANGE_PASSWORD_SUCCESS": "Mật khẩu mã hóa đã được thay đổi thành công",
+          "L_NEW_PASSWORD": "Mật khẩu mã hóa mới",
+          "L_CONFIRM_PASSWORD": "Xác nhận mật khẩu",
+          "PASSWORDS_DONT_MATCH": "Mật khẩu không khớp",
+          "PASSWORD_MIN_LENGTH": "Mật khẩu phải có ít nhất 8 ký tự",
+          "BTN_CHANGE_PASSWORD": "Thay đổi mật khẩu",
+          "BTN_FORCE_OVERWRITE": "Buộc ghi đè máy chủ",
+          "L_REMOVE_ENCRYPTION": "Hoặc xóa mã hóa",
+          "REMOVE_ENCRYPTION_WARNING": "Việc xóa mã hóa sẽ xóa tất cả dữ liệu máy chủ và tải lên lại dữ liệu của bạn mà không cần mã hóa. Tất cả các thiết bị sẽ cần phải cấu hình lại.",
+          "DISABLE_ENCRYPTION_TITLE": "Tắt mã hóa?",
+          "DISABLE_ENCRYPTION_WARNING": "CẢNH BÁO: Thao tác này sẽ xóa vĩnh viễn TẤT CẢ dữ liệu đồng bộ hóa được mã hóa trên máy chủ. Điều này là cần thiết vì các hoạt động được mã hóa không thể trộn lẫn với các hoạt động không được mã hóa.",
+          "DISABLE_ENCRYPTION_WHAT_HAPPENS": "Điều gì sẽ xảy ra:",
+          "DISABLE_ENCRYPTION_ITEM_1": "Tất cả lịch sử đồng bộ và sao lưu trên máy chủ sẽ bị xóa",
+          "DISABLE_ENCRYPTION_ITEM_2": "Dữ liệu hiện tại của bạn sẽ được tải lên lại mà không cần mã hóa",
+          "DISABLE_ENCRYPTION_ITEM_3": "Tất cả các thiết bị khác sẽ đồng bộ hóa dữ liệu không được mã hóa",
+          "DISABLE_ENCRYPTION_NOTE": "Dữ liệu cục bộ của bạn sẽ KHÔNG bị xóa. Bạn có thể kích hoạt lại mã hóa bất cứ lúc nào.",
+          "BTN_DISABLE_ENCRYPTION": "Tắt mã hóa",
+          "DISABLE_ENCRYPTION_SUCCESS": "Đã tắt mã hóa thành công",
+          "DISABLE_ENCRYPTION_NOT_READY": "Đồng bộ hóa chưa được bật hoặc định cấu hình.",
+          "DISABLE_ENCRYPTION_SUPERSYNC_ONLY": "Tính năng này chỉ khả dụng cho SuperSync.",
+          "DISABLE_ENCRYPTION_ENABLE_FIRST": "Vui lòng bật đồng bộ hóa và lưu cấu hình SuperSync của bạn trước, sau đó thử lại.",
+          "ENABLE_ENCRYPTION_TITLE": "Bật mã hóa?",
+          "ENABLE_ENCRYPTION_WARNING": "CẢNH BÁO: Thao tác này sẽ xóa vĩnh viễn TẤT CẢ dữ liệu đồng bộ hóa không được mã hóa trên máy chủ. Điều này là cần thiết vì các hoạt động được mã hóa không thể trộn lẫn với các hoạt động không được mã hóa. Nếu bạn quên mật khẩu mã hóa, dữ liệu của bạn sẽ không thể phục hồi được.",
+          "ENABLE_ENCRYPTION_WHAT_HAPPENS": "Điều gì sẽ xảy ra:",
+          "ENABLE_ENCRYPTION_ITEM_1": "Tất cả lịch sử đồng bộ và sao lưu trên máy chủ sẽ bị xóa",
+          "ENABLE_ENCRYPTION_ITEM_2": "Dữ liệu hiện tại của bạn sẽ được tải lên lại bằng mã hóa",
+          "ENABLE_ENCRYPTION_ITEM_3": "Tất cả các thiết bị khác sẽ cần nhập mật khẩu mã hóa này",
+          "ENABLE_ENCRYPTION_NOTE": "Dữ liệu cục bộ của bạn sẽ KHÔNG bị xóa. Bạn có thể vô hiệu hóa mã hóa bất cứ lúc nào.",
+          "BTN_ENABLE_ENCRYPTION": "Kích hoạt mã hóa",
+          "ENABLE_ENCRYPTION_SUCCESS": "Đã bật mã hóa thành công",
+          "ENABLE_ENCRYPTION_NOT_READY": "Đồng bộ hóa chưa được bật hoặc định cấu hình.",
+          "ENABLE_ENCRYPTION_SUPERSYNC_ONLY": "Tính năng này chỉ khả dụng cho SuperSync.",
+          "ENABLE_ENCRYPTION_PASSWORD_REQUIRED": "Vui lòng nhập mật khẩu mã hóa trước.",
+          "ENCRYPTION_ENCOURAGED": "Cần phải mã hóa cho SuperSync. Vui lòng kích hoạt mã hóa để bảo vệ dữ liệu của bạn.",
+          "ENCRYPTION_SETUP_INTRO": "<strong>Mật khẩu SuperSync mã hóa dữ liệu của bạn trước khi dữ liệu rời khỏi thiết bị của bạn</strong>, khiến việc sử dụng sai hoặc rò rỉ dữ liệu riêng tư của bạn gần như không thể xảy ra.",
+          "SETUP_ENCRYPTION_TITLE": "SuperSync: Đặt mật khẩu",
+          "SETUP_ENCRYPTION_PASSWORD_WARNING": "Sử dụng cùng một mật khẩu trên tất cả các thiết bị. Mật khẩu bị quên có thể được đặt lại bằng cách ghi đè dữ liệu từ xa.",
+          "SETUP_ENCRYPTION_BTN": "Set Password",
+          "SETUP_DISABLE_SUPERSYNC_BTN": "Tắt SuperSync"
+        },
+        "IMPORT_ENCRYPTION_WARNING": {
+          "TITLE": "Cài đặt mã hóa sẽ thay đổi",
+          "WARNING_TEXT": "Bản sao lưu bạn đang nhập có các cài đặt mã hóa khác nhau. Dữ liệu được mã hóa và không được mã hóa không thể cùng tồn tại trên máy chủ, vì vậy tất cả dữ liệu máy chủ phải bị xóa.",
+          "CURRENT_STATE": "Cấu hình hiện tại của bạn",
+          "IMPORTED_STATE": "Sau khi nhập khẩu",
+          "ENCRYPTION_ENABLED": "Đã mã hóa",
+          "ENCRYPTION_DISABLED": "Không được mã hóa",
+          "WHAT_HAPPENS": "Điều gì sẽ xảy ra:",
+          "ITEM_1": "Tất cả lịch sử đồng bộ và sao lưu trên máy chủ sẽ bị xóa vĩnh viễn",
+          "ITEM_2": "Dữ liệu đã nhập của bạn sẽ được tải lên với cài đặt mã hóa mới",
+          "ITEM_3": "Tất cả các thiết bị khác phải đồng bộ hóa và cập nhật cài đặt mã hóa của chúng để phù hợp",
+          "NOTE_ENABLING": "Quan trọng: Mã hóa yêu cầu mật khẩu. Nếu bạn quên mật khẩu này, dữ liệu của bạn KHÔNG THỂ phục hồi được!",
+          "NOTE_DISABLING": "Quan trọng: Nếu không có mã hóa, bất kỳ ai có quyền truy cập vào máy chủ đồng bộ hóa đều có thể đọc dữ liệu của bạn.",
+          "NOTE": "Dữ liệu cục bộ của bạn sẽ được thay thế bằng dữ liệu đã nhập bất kể lựa chọn này.",
+          "BTN_CONTINUE": "Nhập và thay đổi mã hóa"
+        },
+        "L_ENABLE_COMPRESSION": "Cho phép nén (truyền dữ liệu nhanh hơn)",
+        "L_ENABLE_ENCRYPTION": "Bật mã hóa đầu cuối (thử nghiệm) – Giữ dữ liệu của bạn ở chế độ riêng tư khỏi nhà cung cấp đồng bộ hóa của bạn",
+        "L_ENABLE_SYNCING": "Bật đồng bộ hóa",
+        "L_ENCRYPTION_NOTES": "LƯU Ý QUAN TRỌNG: Bạn sẽ cần đặt cùng một mật khẩu trên các thiết bị khác của mình <strong>TRƯỚC</strong> lần đồng bộ hóa tiếp theo để mọi thứ hoạt động. Vui lòng chọn một mật khẩu an toàn. Xin lưu ý rằng <strong>bạn sẽ KHÔNG thể truy cập dữ liệu của mình nếu bạn quên mật khẩu này! KHÔNG thể khôi phục được</strong> vì chỉ có bạn mới có chìa khóa. Mã hóa có thể sẽ đủ tốt để ngăn chặn hầu hết các cuộc tấn công, nhưng <strong>không có gì đảm bảo.</strong>",
+        "L_ENCRYPTION_PASSWORD": "Mật khẩu mã hóa (ĐỪNG QUÊN NÓ!)",
+        "L_SYNC_INTERVAL": "Khoảng thời gian đồng bộ hóa",
+        "L_MANUAL_SYNC_ONLY": "Chỉ đồng bộ hóa thủ công (tắt đồng bộ hóa tự động)",
+        "L_SYNC_PROVIDER": "Nhà cung cấp đồng bộ hóa",
+        "PASSWORD_SET_INFO": "🔒 Mật khẩu mã hóa được đặt.",
+        "BTN_CHANGE_PASSWORD": "Thay đổi mật khẩu",
+        "BTN_DISABLE_ENCRYPTION": "Tắt mã hóa",
+        "TITLE": "Đồng bộ hóa",
+        "FILE_BASED": {
+          "BTN_REMOVE_ENCRYPTION": "Xóa mã hóa",
+          "BTN_ENABLE_ENCRYPTION": "Kích hoạt mã hóa",
+          "BTN_CHANGE_PASSWORD": "Thay đổi mật khẩu",
+          "BTN_DISABLE_ENCRYPTION": "Tắt mã hóa",
+          "L_CHANGE_ENCRYPTION_PASSWORD": "Thay đổi mật khẩu mã hóa",
+          "CHANGE_PASSWORD_WARNING": "CẢNH BÁO: Thao tác này sẽ tải lên lại dữ liệu của bạn bằng mật khẩu mới. Tất cả các thiết bị khác sẽ cần mật khẩu mới trước khi đồng bộ hóa.",
+          "CHANGE_PASSWORD_SUCCESS": "Mật khẩu mã hóa đã được thay đổi thành công",
+          "L_NEW_PASSWORD": "Mật khẩu mã hóa mới",
+          "L_CONFIRM_PASSWORD": "Xác nhận mật khẩu",
+          "PASSWORDS_DONT_MATCH": "Mật khẩu không khớp",
+          "PASSWORD_MIN_LENGTH": "Mật khẩu phải có ít nhất 8 ký tự",
+          "L_REMOVE_ENCRYPTION": "Hoặc xóa mã hóa",
+          "REMOVE_ENCRYPTION_WARNING": "Việc xóa mã hóa sẽ tải lên lại dữ liệu của bạn mà không cần mã hóa. Tất cả các thiết bị sẽ cần phải cấu hình lại.",
+          "DISABLE_ENCRYPTION_TITLE": "Tắt mã hóa?",
+          "DISABLE_ENCRYPTION_WARNING": "CẢNH BÁO: Thao tác này sẽ tải lên lại dữ liệu của bạn mà không cần mã hóa.",
+          "DISABLE_ENCRYPTION_WHAT_HAPPENS": "Điều gì sẽ xảy ra:",
+          "DISABLE_ENCRYPTION_ITEM_1": "Dữ liệu hiện tại của bạn sẽ được tải lên lại mà không cần mã hóa",
+          "DISABLE_ENCRYPTION_ITEM_2": "Tất cả các thiết bị khác sẽ đồng bộ hóa dữ liệu không được mã hóa",
+          "DISABLE_ENCRYPTION_ITEM_3": "Bạn có thể kích hoạt lại tính năng mã hóa bất kỳ lúc nào",
+          "DISABLE_ENCRYPTION_NOTE": "Dữ liệu cục bộ của bạn sẽ KHÔNG bị xóa.",
+          "DISABLE_ENCRYPTION_SUCCESS": "Đã tắt mã hóa thành công",
+          "ENABLE_ENCRYPTION_TITLE": "Bật mã hóa?",
+          "ENABLE_ENCRYPTION_WARNING": "WARNING: This will re-upload your data with encryption. If you forget your encryption password, your data cannot be recovered.",
+          "ENABLE_ENCRYPTION_WHAT_HAPPENS": "Điều gì sẽ xảy ra:",
+          "ENABLE_ENCRYPTION_ITEM_1": "Dữ liệu hiện tại của bạn sẽ được tải lên lại bằng mã hóa",
+          "ENABLE_ENCRYPTION_ITEM_2": "Tất cả các thiết bị khác sẽ cần mật khẩu mã hóa này",
+          "ENABLE_ENCRYPTION_ITEM_3": "Bạn có thể tắt mã hóa bất cứ lúc nào",
+          "ENABLE_ENCRYPTION_NOTE": "Dữ liệu cục bộ của bạn sẽ KHÔNG bị xóa.",
+          "ENABLE_ENCRYPTION_SUCCESS": "Đã bật mã hóa thành công",
+          "ENABLE_ENCRYPTION_NOT_READY": "Đồng bộ hóa chưa được bật hoặc định cấu hình.",
+          "ENABLE_ENCRYPTION_FILE_BASED_ONLY": "Tính năng này chỉ khả dụng cho các nhà cung cấp đồng bộ hóa dựa trên tệp.",
+          "ENABLE_ENCRYPTION_PASSWORD_REQUIRED": "Vui lòng nhập mật khẩu mã hóa trước."
+        },
+        "WEB_DAV": {
+          "CORS_INFO": "<strong>Làm cho nó hoạt động trong trình duyệt web:</strong> Cho phép Super Productivity thực hiện các yêu cầu CORS tới máy chủ WebDAV của bạn. Điều này có thể có ý nghĩa tiêu cực về an ninh! Đối với Nextcloud, vui lòng tham khảo <a href='https://github.com/nextcloud/server/issues/3131'>chuỗi GitHub này</a> để biết thêm thông tin. Một cách tiếp cận để thực hiện điều này trên thiết bị di động là cho phép \"https://app.super-productivity.com\" thông qua ứng dụng Nextcloud <a href='https://apps.nextcloud.com/apps/webapppassword'>webapppassword<a>. Bạn phải tự chịu rủi ro khi sử dụng!</p>",
+          "D_SYNC_FOLDER_PATH": "Đường dẫn liên quan đến thư mục gốc của máy chủ WebDAV nơi các tệp đồng bộ hóa sẽ được lưu trữ (ví dụ: '/siêu năng suất' hoặc '/'). Đây KHÔNG phải là đường dẫn thư mục nội bộ của máy chủ của bạn.",
+          "INFO": "Thật không may, việc triển khai WebDAV rất khác nhau. Super Productivity được biết là hoạt động tốt với Nextcloud, <strong>nhưng nó có thể không hoạt động với nhà cung cấp của bạn</strong>.",
+          "L_BASE_URL": "URL cơ sở",
+          "L_PASSWORD": "Mật khẩu",
+          "L_SYNC_FOLDER_PATH": "Đồng bộ đường dẫn thư mục",
+          "L_TEST_CONNECTION": "Kiểm tra kết nối",
+          "L_USER_NAME": "Tên người dùng",
+          "S_FILL_ALL_FIELDS": "Vui lòng điền vào tất cả các trường WebDAV trước",
+          "S_TEST_FAIL": "Kiểm tra kết nối không thành công: {{error}} - URL mục tiêu: {{url}}",
+          "S_TEST_SUCCESS": "Kiểm tra kết nối thành công! URL mục tiêu: {{url}}",
+          "CONDITIONAL_HEADER_WARNING_TITLE": "Giảm độ an toàn đồng bộ hóa",
+          "CONDITIONAL_HEADER_WARNING_MSG": "Máy chủ WebDAV của bạn không hỗ trợ các tiêu đề có điều kiện (If-Unmodified-Since). Điều này có nghĩa là Super Productivity không thể phát hiện các thay đổi đồng thời từ các thiết bị khác trong quá trình tải lên.<br><br>Tính năng đồng bộ hóa vẫn hoạt động nhưng sẽ có một chút nguy cơ xảy ra xung đột dữ liệu nếu bạn thực hiện các thay đổi trên nhiều thiết bị cùng lúc."
+        }
+      },
+      "S": {
+        "ALREADY_IN_SYNC": "Đã đồng bộ rồi",
+        "BTN_CONFIGURE": "Cấu hình",
+        "BTN_FORCE_OVERWRITE": "Buộc ghi đè",
+        "CLOCK_DRIFT_WARNING": "Đồng hồ trên thiết bị của bạn dường như đã tắt sau {{phút}} phút. Điều này có thể gây ra sự cố đồng bộ hóa.",
+        "COMPACTION_FAILED": "Dọn dẹp cơ sở dữ liệu không thành công. Ứng dụng có thể chậm lại.",
+        "CONFLICT_RESOLUTION_FAILED": "Giải quyết xung đột đồng bộ hóa không thành công. Vui lòng tải lại.",
+        "DIALOG_RESULT_ERROR": "Đã xảy ra lỗi khi xử lý hộp thoại đồng bộ hóa. Vui lòng thử lại.",
+        "CONFLICT_DIALOG_TIMEOUT": "Hộp thoại xung đột đồng bộ hóa đã hết thời gian chờ và bị hủy. Đồng bộ hóa sẽ thử lại vào lần kích hoạt tiếp theo.",
+        "OPERATION_PERMANENTLY_FAILED": "Một số thao tác đồng bộ hóa không thành công và không thể áp dụng được. Dữ liệu có thể không đầy đủ.",
+        "DATA_REPAIRED": "Dữ liệu được sửa chữa tự động (đã sửa {{count}} vấn đề)",
+        "ERROR_CORS": "Lỗi đồng bộ hóa WebDAV: Yêu cầu mạng không thành công.\n\nĐây có thể là sự cố CORS. Hãy đảm bảo:\n• Máy chủ WebDAV của bạn cho phép các yêu cầu Cross-Origin\n• URL máy chủ chính xác và có thể truy cập được\n• Bạn có kết nối Internet đang hoạt động",
+        "ERROR_DATA_IS_CURRENTLY_WRITTEN": "Dữ liệu từ xa hiện đang được ghi",
+        "ERROR_PERMISSION": "Quyền truy cập tập tin bị từ chối. Vui lòng kiểm tra quyền hệ thống tập tin của bạn.",
+        "ERROR_PERMISSION_FLATPAK": "Quyền truy cập tập tin bị từ chối. Cấp quyền hệ thống tệp thông qua Flatseal hoặc sử dụng đường dẫn bên trong ~/.var/app/",
+        "ERROR_PERMISSION_SNAP": "Quyền truy cập tập tin bị từ chối. Chạy 'snap connect super-productivity:home' hoặc sử dụng đường dẫn bên trong ~/snap/super-productivity/common/",
+        "ERROR_UNABLE_TO_READ_REMOTE_DATA": "Lỗi khi đồng bộ hóa. Không thể đọc dữ liệu từ xa. Có thể bạn đã bật mã hóa và mật khẩu cục bộ của bạn không khớp với mật khẩu được sử dụng để mã hóa dữ liệu từ xa?",
+        "HYDRATION_FAILED": "Không thể tải dữ liệu. Vui lòng tải lại ứng dụng.",
+        "INTEGRITY_CHECK_FAILED": "Đã phát hiện sự cố về tính toàn vẹn dữ liệu. Đã thử tự động sửa chữa. Nếu bạn gặp sự cố, vui lòng tải lại ứng dụng.",
+        "IMPORTING": "Nhập dữ liệu",
+        "INCOMPLETE_CFG": "Xác thực đồng bộ hóa không thành công. Vui lòng kiểm tra cấu hình của bạn!",
+        "INCOMPLETE_OP_SYNC": "Đồng bộ hóa chưa hoàn tất: không thể tải xuống {{count}} tệp thao tác",
+        "TOO_MANY_OPS_TO_DOWNLOAD": "Quá nhiều thao tác đồng bộ hóa để tải xuống. Một số thay đổi có thể bị thiếu.",
+        "INITIAL_SYNC_ERROR": "Đồng bộ hóa ban đầu không thành công",
+        "INVALID_OPERATION_PAYLOAD": "Đã phát hiện thao tác không hợp lệ. Những thay đổi có thể không được lưu - vui lòng tải lại.",
+        "DECRYPTION_FAILED": "Không thể giải mã dữ liệu đã đồng bộ hóa. Vui lòng kiểm tra mật khẩu mã hóa của bạn.",
+        "ENCRYPTION_PASSWORD_REQUIRED": "Đã nhận được dữ liệu mã hóa nhưng không có mật khẩu mã hóa nào được định cấu hình. Vui lòng đặt mật khẩu mã hóa của bạn trong cài đặt đồng bộ hóa.",
+        "ENCRYPTION_DISABLED_ON_OTHER_DEVICE": "Mã hóa đã bị vô hiệu hóa trên một thiết bị khác. Cài đặt đồng bộ hóa của bạn đã được cập nhật.",
+        "ENCRYPTION_REQUIRED_FOR_SUPERSYNC": "Encryption is required for SuperSync. Please set an encryption password to continue syncing.",
+        "WEB_CRYPTO_NOT_AVAILABLE": "Mã hóa không có sẵn trên thiết bị này. Trên Android, mã hóa yêu cầu ngữ cảnh bảo mật (HTTPS) không có sẵn. Vui lòng tắt mã hóa trong cài đặt đồng bộ hóa hoặc đồng bộ hóa từ trình duyệt web trên máy tính để bàn.",
+        "PERSIST_FAILED": "Không thể lưu các thay đổi. Trạng thái có thể không nhất quán - vui lòng tải lại.",
+        "DEFERRED_ACTION_FAILED": "Không thể lưu một số thay đổi được thực hiện trong quá trình đồng bộ hóa. Vui lòng tải lại để khôi phục.",
+        "REMOTE_DATA_TOO_OLD": "Dữ liệu từ xa quá cũ để có thể xử lý. Vui lòng cập nhật ứng dụng từ xa của bạn.",
+        "STORAGE_QUOTA_EXCEEDED": "Bộ nhớ máy chủ đồng bộ đã đầy. Những thay đổi của bạn KHÔNG được đồng bộ hóa! Vui lòng lưu trữ các tác vụ cũ hoặc nâng cấp gói của bạn.",
+        "STORAGE_RECOVERED_AFTER_COMPACTION": "Dung lượng lưu trữ sắp hết. Dữ liệu cũ được làm sạch thành công.",
+        "ERROR_PAYLOAD_TOO_LARGE": "Lỗi đồng bộ hóa: Dữ liệu của bạn quá lớn để tải lên.\n\nĐiều này xảy ra khi bạn có nhiều tác vụ được lưu trữ. Dữ liệu của bạn KHÔNG được đồng bộ hóa!\n\nVui lòng liên hệ hỗ trợ để được hỗ trợ.",
+        "SUCCESS_DOWNLOAD": "Dữ liệu được đồng bộ hóa từ xa",
+        "SUCCESS_VIA_BUTTON": "Dữ liệu được đồng bộ hóa thành công",
+        "UNKNOWN_ERROR": "Lỗi đồng bộ hóa không xác định: {{err}}",
+        "UPLOAD_ERROR": "Lỗi tải lên không xác định (Cài đặt có đúng không?): {{err}}",
+        "UPLOAD_OPS_REJECTED": "{{count}} thao tác đã bị máy chủ từ chối vĩnh viễn và sẽ không được đồng bộ hóa.",
+        "VERSION_TOO_OLD": "Phiên bản ứng dụng của bạn quá cũ để có thể đồng bộ hóa dữ liệu. Vui lòng cập nhật!",
+        "VERSION_UNSUPPORTED": "Không thể đồng bộ hóa: dữ liệu yêu cầu phiên bản ứng dụng mới hơn. Vui lòng cập nhật.",
+        "NEWER_VERSION_AVAILABLE": "Một số thay đổi là từ phiên bản ứng dụng mới hơn. Hãy cân nhắc việc cập nhật để có khả năng tương thích hoàn toàn.",
+        "FRESH_CLIENT_SYNC_CANCELLED": "Đồng bộ hóa ban đầu đã bị hủy. Dữ liệu từ xa không được áp dụng.",
+        "LOCAL_DATA_REPLACE_CANCELLED": "Đã hủy đồng bộ hóa. Dữ liệu cục bộ của bạn đã được bảo tồn.",
+        "RESTORE_SUCCESS": "Dữ liệu được khôi phục thành công",
+        "RESTORE_ERROR": "Không thể khôi phục dữ liệu",
+        "TIMEOUT_ERROR": "Đã hết thời gian đồng bộ hóa. {{gợi ý}}",
+        "PARTIAL_APPLY_FAILURE": "Một số thao tác đồng bộ hóa không áp dụng được. Dữ liệu đã được xác thực.",
+        "REPLAY_LOCAL_OPS_FAILED": "Không thể phát lại các hoạt động cục bộ sau khi nhập. Một số thay đổi gần đây có thể bị mất. Dữ liệu đã được xác thực.",
+        "ARCHIVE_OPERATION_FAILED": "Thao tác lưu trữ không thành công. Một số công việc dọn dẹp có thể chưa hoàn thành.",
+        "LWW_CONFLICTS_AUTO_RESOLVED": "Xung đột đồng bộ hóa được tự động giải quyết: {{localWins}} chiến thắng cục bộ, {{remoteWins}} chiến thắng từ xa",
+        "LOCAL_CHANGES_DISCARDED": "{{count}} thay đổi cục bộ đã bị loại bỏ - (các) mục đã bị xóa trên một thiết bị khác",
+        "LOCAL_CHANGES_DISCARDED_SNAPSHOT": "Đã hủy bỏ {{count}} thay đổi cục bộ chưa được lưu - đồng bộ hóa dữ liệu mới hơn đã tải xuống",
+        "FINISH_DAY_SYNC_ERROR": "Lỗi đồng bộ hóa khi kết thúc ngày. Vui lòng thử lại.",
+        "SERVER_MIGRATION_VALIDATION_FAILED": "Không thể di chuyển dữ liệu đến máy chủ - xác thực dữ liệu cục bộ không thành công. Vui lòng thử nhập bản sao lưu.",
+        "MIGRATION_FAILED": "Một số dữ liệu đồng bộ hóa không thể di chuyển được và đã bị bỏ qua. Điều này có thể cho thấy dữ liệu bị hỏng hoặc có lỗi.",
+        "VECTOR_CLOCK_LIMIT_REACHED": "Sync đã theo dõi {{originSize}} thiết bị/trình duyệt, vượt quá giới hạn {{maxSize}}. Các mục thiết bị không hoạt động đã được cắt bớt. Hãy xem xét đặt lại đồng bộ hóa nếu bạn gặp sự cố.",
+        "ENABLE_ENCRYPTION_FAILED": "Không bật được mã hóa: {{message}}",
+        "DISABLE_ENCRYPTION_FAILED": "Không tắt được mã hóa: {{message}}",
+        "CHANGE_PASSWORD_FAILED": "Không đổi được mật khẩu: {{message}}",
+        "OVERWRITE_SERVER_FAILED": "Không ghi đè được dữ liệu máy chủ: {{message}}"
+      },
+      "D_DATA_REPAIRED": {
+        "TITLE": "Đã thực hiện sửa chữa dữ liệu",
+        "MSG": "Dữ liệu của bạn cần được sửa chữa tự động (đã khắc phục {{count}} vấn đề). Điều này thường không nên xảy ra. Nếu điều này xảy ra nhiều lần, vui lòng báo cáo.",
+        "UNKNOWN_ERROR": "Lỗi đồng bộ hóa không xác định: {{err}}"
+      },
+      "D_DATA_REPAIR_CONFIRM": {
+        "TITLE": "Đã phát hiện hư hỏng dữ liệu",
+        "MSG": "Dữ liệu của bạn dường như bị hỏng. Bạn có muốn thử sửa chữa tự động không? Điều này có thể dẫn đến mất dữ liệu nhỏ."
+      },
+      "SAFETY_BACKUP": {
+        "BTN_CLEAR_ALL": "Xóa tất cả",
+        "BTN_CREATE_MANUAL": "Tạo bản sao lưu thủ công",
+        "BTN_DELETE": "Xóa bỏ",
+        "BTN_REFRESH": "Làm cho khỏe lại",
+        "BTN_RESTORE": "Khôi phục",
+        "CLEAR_FAILED": "Không xóa được bản sao lưu",
+        "CLEARED_SUCCESS": "Tất cả các bản sao lưu đã được xóa thành công",
+        "CREATE_FAILED": "Không tạo được bản sao lưu",
+        "CREATED_SUCCESS": "Sao lưu thủ công được tạo thành công",
+        "DELETE_FAILED": "Không xóa được bản sao lưu",
+        "DELETED_SUCCESS": "Backup deleted successfully",
+        "DESCRIPTION": "Sao lưu tự động được tạo trước khi tải dữ liệu từ xa trong quá trình đồng bộ hóa. Các bản sao lưu được sắp xếp thành 4 vị trí thông minh: 2 vị trí gần đây nhất, 1 vị trí đầu tiên từ hôm nay và 1 vị trí đầu tiên từ một ngày trước hôm nay.",
+        "LAST_CHANGE_PREFIX": "Thay đổi cuối cùng:",
+        "LOADING": "Đang tải...",
+        "NO_BACKUPS": "Chưa có bản sao lưu an toàn nào. Các bản sao lưu được tạo tự động trước khi thực hiện đồng bộ hóa.",
+        "REASON_BEFORE_UPDATE": "Tự động sao lưu trước khi đồng bộ",
+        "REASON_MANUAL": "Sao lưu thủ công",
+        "RESTORED_SUCCESS": "Đã khôi phục bản sao lưu thành công",
+        "SLOT_BEFORE_TODAY": "Sao lưu đầu tiên trước ngày hôm nay",
+        "SLOT_RECENT": "Sao lưu gần đây",
+        "SLOT_TODAY": "Bản sao lưu đầu tiên của ngày hôm nay",
+        "TOOLTIP_CLEAR_ALL": "Xóa tất cả các bản sao lưu an toàn",
+        "TOOLTIP_CREATE_MANUAL": "Tạo bản sao lưu thủ công cho tất cả dữ liệu của bạn",
+        "TOOLTIP_DELETE": "Xóa bản sao lưu này",
+        "TOOLTIP_REFRESH": "Làm mới danh sách sao lưu",
+        "TOOLTIP_RESTORE": "Khôi phục bản sao lưu này (sẽ thay thế tất cả dữ liệu hiện tại)"
+      }
+    },
+    "TAG": {
+      "D_CREATE": {
+        "CREATE": "Tạo thẻ"
+      },
+      "D_DELETE": {
+        "CONFIRM_MSG": "Bạn có thực sự muốn xóa thẻ \"{{tagName}}\" không? Nó sẽ bị xóa khỏi tất cả các nhiệm vụ. Điều này không thể được hoàn tác!"
+      },
+      "D_EDIT": {
+        "ADD": "Thêm thẻ cho \"{{title}}\"",
+        "EDIT": "Chỉnh sửa thẻ cho \"{{title}}\"",
+        "LABEL": "Thẻ"
+      },
+      "FORM_BASIC": {
+        "L_COLOR": "Màu sắc (nếu sử dụng màu chủ đề chính không xác định)",
+        "L_ICON": "Biểu tượng",
+        "L_TITLE": "Tên thẻ",
+        "TITLE": "Cài đặt cơ bản"
+      },
+      "S": {
+        "ARCHIVE_CLEANUP_FAILED": "Không thể dọn sạch dữ liệu đã lưu trữ cho thẻ đã xóa",
+        "UPDATED": "Cài đặt thẻ đã được cập nhật"
+      },
+      "TTL": {
+        "ADD_NEW_TAG": "Thêm thẻ mới"
+      }
+    },
+    "TAG_FOLDER": {
+      "CONFIRM_DELETE": "Bạn có chắc chắn muốn xóa thư mục \"{{title}}\" không? Tất cả các thẻ trong thư mục này sẽ được chuyển đến cấp độ gốc.",
+      "DIALOG": {
+        "CREATE_TITLE": "Tạo thư mục",
+        "EDIT_TITLE": "Chỉnh sửa thư mục",
+        "NAME_LABEL": "Tên thư mục",
+        "NAME_PLACEHOLDER": "Nhập tên thư mục",
+        "NAME_REQUIRED": "Tên thư mục là bắt buộc",
+        "NO_PARENT": "Không có cha mẹ (cấp cơ sở)",
+        "PARENT_LABEL": "Thư mục mẹ"
+      },
+      "SELECT": {
+        "LABEL": "Thư mục",
+        "NO_PARENT": "Không có thư mục (cấp gốc)",
+        "PLACEHOLDER": "Chọn thư mục"
+      },
+      "TOOLTIP_CREATE": "Tạo thư mục thẻ"
+    },
+    "TASK": {
+      "ADDITIONAL_INFO": {
+        "ADD_ATTACHMENT": "Tệp đính kèm",
+        "ADD_SUB_TASK": "Thêm nhiệm vụ phụ",
+        "ATTACHMENTS": "Tệp đính kèm ({{nr}})",
+        "DUE": "Được lên kế hoạch cho",
+        "FROM_PARENT": "(từ cha mẹ)",
+        "LOCAL_ATTACHMENTS": "Tệp đính kèm cục bộ",
+        "NOTES": "Ghi chú",
+        "PARENT": "cha mẹ",
+        "REMINDER": "Lời nhắc nhở",
+        "REPEAT": "Tái diễn",
+        "SCHEDULE_TASK": "Schedule Task",
+        "SUB_TASKS": "Nhiệm vụ phụ ({{nr}})",
+        "TIME": "Khoảng thời gian",
+        "TITLE_PLACEHOLDER": "Nhập tiêu đề"
+      },
+      "ADD_TASK_BAR": {
+        "ADD_EXISTING_TASK": "Thêm nhiệm vụ hiện có \"{{taskTitle}}\"",
+        "CREATE_NEW_TAGS": "Tạo thẻ mới",
+        "DUE_BUTTON": "Lịch trình",
+        "ESTIMATE_BUTTON": "Ước lượng",
+        "PLACEHOLDER_CREATE": "Tiêu đề nhiệm vụ #tag @16:00",
+        "PLACEHOLDER_SEARCH": "Thêm nhiệm vụ hoặc vấn đề hiện có...",
+        "SEARCH_INFO_TEXT": "Tìm kiếm và thêm các vấn đề cũng như nhiệm vụ từ kho lưu trữ và các dự án khác",
+        "TAGS_BUTTON": "Thẻ",
+        "TODAY": "Hôm nay",
+        "TOGGLE_ADD_TOP_OR_BOTTOM": "Chuyển đổi thêm nhiệm vụ vào đầu và cuối danh sách",
+        "TOGGLE_ADD_TO_BACKLOG_TODAY": "Chuyển đổi việc thêm nhiệm vụ vào danh sách tồn đọng/danh sách ngày hôm nay",
+        "TOMORROW": "Ngày mai",
+        "TOOLTIP_ADD_TASK": "Thêm nhiệm vụ",
+        "TOOLTIP_ADD_TO_BACKLOG": "Thêm vào tồn đọng",
+        "TOOLTIP_ADD_TO_BOTTOM": "Thêm vào cuối (Ctrl+1)",
+        "TOOLTIP_ADD_TO_TODAY": "Thêm vào hôm nay",
+        "TOOLTIP_ADD_TO_TOP": "Thêm vào đầu (Ctrl+1)",
+        "TOOLTIP_CLEAR_DATE": "Xóa ngày",
+        "TOOLTIP_CLEAR_ESTIMATE": "Ước tính rõ ràng",
+        "TOOLTIP_CLEAR_TAGS": "Xóa thẻ",
+        "TOOLTIP_DISABLE_SEARCH": "Vô hiệu hóa tìm kiếm vấn đề (Ctrl+2)",
+        "TOOLTIP_ENABLE_SEARCH": "Bật tìm kiếm sự cố (Ctrl+2)"
+      },
+      "B": {
+        "ADD_HALF_HOUR": "Thêm 1/2 giờ",
+        "ESTIMATE_EXCEEDED": "Đã vượt quá ước tính thời gian cho \"{{title}}\""
+      },
+      "CMP": {
+        "ADD_SUB_TASK": "Thêm nhiệm vụ phụ",
+        "ADD_TO_MY_DAY": "Thêm vào hôm nay",
+        "ADD_TO_PROJECT": "Thêm vào một dự án",
+        "CONVERT_TO_PARENT_TASK": "Chuyển đổi sang nhiệm vụ chính",
+        "DELETE": "Xóa tác vụ",
+        "DELETE_REPEAT_INSTANCE": "Xóa phiên bản tác vụ định kỳ",
+        "DROP_ATTACHMENT": "Thả vào đây để đính kèm vào \"{{title}}\"",
+        "DUPLICATE": "Nhân bản",
+        "EDIT_SCHEDULED": "Lên lịch lại",
+        "FOCUS_SESSION": "Bắt đầu phiên tập trung",
+        "MARK_DONE": "Đánh dấu là đã hoàn thành",
+        "MOVE_TO_BACKLOG": "Chuyển sang tồn đọng",
+        "MOVE_TO_OTHER_PROJECT": "Di chuyển đến dự án",
+        "MOVE_TO_REGULAR": "Di chuyển đến danh sách thông thường",
+        "MOVE_TO_TOP": "Di chuyển lên trên cùng",
+        "OPEN_ATTACH": "Đính kèm tập tin hoặc liên kết",
+        "OPEN_ISSUE": "Mở trong trình duyệt",
+        "OPEN_TIME": "Theo dõi thời gian",
+        "REMOVE_FROM_MY_DAY": "Xóa khỏi hôm nay",
+        "SCHEDULE": "Lên lịch nhiệm vụ",
+        "TOGGLE_ATTACHMENTS": "Hiển thị/ẩn tệp đính kèm",
+        "TOGGLE_DETAIL_PANEL": "Hiển thị/ẩn thông tin bổ sung",
+        "TOGGLE_DONE": "Toggle completion status",
+        "TOGGLE_SUB_TASK_VISIBILITY": "Chuyển đổi chế độ hiển thị nhiệm vụ con",
+        "TOGGLE_TAGS": "Chuyển đổi thẻ",
+        "TRACK_TIME": "Bắt đầu theo dõi thời gian",
+        "TRACK_TIME_STOP": "Tạm dừng thời gian theo dõi",
+        "UNSCHEDULE_TASK": "Hủy lịch trình nhiệm vụ",
+        "UPDATE_ISSUE_DATA": "Cập nhật dữ liệu sự cố"
+      },
+      "D_CONFIRM_SHORT_SYNTAX_NEW_TAG": {
+        "MSG": "Bạn có muốn tạo thẻ mới {{tagsTxt}} không?",
+        "OK": "Tạo thẻ"
+      },
+      "D_CONFIRM_SHORT_SYNTAX_NEW_TAGS": {
+        "MSG": "Bạn có muốn tạo thẻ mới {{tagsTxt}} không?",
+        "OK": "Tạo thẻ"
+      },
+      "D_CONFIRM_DELETE": {
+        "MSG": "Bạn có chắc chắn muốn xóa tác vụ \"{{title}}\" không?",
+        "OK": "Xóa bỏ"
+      },
+      "D_REMINDER_VIEW": {
+        "ADD_ALL_TO_TODAY": "Thêm tất cả vào hôm nay",
+        "ADD_TO_TODAY": "Thêm vào hôm nay",
+        "COMPLETE": "Hoàn thành",
+        "COMPLETE_ALL": "Hoàn thành tất cả",
+        "DISMISS_ALL_REMINDERS_KEEP_TODAY": "Loại bỏ tất cả lời nhắc (Giữ lại hôm nay)",
+        "DISMISS_REMINDER_KEEP_TODAY": "Loại bỏ lời nhắc (Giữ lại hôm nay)",
+        "DONE": "Xong",
+        "DUE_TASK": "Lời nhắc cho nhiệm vụ theo kế hoạch",
+        "DUE_TASKS": "Nhắc nhở các nhiệm vụ theo kế hoạch",
+        "RESCHEDULE_EDIT": "Chỉnh sửa (lên lịch lại)",
+        "RESCHEDULE_UNTIL_TOMORROW": "Lên lịch lại cho ngày mai",
+        "SNOOZE": "Giấc ngủ ngắn",
+        "SNOOZE_ALL": "Tạm ẩn tất cả",
+        "START": "Bắt đầu",
+        "UNSCHEDULE": "Hủy lịch",
+        "UNSCHEDULE_ALL": "Hủy lịch trình tất cả"
+      },
+      "D_SCHEDULE_TASK": {
+        "QA_NEXT_MONTH": "Lên lịch tháng sau",
+        "QA_NEXT_WEEK": "Lên lịch tuần sau",
+        "QA_TODAY": "Lên lịch ngay hôm nay",
+        "QA_TOMORROW": "Lên lịch vào ngày mai",
+        "REMIND_AT": "Nhắc nhở vào lúc",
+        "RO_10M": "10 phút trước khi bắt đầu",
+        "RO_15M": "15 phút trước khi bắt đầu",
+        "RO_1H": "1 giờ trước khi bắt đầu",
+        "RO_30M": "30 phút trước khi bắt đầu",
+        "RO_5M": "5 phút trước khi bắt đầu",
+        "RO_NEVER": "Không bao giờ",
+        "RO_START": "khi nó bắt đầu",
+        "SCHEDULE": "Lịch trình",
+        "UNSCHEDULE": "Hủy lịch"
+      },
+      "D_SELECT_DATE_AND_TIME": {
+        "DATE": "Ngày",
+        "TIME": "Thời gian",
+        "TITLE": "Chọn ngày và giờ"
+      },
+      "D_TIME": {
+        "ADD_FOR_OTHER_DAY": "Thêm thời gian dành cho ngày khác",
+        "DELETE_FOR": "Xóa mục trong ngày",
+        "ESTIMATE": "Ước lượng",
+        "TIME_SPENT": "Thời gian đã sử dụng",
+        "TIME_SPENT_ON": "Time Spent {{date}}",
+        "TITLE": "Khoảng thời gian"
+      },
+      "D_TIME_FOR_DAY": {
+        "ADD_ENTRY_FOR": "Thêm mục mới cho {{date}}",
+        "DATE": "Ngày nhập mới",
+        "HELP": "Ví dụ:<br> 30m => 30 phút<br> 2h => 2 giờ<br> 2h 30 phút => 2 giờ 30 phút<br> 1,5h => 1 giờ 30 phút<br> 03:15 => 3 giờ 15 phút",
+        "TINE_SPENT": "Thời gian đã sử dụng",
+        "TITLE": "Thêm cho ngày"
+      },
+      "N": {
+        "ESTIMATE_EXCEEDED": "Đã vượt quá ước tính thời gian!",
+        "ESTIMATE_EXCEEDED_BODY": "Bạn đã vượt quá thời gian ước tính cho \"{{title}}\"."
+      },
+      "S": {
+        "CANNOT_ASSIGN_PROJECT_FOR_REPEATABLE_TASK": "Không thể chỉ định dự án bằng cú pháp ngắn cho các tác vụ định kỳ!",
+        "CREATED_FOR_PROJECT": "Đã tạo nhiệm vụ \"{{taskTitle}}\" cho dự án \"{{projectTitle}}\"",
+        "DELETED": "Đã xóa nhiệm vụ \"{{title}}\"",
+        "FOUND_MOVE_FROM_BACKLOG": "Đã chuyển nhiệm vụ <strong>\"{{title}}\"</strong> từ tồn đọng sang danh sách nhiệm vụ Hôm nay",
+        "FOUND_MOVE_FROM_OTHER_LIST": "Đã thêm nhiệm vụ <strong>\"{{title}}\"</strong> từ <strong>{{contextTitle}</strong> vào danh sách hiện tại",
+        "FOUND_RESTORE_FROM_ARCHIVE": "Đã khôi phục tác vụ <strong>\"{{title}}\"</strong> liên quan đến sự cố từ kho lưu trữ",
+        "GO_TO_TASK": "Đi đến nhiệm vụ",
+        "MOVED_TO_ARCHIVE": "Đã chuyển {{nr}} tác vụ sang kho lưu trữ",
+        "MOVED_TO_PROJECT": "Đã chuyển nhiệm vụ \"{{taskTitle}}\" sang dự án \"{{projectTitle}}\"",
+        "REMINDER_ADDED": "Đã lên lịch <strong>\"{{title}}\"</strong> vào lúc <strong>{{date}</strong>",
+        "REMINDER_DELETED": "Đã xóa lời nhắc cho nhiệm vụ",
+        "REMINDER_UPDATED": "Đã cập nhật lời nhắc cho nhiệm vụ \"{{title}}\"",
+        "TASK_ALREADY_EXISTS": "Nhiệm vụ <strong>{{title}</strong> đã tồn tại",
+        "TASK_CREATED": "Đã tạo nhiệm vụ \"{{taskTitle}}\""
+      },
+      "SELECT_OR_CREATE": "Chọn hoặc tạo nhiệm vụ",
+      "SUMMARY_TABLE": {
+        "ESTIMATE": "Ước lượng",
+        "SPENT_TODAY": "Đã chi hôm nay",
+        "SPENT_TOTAL": "Tổng chi tiêu",
+        "TASK": "Nhiệm vụ",
+        "TOGGLE_DONE": "Chuyển đổi trạng thái đã hoàn thành"
+      }
+    },
+    "TASK_REPEAT": {
+      "ADD_INFO_PANEL": {
+        "CUSTOM": "Cấu hình lặp lại tùy chỉnh",
+        "CUSTOM_AND_TIME": "Tùy chỉnh, {{timeStr}}",
+        "CUSTOM_WEEKLY": "{{ngàyStr}}",
+        "CUSTOM_WEEKLY_AND_TIME": "{{daysStr}}, {{timeStr}}",
+        "DAILY": "Mỗi ngày",
+        "DAILY_AND_TIME": "Mỗi ngày, {{timeStr}}",
+        "EVERY_X_DAILY": "Mỗi {{x}} ngày",
+        "EVERY_X_DAILY_AND_TIME": "Cứ sau {{x}} ngày, {{timeStr}}",
+        "EVERY_X_MONTHLY": "Mỗi {{x}} tháng",
+        "EVERY_X_MONTHLY_AND_TIME": "Cứ sau {{x}} tháng, {{timeStr}}",
+        "EVERY_X_YEARLY": "Cứ sau {{x}} năm",
+        "EVERY_X_YEARLY_AND_TIME": "Cứ sau {{x}} năm, {{timeStr}}",
+        "MONDAY_TO_FRIDAY": "Thứ Hai-Thứ Sáu",
+        "MONDAY_TO_FRIDAY_AND_TIME": "Thứ Hai-Thứ Sáu, {{timeStr}}",
+        "MONTHLY_CURRENT_DATE": "Hàng tháng vào ngày {{dateDayStr}}",
+        "MONTHLY_CURRENT_DATE_AND_TIME": "Hàng tháng vào ngày {{dateDayStr}}, {{timeStr}}",
+        "WEEKLY_CURRENT_WEEKDAY": "Hàng tuần vào {{weekdayStr}}",
+        "WEEKLY_CURRENT_WEEKDAY_AND_TIME": "Hàng tuần vào {{weekdayStr}}, {{timeStr}}",
+        "YEARLY_CURRENT_DATE": "Hàng năm vào {{dayAndMonthStr}}",
+        "YEARLY_CURRENT_DATE_AND_TIME": "Hàng năm {{dayAndMonthStr}}, {{timeStr}}"
+      },
+      "D_CONFIRM_MOVE_TO_PROJECT": {
+        "MSG": "Có {{tasksNr}} phiên bản được tạo cho tác vụ định kỳ này. Bạn có muốn chuyển tất cả chúng vào dự án \"{{projectName}}\" không?",
+        "OK": "Update all instances"
+      },
+      "D_CONFIRM_REMOVE": {
+        "MSG": "Việc xóa cấu hình định kỳ sẽ chuyển đổi tất cả các phiên bản trước đó của tác vụ này thành các tác vụ thông thường. Bạn có chắc chắn muốn tiếp tục không?",
+        "OK": "Xóa hoàn toàn"
+      },
+      "D_CONFIRM_UPDATE_INSTANCES": {
+        "CANCEL": "Chỉ những nhiệm vụ trong tương lai",
+        "MSG": "Có {{tasksNr}} phiên bản được tạo cho tác vụ định kỳ này. Bạn muốn cập nhật tất cả chúng với các giá trị mặc định mới hay chỉ cập nhật các tác vụ trong tương lai?",
+        "OK": "Cập nhật tất cả các trường hợp"
+      },
+      "D_DELETE_INSTANCE": {
+        "MSG": "Xóa phiên bản tác vụ định kỳ vào {{date}}? Điều này sẽ ngăn tác vụ được tạo chỉ vào ngày này.",
+        "OK": "Xóa phiên bản"
+      },
+      "D_EDIT": {
+        "ADD": "Thêm cấu hình tác vụ định kỳ",
+        "ADVANCED_CFG": "Cấu hình nâng cao",
+        "EDIT": "Chỉnh sửa cấu hình tác vụ định kỳ",
+        "HEATMAP_LABEL": "Hoạt động",
+        "HELP1": "Nhiệm vụ định kỳ dành cho các nhiệm vụ lặp lại, ví dụ: 'Tổ chức', 'Cuộc họp hàng ngày', 'Đánh giá mã', 'Kiểm tra email' hoặc các nhiệm vụ tương tự có khả năng xảy ra lặp đi lặp lại.",
+        "HELP2": "Sau khi được định cấu hình, tác vụ định kỳ sẽ được tạo lại vào mỗi ngày được chọn bên dưới ngay khi bạn mở dự án của mình. Mỗi lần xuất hiện sẽ được xử lý như một trường hợp khác nhau. Vì vậy, bạn có thể thoải mái thực hiện các sửa đổi cho từng nhiệm vụ, chẳng hạn như thêm nhiệm vụ phụ.",
+        "HELP3": "Các tác vụ được nhập từ Sự cố Jira hoặc Git không thể lặp lại.",
+        "HELP4": "Trường 'Thứ tự' đề cập đến thứ tự tạo cho các tác vụ định kỳ. Nó chỉ ảnh hưởng đến các tác vụ định kỳ được tạo cùng lúc. Giá trị thấp hơn có nghĩa là tác vụ sẽ được tạo ở vị trí cao hơn trong danh sách; một con số cao hơn có nghĩa là nó sẽ thấp hơn nữa. Giá trị lớn hơn 0 có nghĩa là các tác vụ được tạo dưới các tác vụ thông thường.",
+        "TAG_LABEL": "Thẻ"
+      },
+      "F": {
+        "C_DAY": "Ngày",
+        "C_MONTH": "Tháng",
+        "C_WEEK": "Tuần",
+        "C_YEAR": "Năm",
+        "DEFAULT_ESTIMATE": "Ước tính mặc định",
+        "DISABLE_AUTO_UPDATE_SUBTASKS": "Vô hiệu hóa các nhiệm vụ phụ tự động cập nhật",
+        "DISABLE_AUTO_UPDATE_SUBTASKS_DESCRIPTION": "Không tự động cập nhật các nhiệm vụ kế thừa khi phiên bản mới nhất thay đổi",
+        "FRIDAY": "Thứ sáu",
+        "INHERIT_SUBTASKS": "Kế thừa nhiệm vụ con",
+        "INHERIT_SUBTASKS_DESCRIPTION": "Khi được bật, các tác vụ con từ phiên bản tác vụ gần đây nhất sẽ được tạo lại cùng với tác vụ định kỳ",
+        "MONDAY": "Thứ hai",
+        "NOTES": "ghi chú mặc định",
+        "ORDER": "Đặt hàng",
+        "ORDER_DESCRIPTION": "Thứ tự tạo các nhiệm vụ định kỳ. Chỉ ảnh hưởng đến các tác vụ định kỳ được tạo cùng lúc. Giá trị thấp hơn có nghĩa là tác vụ sẽ được tạo ở vị trí cao hơn trong danh sách; một con số cao hơn có nghĩa là nó sẽ thấp hơn nữa. Giá trị lớn hơn 0 có nghĩa là các tác vụ được tạo dưới các tác vụ thông thường.",
+        "QUICK_SETTING": "Cấu hình định kỳ",
+        "Q_CUSTOM": "Cấu hình định kỳ tùy chỉnh",
+        "Q_DAILY": "Mỗi ngày",
+        "Q_MONDAY_TO_FRIDAY": "Thứ Hai đến thứ Sáu hàng tuần",
+        "Q_MONTHLY_CURRENT_DATE": "Hàng tháng vào ngày {{dateDayStr}}",
+        "Q_WEEKLY_CURRENT_WEEKDAY": "Hàng tuần vào {{weekdayStr}}",
+        "Q_YEARLY_CURRENT_DATE": "Hàng năm vào ngày {{dayAndMonthStr}}",
+        "REMIND_AT": "Nhắc nhở vào lúc",
+        "REMIND_AT_PLACEHOLDER": "Chọn thời điểm nhắc nhở",
+        "REMOVE_FOR_DATE": "Xóa cho {{date}}",
+        "REMOVE_INSTANCE": "Xóa hôm nay",
+        "REPEAT_CYCLE": "Chu kỳ tái diễn",
+        "REPEAT_EVERY": "Tái diễn mỗi",
+        "SATURDAY": "Thứ bảy",
+        "SCHEDULE_TYPE_LABEL": "Loại lịch trình",
+        "START_DATE": "Ngày bắt đầu",
+        "START_TIME": "Thời gian bắt đầu dự kiến",
+        "START_TIME_DESCRIPTION": "Ví dụ. 15:00. Để trống cho nhiệm vụ cả ngày",
+        "SUNDAY": "Chủ nhật",
+        "THURSDAY": "Thursday",
+        "TITLE": "Tiêu đề nhiệm vụ",
+        "TUESDAY": "Thứ ba",
+        "WEDNESDAY": "Thứ Tư"
+      }
+    },
+    "TASK_VIEW": {
+      "CUSTOMIZER": {
+        "ENTER_PROJECT": "Lọc dự án",
+        "ENTER_TAG": "Thẻ lọc",
+        "ESTIMATED_TIME": "Thời gian dự kiến",
+        "FILTER_BY": "Lọc theo",
+        "FILTER_DEFAULT": "Không có bộ lọc",
+        "FILTER_ESTIMATED_TIME": "Thời gian dự kiến",
+        "FILTER_NOT_SPECIFIED": "Không được chỉ định",
+        "FILTER_PROJECT": "Dự án",
+        "FILTER_SCHEDULED_DATE": "Ngày dự kiến",
+        "FILTER_TAG": "Nhãn",
+        "FILTER_TIME_SPENT": "Thời gian đã sử dụng",
+        "GROUP_BY": "Nhóm theo",
+        "GROUP_DEFAULT": "Không có nhóm",
+        "GROUP_PROJECT": "Dự án",
+        "GROUP_SCHEDULED_DATE": "Ngày dự kiến",
+        "GROUP_TAG": "Nhãn",
+        "RESET_ALL": "Đặt lại tất cả",
+        "SCHEDULED_NEXT_MONTH": "Tháng tiếp theo",
+        "SCHEDULED_NEXT_WEEK": "Tuần tới",
+        "SCHEDULED_THIS_MONTH": "Tháng này",
+        "SCHEDULED_THIS_WEEK": "Tuần này",
+        "SCHEDULED_TODAY": "Hôm nay",
+        "SCHEDULED_TOMORROW": "Ngày mai",
+        "SORT_CREATION_DATE": "Ngày tạo",
+        "SORT_DEFAULT": "Mặc định",
+        "SORT_NAME": "Tên",
+        "SORT_PERMANENT": "Sắp xếp (vĩnh viễn)",
+        "SORT_SCHEDULED_DATE": "Ngày dự kiến",
+        "SORT_TEMPORARY": "Sắp xếp (tạm thời)",
+        "TIME_10MIN": "> 10 phút",
+        "TIME_1HOUR": "> 1 giờ",
+        "TIME_2HOUR": "> 2 giờ",
+        "TIME_30MIN": "> 30 phút",
+        "TIME_SPENT": "Thời gian đã sử dụng"
+      }
+    },
+    "TIME_TRACKING": {
+      "B": {
+        "ALREADY_DID": "tôi đã làm rồi",
+        "SNOOZE": "Báo lại {{time}}"
+      },
+      "B_TTR": {
+        "ADD_TO_TASK": "Thêm vào nhiệm vụ",
+        "MSG": "Bạn chưa theo dõi thời gian trong {{time}}",
+        "MSG_WITHOUT_TIME": "Bạn chưa theo dõi thời gian"
+      },
+      "D_IDLE": {
+        "ADD_ENTRY": "Thêm mục để theo dõi",
+        "BREAK": "Phá vỡ",
+        "CREATE_AND_TRACK": "<em>Tạo</em> và theo dõi tới",
+        "IDLE_FOR": "Bạn đã nhàn rỗi vì:",
+        "RESET_BREAK_REMINDER_TIMER": "Đặt lại bộ hẹn giờ nhắc nhở nghỉ giải lao",
+        "SIMPLE_CONFIRM_COUNTER_CANCEL": "Nhảy",
+        "SIMPLE_CONFIRM_COUNTER_OK": "Theo dõi",
+        "SIMPLE_COUNTER_CONFIRM_TXT": "You selected skip, but activated {{nr}} simple counter button(s). Do you want to track the idle time for them?",
+        "SIMPLE_COUNTER_TOOLTIP": "Nhấp để theo dõi tới {{title}}",
+        "SIMPLE_COUNTER_TOOLTIP_DISABLE": "Nhấp để KHÔNG theo dõi tới {{title}}",
+        "SKIP": "Nhảy",
+        "SPLIT_TIME": "Chia thời gian thành nhiều nhiệm vụ và thời gian nghỉ",
+        "TASK": "Nhiệm vụ",
+        "TRACK_TO": "Theo dõi tới",
+        "WARN_SIMPLE_COUNTER": "Thời gian sẽ được tính vào các nút đếm đơn giản được kích hoạt.",
+        "WARN_SIMPLE_COUNTER_BREAK": "Thời gian sẽ VẪN được tính trên các nút đếm đơn giản được kích hoạt."
+      },
+      "D_TRACKING_REMINDER": {
+        "CREATE_AND_TRACK": "<em>Tạo</em> và theo dõi tới",
+        "NOTIFICATION_TITLE": "Theo dõi thời gian của bạn!",
+        "TASK": "Nhiệm vụ",
+        "TRACK_TO": "Theo dõi tới:",
+        "UNTRACKED_TIME": "Thời gian không được theo dõi:"
+      },
+      "D_ARCHIVE_COMPRESS": {
+        "TITLE": "Nén lưu trữ",
+        "LOADING": "Đang phân tích kho lưu trữ...",
+        "INTRO": "Điều này sẽ nén các tác vụ đã lưu trữ của bạn bằng cách xóa dữ liệu cũ. Thao tác này được đồng bộ hóa trên tất cả các thiết bị.",
+        "SUBTASKS_TO_DELETE": "Nhiệm vụ phụ cần xóa (thời gian được hợp nhất với phụ huynh)",
+        "NOTES_TO_CLEAR": "Ghi chú nhiệm vụ cần xóa (cũ hơn 1 năm)",
+        "ISSUE_FIELDS_TO_CLEAR": "Vấn đề các trường cần xóa",
+        "ESTIMATED_SAVINGS": "Tiết kiệm không gian ước tính",
+        "WARNING": "Thao tác này không thể hoàn tác. Hãy chắc chắn rằng bạn có một bản sao lưu trước khi tiếp tục!",
+        "CONFIRM_TITLE": "Xác nhận nén lưu trữ",
+        "CONFIRM_MSG": "Bạn có chắc chắn muốn nén kho lưu trữ không? Điều này sẽ xóa vĩnh viễn dữ liệu được liệt kê ở trên!",
+        "BTN_COMPRESS": "Nén lưu trữ",
+        "NO_DATA": "Không có dữ liệu để nén. Kho lưu trữ của bạn đã được tối ưu hóa."
+      }
+    },
+    "WORKLOG": {
+      "CMP": {
+        "DAYS_WORKED": "Ngày, đã làm việc:",
+        "MONTH_WORKED": "Tháng làm việc:",
+        "REPEATING_TASK": "Nhiệm vụ định kỳ",
+        "RESTORE_TASK_FROM_ARCHIVE": "Khôi phục tác vụ từ kho lưu trữ",
+        "TASKS": "Nhiệm vụ",
+        "TOTAL_TIME": "Tổng thời gian sử dụng:",
+        "WEEK_NR": "Tuần {{nr}}",
+        "WORKED": "Đã làm việc"
+      },
+      "D_CONFIRM_RESTORE": "Bạn có chắc chắn muốn chuyển việc cần làm <strong>\"{{title}}\"</strong> vào danh sách việc cần làm Hôm nay không?",
+      "D_EXPORT_TITLE": "Xuất nhật ký công việc {{start}}–{{end}}",
+      "D_EXPORT_TITLE_SINGLE": "Xuất nhật ký công việc {{day}}",
+      "EXPORT": {
+        "ADD_COL": "Thêm cột",
+        "COPY_TO_CLIPBOARD": "Sao chép vào khay nhớ tạm",
+        "DONT_ROUND": "đừng làm tròn",
+        "EDIT_COL": "Chỉnh sửa cột",
+        "GROUP_BY": "Nhóm theo",
+        "O": {
+          "DATE": "Ngày",
+          "ENDED_WORKING": "Đã kết thúc công việc",
+          "ESTIMATE_AS_CLOCK": "Ước tính theo đồng hồ (ví dụ: 5:23)",
+          "ESTIMATE_AS_MILLISECONDS": "Ước tính bằng mili giây",
+          "ESTIMATE_AS_STRING": "Ước tính dưới dạng chuỗi (ví dụ: 5h 23m)",
+          "FULL_HALF_HOURS": "nửa giờ đầy đủ",
+          "FULL_HOURS": "cả giờ",
+          "FULL_QUARTERS": "đầy đủ quý",
+          "NOTES": "Task Notes",
+          "PARENT_TASK": "Nhiệm vụ của phụ huynh",
+          "PARENT_TASK_TITLES_ONLY": "Chỉ Tiêu đề Nhiệm vụ Phụ huynh",
+          "PROJECTS": "Tên dự án",
+          "STARTED_WORKING": "Bắt đầu làm việc",
+          "TAGS": "Thẻ",
+          "TASK_SUBTASK": "Nhiệm vụ/Nhiệm vụ phụ",
+          "TIME_AS_CLOCK": "Thời gian như đồng hồ (ví dụ: 5:23)",
+          "TIME_AS_MILLISECONDS": "Thời gian tính bằng mili giây",
+          "TIME_AS_STRING": "Thời gian dưới dạng chuỗi (ví dụ: 5h 23m)",
+          "TITLES_AND_SUB_TASK_TITLES": "Tiêu đề và Tiêu đề nhiệm vụ phụ",
+          "WORKLOG": "nhật ký công việc"
+        },
+        "OPTIONS": "Tùy chọn",
+        "ROUND_END_TIME_TO": "Thời gian kết thúc vòng tới",
+        "ROUND_START_TIME_TO": "Thời gian bắt đầu vòng đến",
+        "ROUND_TIME_WORKED_TO": "Khoảng thời gian làm việc để",
+        "SAVE_TO_FILE": "Lưu vào tập tin",
+        "SEPARATE_TASKS_BY": "Phân tách nhiệm vụ bằng",
+        "SHOW_AS_TEXT": "Hiển thị dưới dạng văn bản"
+      },
+      "WEEK": {
+        "EXPORT": "Xuất dữ liệu tuần",
+        "FOCUS_SUMMARY": "Phiên tập trung (nr/lần)",
+        "NO_DATA": "Chưa có nhiệm vụ nào trong tuần này.",
+        "TITLE": "Tiêu đề"
+      }
+    }
+  },
+  "FILE_IMEX": {
+    "DIALOG_CONFIRM_URL_IMPORT": {
+      "INITIATED_MSG": "Quá trình nhập dữ liệu tự động đã được bắt đầu.",
+      "SOURCE_URL_DOMAIN": "Tên miền nguồn",
+      "TITLE": "Xác nhận nhập dữ liệu từ URL",
+      "WARNING_MSG": "Việc tiếp tục sẽ ghi đè lên dữ liệu và cấu hình ứng dụng hiện tại của bạn bằng nội dung từ URL đã chỉ định. Hành động này không thể hoàn tác được!",
+      "WARNING_TITLE": "Cảnh báo"
+    },
+    "EXPORT_DATA": "Xuất dữ liệu",
+    "IMPORT_FROM_FILE": "Nhập từ tệp",
+    "IMPORT_FROM_URL": "Nhập từ URL",
+    "IMPORT_FROM_URL_DIALOG_DESCRIPTION": "Vui lòng nhập URL đầy đủ của tệp JSON sao lưu Super Productivity để nhập.",
+    "IMPORT_FROM_URL_DIALOG_TITLE": "Nhập từ URL",
+    "OPEN_IMPORT_FROM_URL_DIALOG": "Nhập từ URL",
+    "PRIVACY_EXPORT": "Xuất dữ liệu ẩn danh (để gửi tới contact@super-productivity.com để gỡ lỗi)",
+    "S_BACKUP_DOWNLOADED": "Sao lưu được tải xuống thư mục tài liệu Android",
+    "S_ERR_IMPORT_FAILED": "Nhập dữ liệu không thành công",
+    "S_ERR_INVALID_DATA": "Nhập không thành công: JSON không hợp lệ",
+    "S_ERR_INVALID_URL": "Nhập không thành công: Đã cung cấp URL không hợp lệ",
+    "S_ERR_NETWORK": "Nhập không thành công: Lỗi mạng khi tìm nạp dữ liệu từ URL",
+    "S_IMPORT_FROM_URL_ERR_DECODE": "Lỗi: Không thể giải mã tham số URL để nhập. Hãy đảm bảo nó được định dạng chính xác.",
+    "URL_PLACEHOLDER": "Nhập URL để nhập từ",
+    "BTN_COMPRESS_ARCHIVE": "Nén lưu trữ"
+  },
+  "MIGRATE": {
+    "DIALOG_TITLE": "Di chuyển dữ liệu của bạn",
+    "DIALOG_MESSAGE": "Chúng tôi đang cập nhật cách lưu trữ dữ liệu của bạn để cải thiện độ tin cậy đồng bộ hóa. Một bản sao lưu sẽ được tải xuống tự động.",
+    "STATUS_PREPARING": "Đang chuẩn bị di chuyển...",
+    "STATUS_BACKUP": "Đang tạo bản sao lưu dữ liệu của bạn...",
+    "STATUS_MIGRATING": "Đang di chuyển dữ liệu...",
+    "STATUS_COMPLETE": "Quá trình di chuyển hoàn tất!",
+    "C_DOWNLOAD_BACKUP": "Bạn có muốn tải xuống bản sao lưu dữ liệu cũ của mình (có thể được sử dụng với các phiên bản Super Productivity cũ hơn) không?",
+    "DETECTED_LEGACY": "Detected legacy data. We will migrate it for you!",
+    "E_MIGRATION_FAILED": "Di chuyển không thành công do lỗi:",
+    "E_RESTART_FAILED": "Tự động khởi động lại không thành công. Vui lòng khởi động lại ứng dụng theo cách thủ công!",
+    "SUCCESS": "Quá trình di chuyển đã hoàn tất! Đang khởi động lại ứng dụng ngay bây giờ..."
+  },
+  "G": {
+    "ADD": "Thêm vào",
+    "ADVANCED_CFG": "Cấu hình nâng cao",
+    "APPLY": "Áp dụng",
+    "CANCEL": "Hủy",
+    "CLOSE": "Đóng",
+    "COMPLETE": "Hoàn thành",
+    "CONFIRM": "Xác nhận",
+    "CONTINUE": "Tiếp tục",
+    "DELETE": "Xóa",
+    "DISMISS": "Đóng",
+    "DONT_SHOW_AGAIN": "Không hiển thị lại",
+    "DO_IT": "Làm đi!",
+    "DUPLICATE": "Nhân bản",
+    "DURATION_DESCRIPTION": "ví dụ. \"5h 23m\" có kết quả là 5 giờ 23 phút",
+    "EDIT": "Chỉnh sửa",
+    "ENABLED": "Đã bật",
+    "EXAMPLE_VAL": "ví dụ. 32m",
+    "EXTENSION_INFO": "Vui lòng <a target=\"_blank\" href=\"https://chrome.google.com/webstore/detail/super-productivity/ljkbjodfmekklcoibdnhahlaalhihmlb\"> tải xuống tiện ích mở rộng của Chrome</a> để cho phép giao tiếp với API Jira và Xử lý thời gian nhàn rỗi. Lưu ý rằng điều này không hoạt động cho thiết bị di động. <strong>Nếu không có tiện ích mở rộng, các tính năng sẽ không hoạt động!</strong>",
+    "HIDE": "Ẩn",
+    "ICON_INP_DESCRIPTION": "Tất cả các biểu tượng cảm xúc UTF-8 cũng được hỗ trợ!",
+    "INBOX_PROJECT_TITLE": "Hộp thư đến",
+    "MINUTES": "{{m}} phút",
+    "MOVE_BACKWARD": "Di chuyển lùi",
+    "MOVE_FORWARD": "Tiến về phía trước",
+    "NEXT": "Kế tiếp",
+    "NO_CON": "Bạn hiện đang ngoại tuyến. Vui lòng kết nối lại với internet.",
+    "NONE": "Không có",
+    "OK": "Đồng ý",
+    "OVERDUE": "Quá hạn",
+    "PASSWORD_STRENGTH_FAIR": "Trung bình",
+    "PASSWORD_STRENGTH_STRONG": "Mạnh",
+    "PASSWORD_STRENGTH_WEAK": "Yếu đuối",
+    "PROCESSING": "Xử lý",
+    "REMOVE": "Gỡ bỏ",
+    "SAVE": "Lưu",
+    "SHARE": "Chia sẻ",
+    "SUBMIT": "Nộp",
+    "TITLE": "Tiêu đề",
+    "TOGGLE_PASSWORD_VISIBILITY": "Chuyển đổi khả năng hiển thị mật khẩu",
+    "TODAY_TAG_TITLE": "Hôm nay",
+    "UNDO": "Hoàn tác",
+    "WITHOUT_PROJECT": "Không có dự án",
+    "YESTERDAY": "Hôm qua"
+  },
+  "GCF": {
+    "APP_FEATURES": {
+      "BOARDS": "bảng",
+      "DONATE_PAGE": "Trang quyên góp",
+      "FOCUS_MODE": "Chế độ lấy nét",
+      "HABITS": "Thói quen",
+      "HELP": "Bật hoặc tắt các tính năng ứng dụng cụ thể trên giao diện người dùng.",
+      "ISSUES_PANEL": "Bảng vấn đề",
+      "PLANNER": "Người lập kế hoạch",
+      "PROJECT_NOTES": "ghi chú dự án",
+      "SEARCH": "Tìm kiếm",
+      "SCHEDULE": "Lịch trình",
+      "SCHEDULE_DAY_PANEL": "Bảng lịch trình ngày",
+      "SYNC_BUTTON": "Nút đồng bộ hóa",
+      "TIME_TRACKING": "Theo dõi thời gian đồng hồ bấm giờ",
+      "TITLE": "Tính năng ứng dụng",
+      "USER_PROFILES": "Hồ sơ người dùng (thử nghiệm)",
+      "USER_PROFILES_HINT": "Cho phép bạn tạo và chuyển đổi giữa các hồ sơ người dùng khác nhau, mỗi hồ sơ có cài đặt, tác vụ và cấu hình đồng bộ hóa riêng biệt. Nút quản lý hồ sơ sẽ xuất hiện ở góc trên bên phải khi được bật. Lưu ý: Việc tắt tính năng này sẽ ẩn giao diện người dùng nhưng vẫn giữ nguyên dữ liệu hồ sơ của bạn. (Tính năng thử nghiệm. Không đảm bảo. Hãy đảm bảo có bản sao lưu!)"
+    },
+    "AUTO_BACKUPS": {
+      "HELP": "Tự động lưu tất cả dữ liệu vào thư mục ứng dụng của bạn để sẵn sàng nếu có sự cố.",
+      "LABEL_IS_ENABLED": "Bật sao lưu tự động",
+      "LOCATION_INFO": "Các bản sao lưu được lưu vào:",
+      "TITLE": "Sao lưu tự động"
+    },
+    "CALENDARS": {
+      "BROWSER_WARNING": "Do các hạn chế về nhiều nguồn gốc, <b>điều này có thể KHÔNG hoạt động với phiên bản trình duyệt web của Super Productivity.<br /> Vui lòng <a href=\"https://super-productivity.com/download/\">tải xuống phiên bản dành cho máy tính để bàn</a> để sử dụng tính năng này!</b>",
+      "CAL_PATH": "URL của nguồn iCal",
+      "CHECK_UPDATES": "Kiểm tra cập nhật từ xa mỗi X",
+      "HELP": "Bạn có thể tích hợp lịch để được nhắc nhở và thêm chúng dưới dạng nhiệm vụ trong Siêu năng suất. Việc tích hợp hoạt động bằng cách sử dụng định dạng iCal. Để tính năng này hoạt động, lịch của bạn cần có thể truy cập được qua internet hoặc qua hệ thống tệp.",
+      "SHOW_BANNER_THRESHOLD": "Hiển thị thông báo X trước sự kiện (để trống nếu bị tắt)"
+    },
+    "CLIPBOARD_IMAGES": {
+      "DELETE": "Xóa hình ảnh",
+      "DELETE_ALL": "Xóa tất cả",
+      "DELETE_ALL_SUCCESS": "Tất cả hình ảnh clipboard đã được xóa thành công",
+      "DELETE_SUCCESS": "Đã xóa hình ảnh bảng nhớ tạm thành công",
+      "ERROR_DELETING": "Không thể xóa hình ảnh clipboard",
+      "ERROR_DELETING_ALL": "Không thể xóa tất cả hình ảnh trong clipboard",
+      "ERROR_LOADING": "Không thể tải hình ảnh vào clipboard",
+      "HELP": "Quản lý hình ảnh được dán từ clipboard. Đối với phiên bản trình duyệt, hình ảnh được lưu trữ trong IndexedDB. Đối với phiên bản máy tính để bàn, hãy định cấu hình đường dẫn lưu trữ.",
+      "LOADING": "Đang tải hình ảnh...",
+      "MANAGE_DESCRIPTION": "Xem và xóa hình ảnh được lưu trữ khi dán vào các trường đánh dấu",
+      "MANAGE_TITLE": "Quản lý hình ảnh được lưu trữ",
+      "MANAGER_TITLE": "Hình ảnh bảng nhớ tạm",
+      "NO_IMAGES": "Không có hình ảnh clipboard được lưu trữ",
+      "OPEN_MANAGER": "Quản lý hình ảnh",
+      "PATH_DESCRIPTION": "Định cấu hình nơi lưu trữ hình ảnh clipboard trên hệ thống tệp của bạn (để trống cho vị trí mặc định)",
+      "PATH_LABEL": "Đường dẫn lưu trữ hình ảnh",
+      "PATH_PLACEHOLDER": "Để trống cho vị trí mặc định",
+      "PATH_TITLE": "Vị trí lưu trữ",
+      "SELECT_PATH": "Chọn thư mục",
+      "SELECT_PATH_TITLE": "Chọn thư mục hình ảnh Clipboard",
+      "SORT_BY": "Sắp xếp theo",
+      "SORT_LARGEST": "Lớn nhất đầu tiên",
+      "SORT_NEWEST": "Mới nhất đầu tiên",
+      "SORT_OLDEST": "Cũ nhất đầu tiên",
+      "SORT_SMALLEST": "Nhỏ nhất đầu tiên",
+      "TITLE": "Hình ảnh bảng nhớ tạm",
+      "TOTAL_IMAGES": "Tổng số hình ảnh",
+      "TOTAL_SIZE": "Tổng kích thước"
+    },
+    "EVALUATION": {
+      "IS_HIDE_EVALUATION_SHEET": "Hide evaluation sheet in daily summary",
+      "TITLE": "Đánh giá & Đo lường"
+    },
+    "FOCUS_MODE": {
+      "HELP": "Chế độ lấy nét sẽ mở ra một màn hình không bị phân tâm để giúp bạn tập trung vào nhiệm vụ hiện tại của mình.",
+      "L_IS_PLAY_TICK": "Phát âm thanh tích tắc trong phiên tập trung",
+      "L_MANUAL_BREAK_START": "Bắt đầu nghỉ giải lao theo cách thủ công (Pomodoro)",
+      "L_PAUSE_TRACKING_DURING_BREAK": "Tạm dừng theo dõi nhiệm vụ trong thời gian nghỉ giải lao",
+      "L_SKIP_PREPARATION_SCREEN": "Bỏ qua màn hình chuẩn bị (hoạt hình tên lửa)",
+      "L_START_IN_BACKGROUND": "Bắt đầu các phiên tập trung chỉ với biểu ngữ (không có lớp phủ)",
+      "L_SYNC_SESSION_WITH_TRACKING": "Đồng bộ hóa các phiên tập trung với tính năng theo dõi thời gian",
+      "TITLE": "Chế độ lấy nét"
+    },
+    "IDLE": {
+      "HELP": "<div><p>Khi bật tính năng xử lý thời gian nhàn rỗi, một hộp thoại sẽ mở ra sau một khoảng thời gian nhất định để kiểm tra xem - và nhiệm vụ nào - mà bạn muốn theo dõi thời gian của mình khi không sử dụng.</p></div>",
+      "IS_ENABLE_IDLE_TIME_TRACKING": "Bật xử lý thời gian nhàn rỗi",
+      "IS_ONLY_OPEN_IDLE_WHEN_CURRENT_TASK": "Chỉ kích hoạt hộp thoại thời gian rảnh khi tác vụ hiện tại được chọn",
+      "MIN_IDLE_TIME": "Kích hoạt không hoạt động sau X",
+      "TITLE": "Xử lý nhàn rỗi"
+    },
+    "IMEX": {
+      "HELP": "<p>Tại đây, bạn có thể xuất tất cả dữ liệu của mình dưới dạng <strong>JSON</strong> để sao lưu nhưng cũng có thể sử dụng dữ liệu đó trong ngữ cảnh khác (ví dụ: bạn có thể muốn xuất các dự án của mình ở phiên bản trình duyệt web và nhập chúng vào phiên bản dành cho máy tính để bàn). </p> <p>Quá trình nhập yêu cầu JSON hợp lệ sẽ được sao chép vào vùng văn bản. <strong>LƯU Ý: Sau khi bạn nhấn nút nhập, tất cả cài đặt và dữ liệu hiện tại của bạn sẽ bị ghi đè!</strong></p>",
+      "TITLE": "Nhập/Xuất"
+    },
+    "KEYBOARD": {
+      "ADD_NEW_NOTE": "Thêm ghi chú mới",
+      "ADD_NEW_PROJECT": "Thêm dự án mới",
+      "ADD_NEW_TASK": "Thêm nhiệm vụ mới",
+      "APP_WIDE_SHORTCUTS": "Phím tắt chung (toàn ứng dụng)",
+      "COLLAPSE_SUB_TASKS": "Thu gọn các nhiệm vụ phụ",
+      "EXPAND_SUB_TASKS": "Mở rộng nhiệm vụ phụ",
+      "GLOBAL_ADD_NOTE": "Thêm ghi chú mới",
+      "GLOBAL_ADD_TASK": "Thêm nhiệm vụ mới",
+      "GLOBAL_SHOW_HIDE": "Hiển thị/ẩn Siêu năng suất",
+      "GLOBAL_TOGGLE_TASK_START": "Chuyển đổi theo dõi thời gian cho tác vụ hoạt động cuối cùng",
+      "GO_TO_DAILY_AGENDA": "Đi đến chương trình nghị sự",
+      "GO_TO_FOCUS_MODE": "Vào chế độ lấy nét",
+      "GO_TO_SCHEDULE": "Đi tới Lịch trình",
+      "GO_TO_SCHEDULED_VIEW": "Chuyển đến nhiệm vụ đã lên lịch",
+      "GO_TO_SETTINGS": "Đi tới cài đặt",
+      "GO_TO_WORK_VIEW": "Đi tới Chế độ xem công việc và tập trung vào nhiệm vụ đầu tiên",
+      "HELP": "<p>Tại đây bạn có thể định cấu hình tất cả các phím tắt.</p> <p>Nhấp vào kiểu nhập văn bản và nhập tổ hợp phím hoặc phím bàn phím mong muốn. Nhấn <strong>Enter</strong> để lưu hoặc <strong>Escape</strong> để hủy.</p> <p>Có ba loại phím tắt:</p> <ul> <li> <strong>Phím tắt chung:</strong> Khi ứng dụng đang chạy, nó sẽ kích hoạt hành động từ mọi ứng dụng khác. </li> <li> <strong>Phím tắt cấp ứng dụng:</strong> Sẽ kích hoạt từ mọi màn hình của ứng dụng, nhưng không kích hoạt nếu bạn hiện đang chỉnh sửa trường văn bản. </li> <li> <strong>Phím tắt cấp nhiệm vụ:</strong> Chúng sẽ chỉ kích hoạt nếu bạn đã chọn một nhiệm vụ thông qua chuột hoặc bàn phím và thường kích hoạt một hành động liên quan cụ thể đến một nhiệm vụ đó.</li> </ul><p>Nhấn <strong>Escape</strong> để xóa phím tắt.",
+      "MOVE_TASK_DOWN": "Di chuyển nhiệm vụ xuống trong danh sách",
+      "MOVE_TASK_TO_BOTTOM": "Di chuyển nhiệm vụ xuống cuối danh sách",
+      "MOVE_TASK_TO_TOP": "Di chuyển nhiệm vụ lên đầu danh sách",
+      "MOVE_TASK_UP": "Di chuyển nhiệm vụ lên trong danh sách",
+      "MOVE_TO_BACKLOG": "Chuyển nhiệm vụ sang nhiệm vụ tồn đọng",
+      "MOVE_TO_REGULARS_TASKS": "Di chuyển nhiệm vụ vào danh sách nhiệm vụ của ngày hôm nay",
+      "OPEN_PROJECT_NOTES": "Hiển thị/ẩn ghi chú",
+      "PLUGIN_SHORTCUTS": "Phím tắt plugin",
+      "SAVE_NOTE": "Lưu ghi chú",
+      "SELECT_NEXT_TASK": "Chọn nhiệm vụ tiếp theo",
+      "SELECT_PREVIOUS_TASK": "Chọn nhiệm vụ trước đó",
+      "SHOW_SEARCH_BAR": "Hiển thị thanh tìm kiếm",
+      "SYSTEM_SHORTCUTS": "Phím tắt chung (toàn hệ thống)",
+      "TASK_ADD_ATTACHMENT": "Đính kèm tập tin hoặc liên kết",
+      "TASK_ADD_SUB_TASK": "Thêm nhiệm vụ phụ",
+      "TASK_DELETE": "Xóa tác vụ",
+      "TASK_EDIT_TAGS": "Edit tags",
+      "TASK_EDIT_TITLE": "Chỉnh sửa tiêu đề",
+      "TASK_MOVE_TO_PROJECT": "Mở tác vụ di chuyển vào menu dự án",
+      "TASK_OPEN_CONTEXT_MENU": "Mở menu ngữ cảnh tác vụ",
+      "TASK_OPEN_ESTIMATION_DIALOG": "Chỉnh sửa ước tính/thời gian sử dụng",
+      "TASK_SCHEDULE": "Lên lịch nhiệm vụ",
+      "TASK_UNSCHEDULE": "Hủy lịch trình nhiệm vụ",
+      "TASK_SHORTCUTS": "Nhiệm vụ",
+      "TASK_SHORTCUTS_INFO": "Các phím tắt sau áp dụng cho tác vụ hiện được chọn (được chọn qua tab hoặc chuột).",
+      "TASK_TOGGLE_DETAIL_PANEL_OPEN": "Hiển thị/ẩn thông tin nhiệm vụ bổ sung",
+      "TASK_TOGGLE_DONE": "Chuyển đổi trạng thái đã hoàn thành",
+      "TITLE": "Phím tắt",
+      "TOGGLE_BACKLOG": "Hiển thị/ẩn nhiệm vụ tồn đọng",
+      "TOGGLE_ISSUE_PANEL": "Hiển thị/ẩn bảng nhà cung cấp vấn đề",
+      "TOGGLE_PLAY": "Bắt đầu/dừng tác vụ",
+      "TOGGLE_SIDE_NAV": "Điều hướng bên tập trung",
+      "TOGGLE_TASK_VIEW_CUSTOMIZER_PANEL": "Chuyển đổi bộ lọc/nhóm/bảng sắp xếp",
+      "TRIGGER_SYNC": "Đồng bộ hóa kích hoạt (nếu được định cấu hình)",
+      "ZOOM_DEFAULT": "Thu phóng mặc định (chỉ dành cho máy tính để bàn)",
+      "ZOOM_IN": "Phóng to (chỉ dành cho máy tính để bàn)",
+      "ZOOM_OUT": "Thu nhỏ (chỉ dành cho máy tính để bàn)"
+    },
+    "LANG": {
+      "AR": "عربى",
+      "CS": "tiếng Séc",
+      "DE": "tiếng Đức",
+      "EN": "Tiếng Anh",
+      "ES": "tiếng Tây Ban Nha",
+      "FA": "فارسی",
+      "FI": "Suomi",
+      "FR": "người Pháp",
+      "HR": "Hrvatski",
+      "ID": "tiếng Indonesia",
+      "IT": "tiếng Ý",
+      "JA": "日本語",
+      "KO": "한국어",
+      "LABEL": "Ngôn ngữ",
+      "NB": "Norsk Bokmål",
+      "NL": "Hà Lan",
+      "PL": "Đánh bóng",
+      "PT": "người Bồ Đào Nha",
+      "PT_BR": "Bồ Đào Nha (Brazil)",
+      "RU": "Русский",
+      "SK": "Tiếng Slovak",
+      "SV": "Svenska",
+      "RO": "Româna",
+      "RO_MD": "Română (Moldova)",
+      "TIME_LOCALE": "Ngôn ngữ định dạng ngày giờ",
+      "TIME_LOCALE_AUTO": "Mặc định hệ thống",
+      "TIME_LOCALE_DE_DE": "Tiếng Đức: 24 giờ, DD.MM.YYYY",
+      "TIME_LOCALE_DESCRIPTION": "LƯU Ý: Tùy chọn này không thể thay đổi định dạng đầu vào thời gian (12/24 giờ) vì nó được điều khiển bởi hệ điều hành của bạn.",
+      "TIME_LOCALE_EN_GB": "Tiếng Anh (Anh): 24 giờ, DD/MM/YYYY",
+      "TIME_LOCALE_EN_US": "English (US): 12-hour AM/PM, MM/DD/YYYY",
+      "TIME_LOCALE_ES_ES": "Tiếng Tây Ban Nha: 24 giờ, DD/MM/YYYY",
+      "TIME_LOCALE_FR_FR": "Tiếng Pháp: 24 giờ, DD/MM/YYYY",
+      "TIME_LOCALE_IT_IT": "Tiếng Ý: 24 giờ, DD/MM/YYYY",
+      "TIME_LOCALE_JA_JP": "Tiếng Nhật: 24 giờ, YYYY/MM/DD",
+      "TIME_LOCALE_KO_KR": "Tiếng Hàn: 12 giờ sáng/chiều, YYYY. MM. ĐĐ",
+      "TIME_LOCALE_PT_BR": "Tiếng Bồ Đào Nha (Brazil): 24 giờ, DD/MM/YYYY",
+      "TIME_LOCALE_RU_RU": "Tiếng Nga: 24 giờ, DD.MM.YYYY",
+      "TIME_LOCALE_TR_TR": "Tiếng Thổ Nhĩ Kỳ: 24 giờ, DD.MM.YYYY",
+      "TIME_LOCALE_ZH_CN": "Tiếng Trung (Giản thể): 24 giờ, YYYY/MM/DD",
+      "TIME_LOCALE_CS_CZ": "Tiếng Séc: 24 giờ, DD. MM. YYYY",
+      "TIME_LOCALE_SK_SK": "Tiếng Slovak: 24 giờ, DD. MM. YYYY",
+      "TIME_LOCALE_UK_UA": "Tiếng Ukraina: 24 giờ, DD.MM.YYYY",
+      "TIME_LOCALE_RO_RO": "Tiếng Rumani: 24 giờ, DD.MM.YYYY",
+      "TIME_LOCALE_RO_MD": "Tiếng Rumani (Moldova): 24 giờ, DD.MM.YYYY",
+      "TITLE": "Bản địa hóa",
+      "TR": "Türkçe",
+      "UK": "Українська",
+      "ZH": "中文(简体)",
+      "ZH_TW": "中文(繁體)"
+    },
+    "MISC": {
+      "DARK_MODE": "Chế độ tối",
+      "DARK_MODE_ARIA_LABEL": "Lựa chọn chế độ tối",
+      "DARK_MODE_DARK": "Tối tăm",
+      "DARK_MODE_LIGHT": "Ánh sáng",
+      "DARK_MODE_SYSTEM": "Hệ thống",
+      "DEFAULT_START_PAGE": "Trang bắt đầu mặc định",
+      "FIRST_DAY_OF_WEEK": "Ngày đầu tuần",
+      "HELP": "<p><strong>Không thấy thông báo trên màn hình?</strong> Đối với Windows, bạn có thể muốn chọn 'Hệ thống' > 'Thông báo và hành động' và xác minh rằng các thông báo bắt buộc đã được bật.</p>",
+      "IS_CONFIRM_BEFORE_EXIT": "Xác nhận trước khi thoát ứng dụng",
+      "IS_CONFIRM_BEFORE_EXIT_WITHOUT_FINISH_DAY": "Xác nhận trước khi thoát ứng dụng mà không kết thúc ngày đầu tiên",
+      "IS_DARK_MODE": "Chế độ tối",
+      "IS_DISABLE_ANIMATIONS": "Vô hiệu hóa tất cả hình ảnh động",
+      "IS_DISABLE_CELEBRATION": "Vô hiệu hóa lễ kỷ niệm trong bản tóm tắt hàng ngày",
+      "IS_MINIMIZE_TO_TRAY": "Thu nhỏ vào khay (chỉ dành cho máy tính để bàn)",
+      "IS_OVERLAY_INDICATOR_ENABLED": "Bật cửa sổ chỉ báo lớp phủ (chỉ dành cho Linux/Gnome)",
+      "IS_SHOW_TIP_LONGER": "Hiển thị mẹo tăng năng suất khi khởi động ứng dụng lâu hơn một chút",
+      "IS_TRAY_SHOW_CURRENT_COUNTDOWN": "Hiển thị đếm ngược hiện tại trong khay/menu trạng thái (chỉ macOS)",
+      "IS_USE_CUSTOM_WINDOW_TITLE_BAR": "Sử dụng thanh tiêu đề tùy chỉnh (chỉ dành cho Windows/Linux)",
+      "IS_USE_CUSTOM_WINDOW_TITLE_BAR_HINT": "Yêu cầu khởi động lại để có hiệu lực.",
+      "START_OF_NEXT_DAY": "Thời gian bắt đầu của ngày hôm sau",
+      "START_OF_NEXT_DAY_HINT": "Thời gian (giờ) mà bạn muốn xác định ngày hôm sau đã bắt đầu. Mặc định là nửa đêm, tức là 0.",
+      "THEME": "chủ đề",
+      "THEME_EXPERIMENTAL": "Chủ đề (thử nghiệm)",
+      "THEME_SELECT_LABEL": "Chọn chủ đề",
+      "TITLE": "Cài đặt linh tinh"
+    },
+    "TASKS": {
+      "DEFAULT_PROJECT": "Dự án mặc định để sử dụng cho các nhiệm vụ nếu không có dự án nào được chỉ định",
+      "IS_AUTO_ADD_WORKED_ON_TO_TODAY": "Tự động thêm các công việc đã làm vào ngày hôm nay",
+      "IS_AUTO_MARK_PARENT_AS_DONE": "Tự động đánh dấu nhiệm vụ chính là đã hoàn thành khi tất cả các nhiệm vụ con đã hoàn thành",
+      "IS_CONFIRM_BEFORE_DELETE": "Xác nhận trước khi xóa nhiệm vụ",
+      "IS_MARKDOWN_FORMATTING_IN_NOTES_ENABLED": "Bật định dạng Markdown trong ghi chú tác vụ",
+      "IS_TRAY_SHOW_CURRENT": "Show current task in the tray / status menu (macOS/Windows only)",
+      "NOTES_TEMPLATE": "Mẫu mô tả nhiệm vụ",
+      "TITLE": "Nhiệm vụ"
+    },
+    "POMODORO": {
+      "BREAK_DURATION": "Thời gian nghỉ ngắn",
+      "CYCLES_BEFORE_LONGER_BREAK": "Bắt đầu nghỉ giải lao dài hơn sau X buổi làm việc",
+      "DURATION": "Thời lượng của các buổi làm việc",
+      "LONGER_BREAK_DURATION": "Thời gian nghỉ dài hơn"
+    },
+    "REMINDER": {
+      "COUNTDOWN_DURATION": "Hiển thị biểu ngữ X trước lời nhắc thực tế",
+      "DEFAULT_TASK_REMIND_OPTION": "Tùy chọn nhắc nhở mặc định được chọn khi tạo nhiệm vụ",
+      "DISABLE_REMINDERS": "Tắt tất cả lời nhắc",
+      "HELP": "<p><strong>Quan trọng:</strong> Lời nhắc sử dụng <strong>thông báo cục bộ</strong> chứ không phải thông báo đẩy. Điều này có nghĩa là ứng dụng cần phải được mở ít nhất một lần trên thiết bị của bạn để lên lịch nhắc nhở. Lời nhắc đặt trên thiết bị khác sẽ chỉ xuất hiện sau khi ứng dụng đồng bộ hóa trên thiết bị mục tiêu.</p><p>Trên <strong>iOS</strong>, hãy đảm bảo bật thông báo cho Siêu năng suất trong cài đặt thiết bị của bạn trong 'Cài đặt' > 'Thông báo'.</p>",
+      "IS_COUNTDOWN_BANNER_ENABLED": "Hiển thị biểu ngữ đếm ngược trước khi đến hạn nhắc nhở",
+      "IS_FOCUS_WINDOW": "Tập trung vào cửa sổ ứng dụng khi lời nhắc được kích hoạt",
+      "TITLE": "Lời nhắc",
+      "USE_ALARM_STYLE_REMINDERS": "Sử dụng thông báo kiểu báo thức (chỉ dành cho Android)",
+      "USE_ALARM_STYLE_REMINDERS_DESCRIPTION": "Khi được bật, lời nhắc sẽ sử dụng âm thanh báo động lớn hơn và nhiều thông báo mang tính xâm phạm hơn. Được đề xuất cho những lời nhắc quan trọng."
+    },
+    "SCHEDULE": {
+      "HELP": "Tính năng lịch trình cung cấp cho bạn cái nhìn tổng quan nhanh chóng về cách thực hiện các nhiệm vụ đã lên kế hoạch của bạn theo thời gian. Bạn có thể tìm thấy nó trong menu bên trái trong <a href='#/schedule'>'Schedule'</a>.",
+      "LUNCH_BREAK_START_END_DESCRIPTION": "ví dụ. 13:00",
+      "L_IS_LUNCH_BREAK_ENABLED": "Bật giờ nghỉ trưa",
+      "L_IS_WORK_START_END_ENABLED": "Giới hạn luồng nhiệm vụ đột xuất trong thời gian làm việc cụ thể",
+      "L_LUNCH_BREAK_END": "Hết giờ nghỉ trưa",
+      "L_LUNCH_BREAK_START": "Bắt đầu nghỉ trưa",
+      "L_WORK_END": "Ngày làm việc kết thúc",
+      "L_WORK_START": "Bắt đầu ngày làm việc",
+      "MONTH": "Tháng",
+      "TITLE": "Lịch trình",
+      "WORK_START_END_DESCRIPTION": "ví dụ. 17:00"
+    },
+    "SHORT_SYNTAX": {
+      "HELP": "<p>Tại đây bạn có thể kiểm soát các tùy chọn cú pháp ngắn khi tạo tác vụ</p>",
+      "IS_ENABLE_DUE": "Bật tính năng lập kế hoạch theo cú pháp ngắn (@<planned time>)",
+      "IS_ENABLE_PROJECT": "Bật cú pháp ngắn của dự án (+<project>)",
+      "IS_ENABLE_TAG": "Bật cú pháp ngắn của thẻ (#<tag>)",
+      "TITLE": "Cú pháp ngắn",
+      "URL_BEHAVIOR_LABEL": "Hành vi URL khi thêm nhiệm vụ",
+      "URL_BEHAVIOR_KEEP": "Giữ URL trong tiêu đề nhiệm vụ",
+      "URL_BEHAVIOR_EXTRACT": "Trích xuất URL vào tệp đính kèm",
+      "URL_BEHAVIOR_KEEP_AND_ATTACH": "Giữ URL trong tiêu đề tác vụ và thêm vào tệp đính kèm"
+    },
+    "SOUND": {
+      "BREAK_REMINDER_SOUND": "Âm thanh nhắc nhở nghỉ ngơi",
+      "DONE_SOUND": "Âm thanh hoàn thành nhiệm vụ",
+      "IS_INCREASE_DONE_PITCH": "Tăng cường độ cho mọi nhiệm vụ được hoàn thành",
+      "TITLE": "Âm thanh",
+      "TRACK_TIME_SOUND": "Theo dõi âm thanh nhắc nhở thời gian",
+      "VOLUME": "Âm lượng"
+    },
+    "TAKE_A_BREAK": {
+      "ADD_NEW_IMG": "Thêm hình ảnh động lực",
+      "FULL_SCREEN_BLOCKER_DURATION": "Thời lượng hiển thị cửa sổ toàn màn hình (chỉ dành cho máy tính để bàn)",
+      "HELP": "<div> <p>Cho phép bạn định cấu hình lời nhắc lặp lại khi bạn đã làm việc trong một khoảng thời gian nhất định mà không nghỉ ngơi.</p> <p>Bạn có thể sửa đổi thông báo được hiển thị. ${duration} sẽ được thay thế bằng thời gian sử dụng không nghỉ.</p> </div>",
+      "IS_ENABLED": "Bật lời nhắc nghỉ giải lao",
+      "IS_FOCUS_WINDOW": "Tập trung vào cửa sổ ứng dụng khi lời nhắc đang hoạt động (chỉ dành cho máy tính để bàn)",
+      "IS_FULL_SCREEN_BLOCKER": "Hiển thị thông báo trong cửa sổ toàn màn hình (chỉ dành cho máy tính để bàn)",
+      "IS_LOCK_SCREEN": "Khóa màn hình khi đến giờ nghỉ (chỉ dành cho máy tính để bàn)",
+      "MESSAGE": "Nhận tin nhắn nghỉ giải lao",
+      "MIN_WORKING_TIME": "Trigger take a break notification after X working without taking a break",
+      "MOTIVATIONAL_IMGS": "Hình ảnh động lực (sử dụng URL web)",
+      "NOTIFICATION_TITLE": "Hãy nghỉ ngơi!",
+      "SNOOZE_TIME": "Báo lại thời gian khi được nhắc nghỉ ngơi",
+      "TITLE": "Nhắc nhở nghỉ giải lao"
+    },
+    "TIME_TRACKING": {
+      "HELP": "Lời nhắc theo dõi thời gian là một biểu ngữ sẽ xuất hiện nếu bạn quên bắt đầu theo dõi thời gian.",
+      "L_DEFAULT_ESTIMATE": "Ước tính thời gian mặc định cho nhiệm vụ mới",
+      "L_DEFAULT_ESTIMATE_SUB_TASKS": "Ước tính thời gian mặc định cho các nhiệm vụ con mới",
+      "L_IS_AUTO_START_NEXT_TASK": "Bắt đầu theo dõi nhiệm vụ tiếp theo khi đánh dấu nhiệm vụ hiện tại đã hoàn thành",
+      "L_IS_NOTIFY_WHEN_TIME_ESTIMATE_EXCEEDED": "Thông báo khi vượt quá ước tính thời gian",
+      "L_IS_TRACKING_REMINDER_ENABLED": "Bật lời nhắc theo dõi",
+      "L_IS_TRACKING_REMINDER_FOCUS_WINDOW": "Tập trung vào cửa sổ ứng dụng khi lời nhắc đang hoạt động (chỉ dành cho máy tính để bàn)",
+      "L_IS_TRACKING_REMINDER_NOTIFY": "Thông báo khi lời nhắc theo dõi thời gian được hiển thị",
+      "L_IS_TRACKING_REMINDER_SHOW_ON_MOBILE": "Hiển thị lời nhắc theo dõi trên ứng dụng di động",
+      "L_TRACKING_REMINDER_MIN_TIME": "Thời gian chờ đợi trước khi hiển thị biểu ngữ nhắc nhở theo dõi",
+      "TITLE": "Theo dõi thời gian"
+    }
+  },
+  "GLOBAL": {
+    "COPY_SUFFIX": "(bản sao)"
+  },
+  "GLOBAL_RELATIVE_TIME": {
+    "FUTURE": {
+      "AN_HOUR": "trong một giờ nữa",
+      "A_DAY": "trong một ngày",
+      "A_MINUTE": "trong một phút nữa",
+      "A_MONTH": "trong một tháng",
+      "A_YEAR": "trong một năm",
+      "DAYS": "trong {{count}} ngày nữa",
+      "FEW_SECONDS": "trong vài giây nữa",
+      "HOURS": "trong {{count}} giờ nữa",
+      "MINUTES": "trong {{count}} phút nữa",
+      "MONTHS": "trong {{count}} tháng nữa",
+      "YEARS": "trong {{count}} năm nữa"
+    },
+    "PAST": {
+      "AN_HOUR": "một giờ trước",
+      "A_DAY": "một ngày trước",
+      "A_MINUTE": "một phút trước",
+      "A_MONTH": "một tháng trước",
+      "A_YEAR": "một năm trước",
+      "DAYS": "{{count}} ngày trước",
+      "FEW_SECONDS": "vài giây trước",
+      "HOURS": "{{count}} giờ trước",
+      "MINUTES": "{{đếm}} phút trước",
+      "MONTHS": "{{count}} tháng trước",
+      "YEARS": "{{đếm}} năm trước"
+    }
+  },
+  "GLOBAL_SNACK": {
+    "COPY_TO_CLIPPBOARD": "Đã sao chép vào bảng nhớ tạm",
+    "DUPLICATE_PROJECT_ERROR": "Dự án không thể được sao chép",
+    "DUPLICATE_PROJECT_SUCCESS": "Dự án được sao chép thành công",
+    "FILE_DOWNLOADED": "{{fileName}} đã được tải xuống",
+    "FILE_DOWNLOADED_BTN": "Mở thư mục",
+    "NAVIGATE_TO_TASK_ERR": "Không thể tập trung nhiệm vụ. Bạn đã xóa nó?",
+    "NO_TASKS_TO_COPY": "Không có nhiệm vụ nào để sao chép",
+    "NO_TASKS_TO_UNPLAN": "Không có nhiệm vụ nào để hủy kế hoạch",
+    "OPEN_SETTINGS_ERROR": "Không thể mở cài đặt",
+    "PERSISTENCE_DISALLOWED": "Dữ liệu sẽ không được tồn tại vĩnh viễn. Hãy lưu ý rằng điều này có thể dẫn đến mất dữ liệu!",
+    "PERSISTENCE_ERROR": "Lỗi khi yêu cầu lưu giữ dữ liệu: {{err}}",
+    "RUNNING_X": "Running \"{{str}}\".",
+    "SAVE_BLOCKED_DURING_SYNC": "Đang đồng bộ hóa - một số thay đổi có thể cần được lưu lại",
+    "SHARE_FAILED": "Chia sẻ không thành công. Vui lòng sao chép thủ công.",
+    "SHARE_FAILED_FALLBACK": "Chia sẻ không thành công. Thay vào đó đã sao chép vào bảng nhớ tạm.",
+    "SHARE_UNAVAILABLE_FALLBACK": "Đã sao chép vào bảng nhớ tạm.",
+    "UNPLANNED_TODAY_TASKS": "Chưa lên kế hoạch tất cả nhiệm vụ từ hôm nay"
+  },
+  "GPB": {
+    "ASSETS": "Đang tải nội dung...",
+    "DBX_DOWNLOAD": "Dropbox: Tải xuống tệp...",
+    "DBX_GEN_TOKEN": "Dropbox: Tạo mã thông báo...",
+    "DBX_META": "Dropbox: Nhận meta tập tin...",
+    "DBX_UPLOAD": "Dropbox: Tải tập tin lên...",
+    "GITHUB_LOAD_ISSUE": "GitHub: Tải dữ liệu sự cố...",
+    "JIRA_LOAD_ISSUE": "Jira: Tải dữ liệu vấn đề...",
+    "SYNC": "Đang đồng bộ hóa dữ liệu...",
+    "UNKNOWN": "Đang tải dữ liệu từ xa",
+    "WEB_DAV_DOWNLOAD": "WebDAV: Đang tải xuống dữ liệu...",
+    "WEB_DAV_UPLOAD": "WebDAV: Đang tải dữ liệu lên..."
+  },
+  "MH": {
+    "ADD_NEW_TASK": "Thêm nhiệm vụ mới",
+    "ALL_PLANNED_LIST": "Sắp tới",
+    "BOARDS": "bảng",
+    "COPY_TASK_LIST_MARKDOWN": "Sao chép vào khay nhớ tạm",
+    "CREATE_PROJECT": "Tạo dự án",
+    "CREATE_TAG": "Tạo thẻ",
+    "DELETE_PROJECT": "Xóa dự án",
+    "DELETE_TAG": "Xóa thẻ",
+    "DISABLE_FEATURE": "Tắt tính năng",
+    "DONATE": "Hỗ trợ chúng tôi",
+    "DUPLICATE_PROJECT": "Nhân bản",
+    "ENTER_FOCUS_MODE": "Vào chế độ lấy nét",
+    "FEATURE_DISABLED_SNACK": "\"{{featureName}}\" đã bị tắt. Kích hoạt lại trong cài đặt Tính năng ứng dụng.",
+    "GO_TO_TASK_LIST": "Đi tới danh sách nhiệm vụ",
+    "HABITS": "Thói quen",
+    "HELP": "Giúp đỡ",
+    "HM": {
+      "CALENDARS": "Cách thực hiện: Kết nối lịch",
+      "CONTRIBUTE": "Đóng góp",
+      "GET_HELP_ONLINE": "Nhận trợ giúp trực tuyến",
+      "KEYBOARD": "Cách thực hiện: Bàn phím nâng cao",
+      "REDDIT_COMMUNITY": "cộng đồng Reddit",
+      "REPORT_A_PROBLEM": "Báo cáo sự cố",
+      "START_WELCOME": "Bắt đầu chuyến tham quan chào mừng",
+      "SYNC": "Cách thực hiện: Định cấu hình đồng bộ hóa"
+    },
+    "METRICS": "Số liệu",
+    "NO_TASKS_TO_TRACK": "Thêm nhiệm vụ trước để bắt đầu theo dõi thời gian",
+    "OPEN_APP_FEATURES": "Mở cài đặt",
+    "NOTES": "Ghi chú",
+    "NOTES_PANEL_INFO": "Ghi chú chỉ có thể được hiển thị trong lịch trình và chế độ xem danh sách nhiệm vụ thông thường.",
+    "NO_PROJECT_INFO": "Không có dự án nào có sẵn Bạn có thể tạo một dự án mới bằng cách nhấp vào nút 'Tạo dự án'.",
+    "NO_TAG_INFO": "Hiện tại không có thẻ nào. Bạn có thể thêm thẻ bằng cách nhập `#yourTagName` khi thêm hoặc chỉnh sửa tác vụ.",
+    "PLANNER": "Người lập kế hoạch",
+    "PROCRASTINATE": "Trì hoãn",
+    "PROJECT_MENU": "Project Menu",
+    "PROJECT_SETTINGS": "Cài đặt dự án",
+    "PROJECTS": "Dự án",
+    "QUICK_HISTORY": "Lịch sử nhanh",
+    "SCHEDULE": "Lịch trình",
+    "SEARCH": "Tìm kiếm",
+    "SETTINGS": "Cài đặt",
+    "SHARE_TASK_LIST_MARKDOWN": "Chia sẻ danh sách nhiệm vụ",
+    "SIDE_PANEL_MENU": "Menu bảng điều khiển bên",
+    "TAGS": "Thẻ",
+    "TASKS": "Nhiệm vụ",
+    "TASK_LIST": "Danh sách nhiệm vụ",
+    "TOGGLE_SHOW_BOOKMARKS": "Hiển thị/ẩn dấu trang",
+    "TOGGLE_SHOW_ISSUE_PANEL": "Hiển thị/ẩn bảng nhà cung cấp vấn đề",
+    "TOGGLE_SHOW_NOTES": "Hiển thị/ẩn ghi chú dự án",
+    "TOGGLE_TRACK_TIME": "Thời gian bắt đầu/dừng theo dõi",
+    "SHOW_TRACKED_TASK": "Hiển thị tác vụ được theo dõi",
+    "TRIGGER_SYNC": "Đồng bộ hóa!",
+    "UNPLAN_ALL_TASKS": "Lập kế hoạch tất cả các nhiệm vụ",
+    "WORKLOG": "nhật ký công việc"
+  },
+  "PRE_MIGRATION": {
+    "DIALOG_TITLE": "Cập nhật hệ thống",
+    "DIALOG_MESSAGE": "Chúng tôi đang cập nhật cách lưu trữ dữ liệu của bạn để cải thiện độ tin cậy đồng bộ hóa.<br><br>Bản sao lưu dữ liệu của bạn sẽ tự động được tải xuống. Bạn có thể sử dụng bản sao lưu này để khôi phục dữ liệu của mình nếu cần (Tệp > Nhập)."
+  },
+  "PDS": {
+    "ADD_TASKS_FROM_TODAY": "Thêm nhiệm vụ từ hôm nay",
+    "ARCHIVED_TASKS": {
+      "PLURAL": "{{count}} nhiệm vụ gốc đã hoàn thành đã được lưu trữ",
+      "SINGULAR": "{{count}} nhiệm vụ gốc đã hoàn thành đã được lưu trữ"
+    },
+    "BREAK_LABEL": "Nghỉ giải lao (số/lần)",
+    "CELEBRATE": "Hãy dành một chút thời gian để <i>ăn mừng!</i>",
+    "CLEAR_ALL_CONTINUE": "Xóa tất cả các nhiệm vụ đã hoàn thành và tiếp tục",
+    "D_CONFIRM_APP_CLOSE": {
+      "CANCEL": "Không, chỉ cần xóa nhiệm vụ",
+      "MSG": "Thoát khỏi ứng dụng?",
+      "OK": "Ra"
+    },
+    "END_OF_DAYS_RITUALS_PLACEHOLDER": "Bạn có thể sử dụng không gian này để ghi lại các nghi thức cuối ngày của cá nhân mà bạn muốn nhận được lời nhắc.",
+    "ESTIMATE_TOTAL": "Tổng ước tính:",
+    "EVALUATE_DAY": "Ngày đánh giá",
+    "EXPORT_TASK_LIST": "Xuất danh sách nhiệm vụ",
+    "FOCUS_SUMMARY": "Phiên tập trung",
+    "NO_TASKS": "Không có nhiệm vụ nào cho ngày này",
+    "PLAN_TOMORROW": "Kế hoạch",
+    "REVIEW_TASKS": "Ôn tập",
+    "ROUND_15M": "Làm tròn tất cả nhiệm vụ thành 15 phút",
+    "ROUND_30M": "Làm tròn tất cả nhiệm vụ thành 30 phút",
+    "ROUND_5M": "Làm tròn tất cả nhiệm vụ thành 5 phút",
+    "ROUND_TIME_SPENT": "Thời gian làm tròn đã sử dụng",
+    "ROUND_TIME_SPENT_TITLE": "Khoảng thời gian dành cho tất cả các nhiệm vụ. Hãy cẩn thận! Bạn không thể hoàn tác việc này!",
+    "ROUND_TIME_WARNING": "!!! Hãy cẩn thận! Điều này không thể hoàn tác được !!!",
+    "ROUND_UP_15M": "Làm tròn tất cả nhiệm vụ thành 15 phút",
+    "ROUND_UP_30M": "Làm tròn tất cả nhiệm vụ thành 30 phút",
+    "ROUND_UP_5M": "Làm tròn tất cả nhiệm vụ thành 5 phút",
+    "SAVE_AND_GO_HOME": "Kết thúc một ngày",
+    "SAVE_AND_GO_HOME_TOOLTIP": "Di chuyển tất cả các tác vụ đã hoàn thành vào kho lưu trữ (nhật ký công việc) và tùy ý đồng bộ hóa tất cả dữ liệu và đóng ứng dụng.",
+    "START_END": "Start – End",
+    "SUMMARY_FOR": "Tóm tắt hàng ngày cho {{dayStr}}",
+    "TASKS_COMPLETED": "Nhiệm vụ đã hoàn thành",
+    "TIME_SPENT_AND_ESTIMATE_LABEL": "Thời gian đã sử dụng/ước tính",
+    "TIME_SPENT_ESTIMATE_TITLE": "Thời gian đã sử dụng: Tổng thời gian đã sử dụng trong ngày hôm nay. Nhiệm vụ lưu trữ không được bao gồm. – Thời gian ước tính: Thời gian ước tính cho các nhiệm vụ đã làm hôm nay trừ đi thời gian đã dành cho chúng vào những ngày khác.",
+    "TIME_SPENT_TODAY_BY_TAG": "Thời gian đã sử dụng hôm nay theo Thẻ",
+    "WEEK": "Tuần"
+  },
+  "PLUGINS": {
+    "ACTION_TYPE_NOT_ALLOWED": "Loại hành động \"{{type}}\" không được phép",
+    "ALREADY_INITIALIZED": "Plugin đã được khởi tạo",
+    "CANCEL": "Hủy bỏ",
+    "CAPABILITIES": {
+      "ACCESS_FILES": "Truy cập và sửa đổi các tập tin trên hệ thống của bạn",
+      "RUN_COMMANDS": "Thực thi các lệnh hệ thống",
+      "USE_NODE_APIS": "Sử dụng API và mô-đun Node.js"
+    },
+    "CHOOSE_PLUGIN_FILE": "Chọn tệp plugin",
+    "CLEAR_PLUGIN_CACHE": "Xóa bộ nhớ cache của plugin",
+    "CODE_TOO_LARGE": "Mã plugin quá lớn (tối đa {{maxSize}}MB)",
+    "CONFIGURATION": "Cấu hình",
+    "CONFIGURE": "Cấu hình",
+    "CONFIRM_REMOVE": "Bạn có chắc chắn muốn xóa plugin \"{{name}}\" không?",
+    "ELECTRON_API_NOT_AVAILABLE": "API điện tử không có sẵn",
+    "ERROR": "Lỗi",
+    "ERROR_LOADING_PLUGIN": "Lỗi tải plugin",
+    "EXPERIMENTAL_WARNING": "Hệ thống plugin đang trong giai đoạn thử nghiệm và cần hết sức thận trọng khi sử dụng!",
+    "FAILED_TO_CLEAR_CACHE": "Không xóa được bộ nhớ đệm của plugin",
+    "FAILED_TO_EXECUTE_SCRIPT": "Không thực thi được tập lệnh Node.js",
+    "FAILED_TO_EXTRACT_ZIP": "Không thể giải nén tệp ZIP của plugin",
+    "FAILED_TO_INSTALL": "Không cài đặt được plugin",
+    "FAILED_TO_LOAD": "Không thể tải plugin",
+    "FAILED_TO_LOAD_COMMUNITY_PLUGINS": "Không tải được danh sách plugin cộng đồng",
+    "FAILED_TO_LOAD_CONFIG": "Không tải được cấu hình plugin",
+    "FAILED_TO_REMOVE": "Không thể xóa plugin",
+    "FAILED_TO_SAVE_CONFIG": "Không lưu được cấu hình plugin",
+    "FILE_TOO_LARGE": "Tệp quá lớn ({{fileSize}}MB). Kích thước tối đa là {{maxSize}}MB",
+    "GO_BACK": "Quay lại",
+    "GRANT_PERMISSION": "Cấp quyền",
+    "HOOKS": "móc",
+    "ID": "NHẬN DẠNG:",
+    "INDEX_HTML_NOT_LOADED": "Plugin index.html chưa được tải",
+    "INSTALLING": "Đang cài đặt...",
+    "INSTALL_PLUGIN": "Cài đặt plugin",
+    "INSTALL_WARNING": "Trước khi cài đặt plugin, hãy đảm bảo bạn tin cậy nguồn của nó và hiểu các quyền mà nó yêu cầu.",
+    "LANGUAGES": "Ngôn ngữ:",
+    "LOADING_INTERFACE": "Đang tải giao diện plugin...",
+    "LOADING_PLUGIN": "Đang tải...",
+    "MANIFEST_NOT_FOUND": "Không tìm thấy tệp kê khai plugin (manifest.json) trong tệp ZIP",
+    "MANIFEST_TOO_LARGE": "Tệp kê khai plugin quá lớn (tối đa {{maxSize}}KB)",
+    "MENU_ENTRY_ICON_STRING": "Biểu tượng mục menu phải là một chuỗi",
+    "MENU_ENTRY_LABEL_REQUIRED": "Nhãn mục menu là bắt buộc",
+    "MENU_ENTRY_ONCLICK_REQUIRED": "Cần phải nhập trình đơn trên trình xử lý Click",
+    "MIN_VERSION": "Tối thiểu. Phiên bản:",
+    "NODE_EXECUTION_REQUIRED": "This plugin requires Node.js execution which is only available in the desktop app.",
+    "NODE_ONLY_DESKTOP": "Việc thực thi Node.js chỉ khả dụng trong ứng dụng dành cho máy tính để bàn",
+    "NO_ADDITIONAL_INFO": "Không có thông tin bổ sung có sẵn",
+    "NO_CONTENT_PROVIDED": "Không có nội dung được cung cấp",
+    "NO_PLUGIN_MANIFEST_NODE": "Tệp kê khai plugin không bao gồm mô-đun Node.js",
+    "OK": "ĐƯỢC RỒI",
+    "PARENT_TASK_DOES_NOT_EXIST": "Nhiệm vụ chính không tồn tại",
+    "PARENT_TASK_NOT_FOUND": "Không tìm thấy tác vụ gốc trong ngữ cảnh \"{{contextId}}\"",
+    "PERMISSIONS": "Quyền",
+    "PLEASE_SELECT_ZIP_FILE": "Vui lòng chọn một tệp ZIP",
+    "PLUGIN_DIALOG_TITLE": "Tin nhắn bổ trợ",
+    "PLUGIN_JS_NOT_FOUND": "Không tìm thấy tệp JavaScript plugin (plugin.js) trong tệp ZIP",
+    "PROJECT_DOES_NOT_EXIST": "Dự án không tồn tại",
+    "PROJECT_NOT_FOUND": "Không tìm thấy dự án \"{{contextId}}\"",
+    "RECOMMENDATION": "Chỉ cài đặt plugin từ các nguồn đáng tin cậy và xem lại mã của chúng nếu có thể. Luôn sao lưu dữ liệu của bạn trước khi cài đặt plugin mới!",
+    "REMEMBER_CHOICE": "Hãy nhớ lựa chọn của tôi cho plugin này",
+    "REMOVE": "Di dời",
+    "RISK_DATA_ACCESS": "Các plugin có thể đọc, sửa đổi và xóa TẤT CẢ nhiệm vụ, dự án và dữ liệu cá nhân của bạn",
+    "RISK_MALICIOUS_CODE": "Các plugin độc hại có thể đánh cắp thông tin nhạy cảm hoặc làm hỏng dữ liệu của bạn",
+    "RISK_PERFORMANCE": "Các plugin được viết kém có thể gây ra vấn đề về hiệu suất hoặc sự cố",
+    "RISK_SYSTEM_ACCESS": "Các plugin máy tính để bàn có quyền Node.js có thể thực thi các lệnh hệ thống",
+    "SECURITY_WARNING": "Các plugin có quyền truy cập đáng kể vào dữ liệu và hệ thống của bạn. Việc cài đặt các plugin không đáng tin cậy gây ra rủi ro bảo mật nghiêm trọng:",
+    "SIDE_PANEL_LABEL_REQUIRED": "Nhãn nút bảng điều khiển bên là bắt buộc",
+    "SIDE_PANEL_ONCLICK_REQUIRED": "Cần có nút bảng điều khiển bên trên Trình xử lý Click",
+    "SYSTEM_ACCESS_REQUEST_DESC": "Plugin này đang yêu cầu quyền thực thi mã Node.js trên hệ thống của bạn. Điều này sẽ cho phép nó:",
+    "SYSTEM_ACCESS_REQUEST_TITLE": "Yêu cầu truy cập hệ thống",
+    "TAGS_DO_NOT_EXIST": "Một hoặc nhiều thẻ không tồn tại",
+    "TASKS_NOT_IN_PROJECT": "Một hoặc nhiều tác vụ không có trong dự án \"{{contextId}}\"",
+    "TASKS_NOT_SUBTASKS": "Một hoặc nhiều nhiệm vụ không phải là nhiệm vụ phụ của \"{{contextId}}\"",
+    "TASK_NOT_FOUND": "Không tìm thấy tác vụ có ID \"{{taskId}}\"",
+    "TOGGLE_PLUGIN": "Chuyển đổi {{pluginName}}",
+    "TRUST_WARNING": "Chỉ cấp quyền nếu bạn tin tưởng plugin này",
+    "TYPE": "Loại: {{loại}}",
+    "UNABLE_TO_PERSIST_DATA": "Không thể lưu dữ liệu vào bộ lưu trữ plugin",
+    "UNKNOWN_ERROR": "Đã xảy ra lỗi không xác định",
+    "UPLOAD_PLUGIN_INSTRUCTION": "Tải lên tệp ZIP plugin để cài đặt nó:",
+    "VALIDATION_FAILED": "Xác thực không thành công"
+  },
+  "PM": {
+    "TITLE": "Số liệu dự án",
+    "ALL_TASKS_TITLE": "Số liệu (tất cả nhiệm vụ)"
+  },
+  "PS": {
+    "GLOBAL_SETTINGS": "Cài đặt chung",
+    "NO_PLUGINS_INSTALLED": "Hiện tại không có plugin nào được cài đặt",
+    "PLUGINS": "Plugin",
+    "PRIVACY_POLICY": "Chính sách bảo mật",
+    "FAILED_TO_COPY_TO_CLIPBOARD": "Không sao chép được vào bảng nhớ tạm",
+    "PROJECT_SETTINGS": "Cài đặt cụ thể của dự án",
+    "PROVIDE_FEEDBACK": "Cung cấp phản hồi",
+    "RELOAD": "Tải lại",
+    "SYNC_EXPORT": "Đồng bộ hóa và xuất",
+    "TABS": {
+      "GENERAL": "Tổng quan",
+      "TASKS": "Nhiệm vụ",
+      "TIME_TRACKING": "Time & Tracking",
+      "PRODUCTIVITY": "Năng suất",
+      "PLUGINS": "Plugin",
+      "SYNC_BACKUP": "Đồng bộ hóa và sao lưu"
+    },
+    "TAG_SETTINGS": "Cài đặt cụ thể của thẻ",
+    "TOGGLE_DARK_MODE": "Chuyển đổi chế độ tối",
+    "UPDATE_APP": "Cập nhật ứng dụng"
+  },
+  "SCHEDULE": {
+    "LAST": "Cuối cùng:",
+    "NEXT": "Kế tiếp",
+    "NO_REPEATABLE_TASKS": "Hiện tại không có nhiệm vụ định kỳ. Bạn có thể lên lịch tác vụ bằng cách chọn \"Recur\" trong bảng điều khiển bên của tác vụ. Để mở bảng điều khiển bên, hãy nhấp vào biểu tượng ngoài cùng bên phải xuất hiện khi di chuột qua một tác vụ (hoặc chỉ cần nhấn vào tác vụ trên thiết bị di động).",
+    "NO_SCHEDULED": "Hiện tại không có nhiệm vụ theo lịch trình thuộc loại này. Bạn có thể lên lịch tác vụ bằng cách chọn \"Lên lịch tác vụ\" trong menu ngữ cảnh của tác vụ. Để mở nó, nhấp chuột phải (nhấn và giữ trên thiết bị di động) vào một tác vụ.",
+    "NO_SCHEDULED_TITLE": "Nhiệm vụ theo lịch trình trong ngày",
+    "REPEATED_TASKS": "Nhiệm vụ định kỳ",
+    "SCHEDULED_TASKS": "Nhiệm vụ theo lịch trình",
+    "SCHEDULED_TASKS_WITH_TIME": "Nhiệm vụ theo lịch trình với thời gian bắt đầu",
+    "START_TASK": "Bắt đầu nhiệm vụ và xóa lời nhắc"
+  },
+  "Share Chart": "",
+  "Share Heatmap": "",
+  "THEMES": {
+    "SELECT_THEME": "Chọn chủ đề",
+    "amber": "hổ phách",
+    "blue": "màu xanh da trời",
+    "blue-grey": "xanh xám",
+    "cyan": "lục lam",
+    "deep-orange": "màu cam đậm",
+    "deep-purple": "màu tím đậm",
+    "green": "màu xanh lá",
+    "indigo": "màu chàm",
+    "light-blue": "xanh nhạt",
+    "light-green": "xanh nhạt",
+    "lime": "chanh xanh",
+    "pink": "hồng",
+    "purple": "màu tím",
+    "teal": "màu xanh mòng két",
+    "yellow": "màu vàng",
+    "SCHEDULED_TASKS_WITH_TIME": "Nhiệm vụ theo lịch trình với thời gian bắt đầu"
+  },
+  "USER_PROFILES": {
+    "ACTIVE": "Tích cực",
+    "CANCEL": "Hủy bỏ",
+    "CLOSE": "Đóng",
+    "CREATE": "Tạo nên",
+    "CREATED": "Tạo:",
+    "CREATE_NEW_PROFILE": "Tạo hồ sơ mới",
+    "DELETE_PROFILE": "Xóa hồ sơ",
+    "DIALOG_TITLE": "Quản lý hồ sơ người dùng",
+    "EXISTING_PROFILES": "Hồ sơ hiện có",
+    "EXPORT_PROFILE": "Xuất hồ sơ",
+    "MANAGE_PROFILES": "Quản lý hồ sơ...",
+    "PROFILE_NAME": "Tên hồ sơ",
+    "PROFILE_NAME_PLACEHOLDER": "ví dụ. Công việc, Cá nhân",
+    "RENAME": "Đổi tên",
+    "SAVE": "Lưu"
+  },
+  "V": {
+    "E_DATETIME": "Giá trị đã nhập không phải là ngày giờ!",
+    "E_DURATION": "Vui lòng nhập thời lượng hợp lệ (ví dụ: 1h)",
+    "E_MAX": "Must not be bigger than {{val}}",
+    "E_MAX_LENGTH": "Phải dài tối đa {{val}} ký tự",
+    "E_MIN": "Không được nhỏ hơn {{val}}",
+    "E_MIN_LENGTH": "Phải dài ít nhất {{val}} ký tự",
+    "E_REQUIRED": "Trường này là bắt buộc"
+  },
+  "WW": {
+    "ADD_MORE": "Thêm nhiều hơn nữa",
+    "ADD_SCHEDULED_FOR_TOMORROW": "Thêm nhiệm vụ được lên kế hoạch cho ngày mai ({{nr}})",
+    "ADD_SOME_TASKS": "Thêm một số nhiệm vụ để lên kế hoạch cho ngày của bạn!",
+    "DONE_TASKS": "Nhiệm vụ đã hoàn thành",
+    "DONE_TASKS_IN_ARCHIVE": "Hiện tại không có nhiệm vụ nào được hoàn thành ở đây nhưng có một số nhiệm vụ đã được lưu trữ.",
+    "ESTIMATE_REMAINING": "Ước tính còn lại:",
+    "FINISH_DAY": "Ngày kết thúc",
+    "FINISH_DAY_TOOLTIP": "Đánh giá ngày của bạn, chuyển tất cả nhiệm vụ đã hoàn thành vào kho lưu trữ (tùy chọn) và/hoặc lập kế hoạch cho ngày tiếp theo của bạn.",
+    "LATER_TODAY": "Sau hôm nay",
+    "MOVE_DONE_TO_ARCHIVE": "Di chuyển các tác vụ đã hoàn thành vào kho lưu trữ",
+    "NO_DONE_TASKS": "Hiện tại chưa có nhiệm vụ nào được hoàn thành",
+    "NO_PLANNED_TASKS": "không có nhiệm vụ nào được lên kế hoạch",
+    "NO_PLANNED_TASK_ALL_DONE": "mọi nhiệm vụ đã hoàn thành",
+    "READY_TO_WORK": "Sẵn sàng làm việc!",
+    "RESET_BREAK_TIMER": "Đặt lại mà không cần hẹn giờ nghỉ",
+    "TIME_ESTIMATED": "Thời gian ước tính:",
+    "TODAY_REMAINING": "Hôm nay còn lại:",
+    "WITHOUT_BREAK": "Không nghỉ:",
+    "WORKING_TODAY": "Làm việc hôm nay:",
+    "WORKING_TODAY_ARCHIVED": "Thời gian đã làm việc hôm nay cho các tác vụ đã lưu trữ"
+  }
+}
