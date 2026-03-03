@@ -21,7 +21,7 @@
   },
   "CONFIRM": {
     "AUTO_FIX": "Dữ liệu của bạn có vẻ bị hỏng (\"{{validityError}}\"). Bạn có muốn thử tự động sửa nó không? Điều này có thể dẫn đến mất dữ liệu một phần.",
-    "RELOAD_AFTER_IDB_ERROR": "Lỗi cơ sở dữ liệu - Ứng dụng sẽ khởi động lại\n\nSiêu năng suất không thể lưu dữ liệu! Điều này thường được gây ra bởi:\n• Dung lượng ổ đĩa thấp (phổ biến nhất)\n• Cập nhật ứng dụng ở chế độ nền\n• Người dùng Linux Snap: chạy 'snap set core Experiment.refresh-app-awareness=true'\n\nNhững thay đổi gần đây của bạn có thể chưa được lưu. Vui lòng giải phóng dung lượng đĩa nếu thấp. Ứng dụng sẽ khởi động lại sau khi bạn đóng hộp thoại này.",
+    "RELOAD_AFTER_IDB_ERROR": "Lỗi cơ sở dữ liệu - Ứng dụng sẽ khởi động lại\n\nSuper Productivity không thể lưu dữ liệu! Điều này thường được gây ra bởi:\n• Dung lượng ổ đĩa thấp (phổ biến nhất)\n• Cập nhật ứng dụng ở chế độ nền\n• Người dùng Linux Snap: chạy 'snap set core Experiment.refresh-app-awareness=true'\n\nNhững thay đổi gần đây của bạn có thể chưa được lưu. Vui lòng giải phóng dung lượng đĩa nếu thấp. Ứng dụng sẽ khởi động lại sau khi bạn đóng hộp thoại này.",
     "RESTORE_FILE_BACKUP": "Dường như KHÔNG CÓ DỮ LIỆU, nhưng có bản sao lưu tại \"{{dir}}\". Bạn có muốn khôi phục bản sao lưu mới nhất từ ​​{{from}} không?",
     "RESTORE_FILE_BACKUP_ANDROID": "Dường như KHÔNG CÓ DỮ LIỆU, nhưng có sẵn một bản sao lưu. Bạn có muốn tải nó không?",
     "RESTORE_STRAY_BACKUP": "Trong lần đồng bộ hóa gần đây nhất có thể đã xảy ra lỗi. Bạn có muốn khôi phục bản sao lưu cuối cùng không?"
@@ -38,7 +38,7 @@
   },
   "DONATE_PAGE": {
     "BUTTON_TEXT": "Đóng góp thông qua nhà tài trợ GitHub",
-    "INTRO_1": "Siêu năng suất được tài trợ hoàn toàn bởi cộng đồng. Không có theo dõi, không có quảng cáo và không thu thập dữ liệu — nhiệm vụ của bạn vẫn được lưu trên thiết bị của bạn.",
+    "INTRO_1": "Super Productivity được tài trợ hoàn toàn bởi cộng đồng. Không có theo dõi, không có quảng cáo và không thu thập dữ liệu — nhiệm vụ của bạn vẫn được lưu trên thiết bị của bạn.",
     "INTRO_2": "Nếu bạn đánh giá cao cách tiếp cận này và muốn giữ cho dự án lành mạnh và phát triển thì việc đóng góp tự nguyện sẽ được đánh giá rất cao."
   },
   "F": {
@@ -107,7 +107,7 @@
         "IS_TRANSITION_ISSUES_ENABLED": "Tự động hoàn thành nhiệm vụ CalDAV khi hoàn thành nhiệm vụ"
       },
       "FORM_SECTION": {
-        "HELP": "<p>Tại đây, bạn có thể định cấu hình Siêu năng suất để liệt kê các nhiệm vụ CalDAV chưa hoàn thành cho một dự án cụ thể trong bảng tạo nhiệm vụ ở chế độ xem lập kế hoạch hàng ngày. Chúng sẽ được liệt kê dưới dạng đề xuất và sẽ cung cấp liên kết đến nhiệm vụ cũng như cung cấp thêm thông tin về nhiệm vụ đó.</p> <p>Ngoài ra, bạn có thể tự động thêm và đồng bộ hóa tất cả các nhiệm vụ chưa hoàn thành vào nhật ký nhiệm vụ tồn đọng của mình.</p><p>Để Nextcloud có thể hoạt động trong ứng dụng web, bạn có thể cần phải cho phép \"https://app.super-productivity.com\" trong ứng dụng Nextcloud <a href='https://apps.nextcloud.com/apps/webapppassword'>webapppassword<a>.</p>"
+        "HELP": "<p>Tại đây, bạn có thể định cấu hình Super Productivity để liệt kê các nhiệm vụ CalDAV chưa hoàn thành cho một dự án cụ thể trong bảng tạo nhiệm vụ ở chế độ xem lập kế hoạch hàng ngày. Chúng sẽ được liệt kê dưới dạng đề xuất và sẽ cung cấp liên kết đến nhiệm vụ cũng như cung cấp thêm thông tin về nhiệm vụ đó.</p> <p>Ngoài ra, bạn có thể tự động thêm và đồng bộ hóa tất cả các nhiệm vụ chưa hoàn thành vào nhật ký nhiệm vụ tồn đọng của mình.</p><p>Để Nextcloud có thể hoạt động trong ứng dụng web, bạn có thể cần phải cho phép \"https://app.super-productivity.com\" trong ứng dụng Nextcloud <a href='https://apps.nextcloud.com/apps/webapppassword'>webapppassword<a>.</p>"
       },
       "ISSUE_CONTENT": {
         "DESCRIPTION": "Sự miêu tả",
@@ -273,7 +273,7 @@
         "TOKEN": "Mã thông báo truy cập"
       },
       "FORM_SECTION": {
-        "HELP": "<p>Tại đây, bạn có thể định cấu hình Siêu năng suất để liệt kê các sự cố Gitea đang mở cho một kho lưu trữ cụ thể trong bảng tạo tác vụ ở chế độ xem lập kế hoạch hàng ngày. Chúng sẽ được liệt kê dưới dạng đề xuất và sẽ cung cấp liên kết đến vấn đề cũng như thông tin thêm về vấn đề đó.</p> <p>Ngoài ra, bạn có thể tự động thêm và nhập tất cả các vấn đề đang mở.</p><p>Để đạt được giới hạn sử dụng và để truy cập, bạn có thể cung cấp mã thông báo truy cập."
+        "HELP": "<p>Tại đây, bạn có thể định cấu hình Super Productivity để liệt kê các sự cố Gitea đang mở cho một kho lưu trữ cụ thể trong bảng tạo tác vụ ở chế độ xem lập kế hoạch hàng ngày. Chúng sẽ được liệt kê dưới dạng đề xuất và sẽ cung cấp liên kết đến vấn đề cũng như thông tin thêm về vấn đề đó.</p> <p>Ngoài ra, bạn có thể tự động thêm và nhập tất cả các vấn đề đang mở.</p><p>Để đạt được giới hạn sử dụng và để truy cập, bạn có thể cung cấp mã thông báo truy cập."
       },
       "ISSUE_CONTENT": {
         "ASSIGNEE": "Người được chuyển nhượng",
@@ -295,7 +295,7 @@
         "TOKEN": "Mã thông báo truy cập"
       },
       "FORM_SECTION": {
-        "HELP": "<p>Here you can configure Super Productivity to list open GitHub issues for a specific repository in the task creation panel in the daily planning view. They will be listed as suggestions and will provide a link to the issue as well as more information about it.</p> <p>In addition, you can automatically import all open issues.</p><p>To get by usage limits and to access you can provide a an access token. <a href='https://docs.github.com/en/free-pro-team@latest/developers/apps/scopes-for-oauth-apps'>More info about its scopes can be found here</a>."
+        "HELP": "<p>Tại đây, bạn có thể cấu hình Super Productivity để liệt kê các vấn đề đang mở trên GitHub cho một kho lưu trữ cụ thể trong bảng tạo tác vụ ở chế độ xem lập kế hoạch hàng ngày. Chúng sẽ được liệt kê dưới dạng đề xuất và sẽ cung cấp liên kết đến vấn đề đó cũng như thêm thông tin về nó.</p> <p>Ngoài ra, bạn có thể tự động nhập tất cả các vấn đề đang mở.</p><p>Để vượt qua giới hạn sử dụng và truy cập, bạn có thể cung cấp mã truy cập. <a href='https://docs.github.com/en/free-pro-team@latest/developers/apps/scopes-for-oauth-apps'>Bạn có thể tìm thêm thông tin về phạm vi hoạt động của nó tại đây.</a>."
       },
       "ISSUE_CONTENT": {
         "ASSIGNEE": "Người được chuyển nhượng",
@@ -330,7 +330,7 @@
         "FILTER_USER": "Lọc tên người dùng",
         "GITLAB_BASE_URL": "URL cơ sở GitLab tùy chỉnh (tùy chọn)",
         "PROJECT": "tên người dùng/dự án",
-        "PROJECT_HINT": "ví dụ. siêu năng suất/siêu năng suất",
+        "PROJECT_HINT": "ví dụ. Super Productivity/Super Productivity",
         "SCOPE": "Phạm vi",
         "SCOPE_ALL": "Tất cả",
         "SCOPE_ASSIGNED": "Đã giao cho tôi",
@@ -344,7 +344,7 @@
         "TOKEN": "Mã thông báo truy cập"
       },
       "FORM_SECTION": {
-        "HELP": "<p>Tại đây, bạn có thể định cấu hình Siêu năng suất để liệt kê các vấn đề GitLab đang mở (phiên bản trực tuyến hoặc phiên bản tự lưu trữ) cho một dự án cụ thể trong bảng tạo tác vụ ở chế độ xem lập kế hoạch hàng ngày. Chúng sẽ được liệt kê dưới dạng đề xuất và sẽ cung cấp liên kết tới vấn đề cũng như thông tin thêm về vấn đề đó.</p> <p>Ngoài ra, bạn có thể tự động nhập tất cả các vấn đề đang mở.</p>"
+        "HELP": "<p>Tại đây, bạn có thể định cấu hình Super Productivity để liệt kê các vấn đề GitLab đang mở (phiên bản trực tuyến hoặc phiên bản tự lưu trữ) cho một dự án cụ thể trong bảng tạo tác vụ ở chế độ xem lập kế hoạch hàng ngày. Chúng sẽ được liệt kê dưới dạng đề xuất và sẽ cung cấp liên kết tới vấn đề cũng như thông tin thêm về vấn đề đó.</p> <p>Ngoài ra, bạn có thể tự động nhập tất cả các vấn đề đang mở.</p>"
       },
       "ISSUE_CONTENT": {
         "ASSIGNEE": "Người được chuyển nhượng",
@@ -368,7 +368,7 @@
         "ISSUE_STR": "issue"
       },
       "DEFAULT_PROJECT_DESCRIPTION": "Dự án được giao cho các nhiệm vụ được tạo từ các vấn đề.",
-      "DEFAULT_PROJECT_LABEL": "Dự án siêu năng suất mặc định",
+      "DEFAULT_PROJECT_LABEL": "Dự án Super Productivity mặc định",
       "HOW_TO_GET_A_TOKEN": "Làm cách nào để nhận được mã thông báo?",
       "ISSUE_CONTENT": {
         "ASSIGNEE": "Người được chuyển nhượng",
@@ -521,7 +521,7 @@
       },
       "S": {
         "ADDED_WORKLOG_FOR": "Jira: Đã thêm nhật ký công việc cho {{issueKey}}",
-        "EXTENSION_NOT_LOADED": "Tiện ích mở rộng siêu năng suất chưa được tải. Tải lại trang có thể giúp ích",
+        "EXTENSION_NOT_LOADED": "Tiện ích mở rộng Super Productivity chưa được tải. Tải lại trang có thể giúp ích",
         "INSUFFICIENT_SETTINGS": "Cài đặt không đủ được cung cấp cho Jira",
         "INVALID_RESPONSE": "Jira: Phản hồi chứa dữ liệu không hợp lệ",
         "NO_AUTO_IMPORT_JQL": "Jira: Không có truy vấn tìm kiếm nào được xác định để tự động nhập",
@@ -719,7 +719,7 @@
         "TOKEN": "Mã thông báo truy cập"
       },
       "FORM_SECTION": {
-        "HELP": "<p>Tại đây, bạn có thể định cấu hình Siêu năng suất để liệt kê các gói công việc OpenProject đang mở. Xin lưu ý rằng để tính năng này hoạt động trong phiên bản trình duyệt web, bạn cần phải định cấu hình CORS cho máy chủ OpenProject của mình để cho phép truy cập từ app.super-productivity.com</p>"
+        "HELP": "<p>Tại đây, bạn có thể định cấu hình Super Productivity để liệt kê các gói công việc OpenProject đang mở. Xin lưu ý rằng để tính năng này hoạt động trong phiên bản trình duyệt web, bạn cần phải định cấu hình CORS cho máy chủ OpenProject của mình để cho phép truy cập từ app.super-productivity.com</p>"
       },
       "ISSUE_CONTENT": {
         "ASSIGNEE": "Người được chuyển nhượng",
@@ -857,7 +857,7 @@
         "IS_SHOW_TIME_TRACKING_DIALOG_FOR_EACH_SUB_TASK": "Hiển thị hộp thoại theo dõi thời gian khi hoàn thành nhiệm vụ con"
       },
       "FORM_SECTION": {
-        "HELP": "<p>Tại đây, bạn có thể định cấu hình Siêu năng suất để liệt kê các sự cố Redmine đang mở (phiên bản trực tuyến hoặc phiên bản tự lưu trữ) cho một dự án cụ thể trong bảng tạo tác vụ ở chế độ xem lập kế hoạch hàng ngày. Chúng sẽ được liệt kê dưới dạng đề xuất và sẽ cung cấp liên kết tới vấn đề cũng như thông tin thêm về vấn đề đó.</p><p>Ngoài ra, bạn có thể tự động nhập tất cả các vấn đề đang mở.</p>",
+        "HELP": "<p>Tại đây, bạn có thể định cấu hình Super Productivity để liệt kê các sự cố Redmine đang mở (phiên bản trực tuyến hoặc phiên bản tự lưu trữ) cho một dự án cụ thể trong bảng tạo tác vụ ở chế độ xem lập kế hoạch hàng ngày. Chúng sẽ được liệt kê dưới dạng đề xuất và sẽ cung cấp liên kết tới vấn đề cũng như thông tin thêm về vấn đề đó.</p><p>Ngoài ra, bạn có thể tự động nhập tất cả các vấn đề đang mở.</p>",
         "TITLE": "Redmine"
       },
       "ISSUE_CONTENT": {
@@ -1225,7 +1225,7 @@
         },
         "WEB_DAV": {
           "CORS_INFO": "<strong>Làm cho nó hoạt động trong trình duyệt web:</strong> Cho phép Super Productivity thực hiện các yêu cầu CORS tới máy chủ WebDAV của bạn. Điều này có thể có ý nghĩa tiêu cực về an ninh! Đối với Nextcloud, vui lòng tham khảo <a href='https://github.com/nextcloud/server/issues/3131'>chuỗi GitHub này</a> để biết thêm thông tin. Một cách tiếp cận để thực hiện điều này trên thiết bị di động là cho phép \"https://app.super-productivity.com\" thông qua ứng dụng Nextcloud <a href='https://apps.nextcloud.com/apps/webapppassword'>webapppassword<a>. Bạn phải tự chịu rủi ro khi sử dụng!</p>",
-          "D_SYNC_FOLDER_PATH": "Đường dẫn liên quan đến thư mục gốc của máy chủ WebDAV nơi các tệp đồng bộ hóa sẽ được lưu trữ (ví dụ: '/siêu năng suất' hoặc '/'). Đây KHÔNG phải là đường dẫn thư mục nội bộ của máy chủ của bạn.",
+          "D_SYNC_FOLDER_PATH": "Đường dẫn liên quan đến thư mục gốc của máy chủ WebDAV nơi các tệp đồng bộ hóa sẽ được lưu trữ (ví dụ: '/Super Productivity' hoặc '/'). Đây KHÔNG phải là đường dẫn thư mục nội bộ của máy chủ của bạn.",
           "INFO": "Thật không may, việc triển khai WebDAV rất khác nhau. Super Productivity được biết là hoạt động tốt với Nextcloud, <strong>nhưng nó có thể không hoạt động với nhà cung cấp của bạn</strong>.",
           "L_BASE_URL": "URL cơ sở",
           "L_PASSWORD": "Mật khẩu",
@@ -1904,7 +1904,7 @@
       "BROWSER_WARNING": "Do các hạn chế về nhiều nguồn gốc, <b>điều này có thể KHÔNG hoạt động với phiên bản trình duyệt web của Super Productivity.<br /> Vui lòng <a href=\"https://super-productivity.com/download/\">tải xuống phiên bản dành cho máy tính để bàn</a> để sử dụng tính năng này!</b>",
       "CAL_PATH": "URL của nguồn iCal",
       "CHECK_UPDATES": "Kiểm tra cập nhật từ xa mỗi X",
-      "HELP": "Bạn có thể tích hợp lịch để được nhắc nhở và thêm chúng dưới dạng nhiệm vụ trong Siêu năng suất. Việc tích hợp hoạt động bằng cách sử dụng định dạng iCal. Để tính năng này hoạt động, lịch của bạn cần có thể truy cập được qua internet hoặc qua hệ thống tệp.",
+      "HELP": "Bạn có thể tích hợp lịch để được nhắc nhở và thêm chúng dưới dạng nhiệm vụ trong Super Productivity. Việc tích hợp hoạt động bằng cách sử dụng định dạng iCal. Để tính năng này hoạt động, lịch của bạn cần có thể truy cập được qua internet hoặc qua hệ thống tệp.",
       "SHOW_BANNER_THRESHOLD": "Hiển thị thông báo X trước sự kiện (để trống nếu bị tắt)"
     },
     "CLIPBOARD_IMAGES": {
@@ -1971,7 +1971,7 @@
       "EXPAND_SUB_TASKS": "Mở rộng nhiệm vụ phụ",
       "GLOBAL_ADD_NOTE": "Thêm ghi chú mới",
       "GLOBAL_ADD_TASK": "Thêm nhiệm vụ mới",
-      "GLOBAL_SHOW_HIDE": "Hiển thị/ẩn Siêu năng suất",
+      "GLOBAL_SHOW_HIDE": "Hiển thị/ẩn Super Productivity",
       "GLOBAL_TOGGLE_TASK_START": "Chuyển đổi theo dõi thời gian cho tác vụ hoạt động cuối cùng",
       "GO_TO_DAILY_AGENDA": "Đi đến chương trình nghị sự",
       "GO_TO_FOCUS_MODE": "Vào chế độ lấy nét",
@@ -2116,7 +2116,7 @@
       "COUNTDOWN_DURATION": "Hiển thị biểu ngữ X trước lời nhắc thực tế",
       "DEFAULT_TASK_REMIND_OPTION": "Tùy chọn nhắc nhở mặc định được chọn khi tạo nhiệm vụ",
       "DISABLE_REMINDERS": "Tắt tất cả lời nhắc",
-      "HELP": "<p><strong>Quan trọng:</strong> Lời nhắc sử dụng <strong>thông báo cục bộ</strong> chứ không phải thông báo đẩy. Điều này có nghĩa là ứng dụng cần phải được mở ít nhất một lần trên thiết bị của bạn để lên lịch nhắc nhở. Lời nhắc đặt trên thiết bị khác sẽ chỉ xuất hiện sau khi ứng dụng đồng bộ hóa trên thiết bị mục tiêu.</p><p>Trên <strong>iOS</strong>, hãy đảm bảo bật thông báo cho Siêu năng suất trong cài đặt thiết bị của bạn trong 'Cài đặt' > 'Thông báo'.</p>",
+      "HELP": "<p><strong>Quan trọng:</strong> Lời nhắc sử dụng <strong>thông báo cục bộ</strong> chứ không phải thông báo đẩy. Điều này có nghĩa là ứng dụng cần phải được mở ít nhất một lần trên thiết bị của bạn để lên lịch nhắc nhở. Lời nhắc đặt trên thiết bị khác sẽ chỉ xuất hiện sau khi ứng dụng đồng bộ hóa trên thiết bị mục tiêu.</p><p>Trên <strong>iOS</strong>, hãy đảm bảo bật thông báo cho Super Productivity trong cài đặt thiết bị của bạn trong 'Cài đặt' > 'Thông báo'.</p>",
       "IS_COUNTDOWN_BANNER_ENABLED": "Hiển thị biểu ngữ đếm ngược trước khi đến hạn nhắc nhở",
       "IS_FOCUS_WINDOW": "Tập trung vào cửa sổ ứng dụng khi lời nhắc được kích hoạt",
       "TITLE": "Lời nhắc",
@@ -2539,4 +2539,5 @@
     "WORKING_TODAY": "Làm việc hôm nay:",
     "WORKING_TODAY_ARCHIVED": "Thời gian đã làm việc hôm nay cho các tác vụ đã lưu trữ"
   }
+
 }
