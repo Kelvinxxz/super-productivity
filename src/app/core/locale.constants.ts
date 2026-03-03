@@ -24,6 +24,7 @@ import localeFi from '@angular/common/locales/fi';
 import localeSv from '@angular/common/locales/sv';
 import localeRo from '@angular/common/locales/ro';
 import localeRoMD from '@angular/common/locales/ro-MD';
+import localeVi from '@angular/common/locales/vi';
 
 /**
  * All of available app languages
@@ -57,6 +58,7 @@ export enum LanguageCode {
   zh_tw = 'zh-tw', // Chinese (Traditional)
   ro = 'ro',
   ro_md = 'ro-md', // Romanian (Moldova)
+  vi = 'vi', // Vietnamese
 }
 
 /**
@@ -98,6 +100,7 @@ export const DateTimeLocales = {
   uk_ua: `${LanguageCode.uk}-ua`,
   ro_ro: `${LanguageCode.ro}-ro`,
   ro_md: `${LanguageCode.ro}-md`,
+  vi_vn: `${LanguageCode.vi}-vn`,
 } as const;
 
 export type DateTimeLocale = (typeof DateTimeLocales)[keyof typeof DateTimeLocales];
@@ -145,6 +148,8 @@ export const LocalesImports: Record<keyof typeof DateTimeLocales, unknown> = {
   ro: localeRo,
   ro_ro: localeRo,
   ro_md: localeRoMD,
+  vi: localeVi,
+  vi_vn: localeVi,
 };
 
 export const DEFAULT_LANGUAGE = LanguageCode.en;
