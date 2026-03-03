@@ -978,7 +978,8 @@
         "LOCAL": "Địa phương",
         "LOCAL_REMOTE": "Địa phương -> Từ xa",
         "NEVER": "Không bao giờ",
-        "OVERWRITE_WARNING": "CẢNH BÁO: Dữ liệu {{targetName}} chứa khoảng {{targetChanges}} thay đổi trong khi dữ liệu {{sourceName}} chỉ có {{sourceChanges}} thay đổi. Bạn có chắc chắn muốn ghi đè dữ liệu {{targetName}} bằng phiên bản {{sourceName}} không? Hành động này không thể hoàn tác."        "REMOTE": "Xa",
+        "OVERWRITE_WARNING": "CẢNH BÁO: Dữ liệu {{targetName}} chứa khoảng {{targetChanges}} thay đổi trong khi dữ liệu {{sourceName}} chỉ có {{sourceChanges}} thay đổi. Bạn có chắc chắn muốn ghi đè dữ liệu {{targetName}} bằng phiên bản {{sourceName}} không? Hành động này không thể hoàn tác.",
+        "REMOTE": "Xa",
         "RESULT": "Kết quả",
         "TEXT": "<p>Cập nhật từ xa. Cả dữ liệu cục bộ và từ xa dường như đều bị sửa đổi.</p>",
         "TIME": "Thời gian",
@@ -1106,7 +1107,7 @@
         "SUPER_SYNC": {
           "INFO_TEXT": "SuperSync giữ cho các tác vụ của bạn được đồng bộ hóa trên tất cả các thiết bị của bạn trong thời gian thực. Dữ liệu của bạn được lưu trữ an toàn trên máy chủ đồng bộ. Lưu ý: SuperSync hiện đang ở giai đoạn Beta.",
           "L_SERVER_URL": "URL máy chủ",
-          "SERVER_URL_DESCRIPTION": "Giữ nguyên cho máy chủ chính thức, hoặc nhập URL máy chủ tùy chỉnh"
+          "SERVER_URL_DESCRIPTION": "Giữ nguyên cho máy chủ chính thức, hoặc nhập URL máy chủ tùy chỉnh",
           "LOGIN_INSTRUCTIONS": "Nhấp vào nút bên dưới để mở trang đăng nhập máy chủ. Sau khi đăng nhập, sao chép mã thông báo truy cập của bạn và dán vào đây.",
           "BTN_GET_TOKEN": "Mở máy chủ và nhận mã thông báo",
           "L_ACCESS_TOKEN": "Mã thông báo truy cập",
@@ -2539,4 +2540,5 @@
   }
 
 }
+
 
